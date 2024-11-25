@@ -33,7 +33,7 @@ class _AppealDetailsInfoPageState extends State<AppealDetailsInfoPage> {
   @override
   Widget build(BuildContext context) {
     return AppWidget(
-        subHeading: languageId == "hi" ? 'अिकल्प चुनें' : 'Select Option',
+        subHeading: languageId == "hi" ? 'विकल्प चुनें' : 'Select Option',
         onPressed: selectedAppealType != null
             ? () {
                 Navigator.of(context).push(MaterialPageRoute(
