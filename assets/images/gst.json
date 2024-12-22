@@ -1,0 +1,124 @@
+{
+  "language": [
+    {
+      "code": "en",
+      "name": "English",
+      "heading": "Central Goods and Services Tax\nAppeals-II Commissionerate Pune",
+      "subtitle": "Choose Your Language"
+    },
+    {
+      "code": "hi",
+      "name": "हिंदी",
+      "heading": "जीएसटी अपील दूसरी अधिकारी पुणे",
+      "subtitle": "अपनी भाषा चुनें"
+    }
+  ],
+  "common_documents": [
+    {
+      "id": 2,
+      "required": true,
+      "translations": {
+        "hi": "ओआईओ (ऑर्डर-इन-ओरिजिनल) की स्व-सत्यापित प्रति कोर्ट फी स्टैम्प के साथ",
+        "en": "Self-Attested Copy of OIO (Order-in-Original) along with Court fee Stamp"
+      }
+    },
+    {
+      "id": 3,
+      "required": true,
+      "translations": {
+        "hi": "कारण बताओ नोटिस (एससीएन) की स्व-सत्यापित प्रति",
+        "en": "Self-Attested Copy of Show Cause Notice (SCN)"
+      }
+    },
+    {
+      "id": 4,
+      "required": false,
+      "translations": {
+        "hi": "अपील अवधि के बाद दायर की गई अपील में देरी के लिए माफ़ी पत्र",
+        "en": "Letter of Condonation of delay in-case appeal filed after appeal period"
+      }
+    },
+    {
+      "id": 5,
+      "required": false,
+      "translations": {
+        "hi": "प्री-डिपॉज़िट की चालान कॉपी",
+        "en": "Challan Copy of Pre-Deposit"
+      }
+    },
+    {
+      "id": 6,
+      "required": false,
+      "translations": {
+        "hi": "कोई अन्य प्रासंगिक दस्तावेज़",
+        "en": "Any other relevant document"
+      }
+    }
+  ],
+  "dashboard": [
+    {
+      "code": "apple",
+      "title": {
+        "en": "Appeal Related Query",
+        "hi": "अपील संबंधित प्रश्न"
+      },
+      "appeal_types": [
+        {
+          "code": "gst_appeal",
+          "title": {
+            "en": "GST Appeal",
+            "hi": "जीएसटी अपील"
+          },
+          "form": {
+            "en": "Form GST-APL 01",
+            "hi": "फॉर्म जीएसटी-एपीएल-01"
+          },
+          "related_sections": "Section 107. Appeals to Appellate Authority..."
+        },
+        {
+          "code": "service_tax_appeal",
+          "title": {
+            "en": "Service Tax Appeal",
+            "hi": "सेवा कर अपील"
+          },
+          "form": {
+            "en": "Form ST-4",
+            "hi": "फॉर्म एसटी-4"
+          },
+          "related_sections": "GST Appeal Related Sections"
+        },
+        {
+          "code": "central_excise_appeal",
+          "title": {
+            "en": "Central Excise Appeal",
+            "hi": "केंद्रीय उत्पाद शुल्क अपील"
+          },
+          "form": {
+            "en": "Form EA-1",
+            "hi": "फॉर्म ईए-1"
+          },
+          "related_sections": "GST Appeal Related Sections"
+        },
+        {
+          "code": "customs_appeal",
+          "title": {
+            "en": "Customs Appeal",
+            "hi": "सीमा शुल्क अपील"
+          },
+          "form": {
+            "en": "Form CA-1",
+            "hi": "फॉर्म सीए-1"
+          },
+          "related_sections": "GST Appeal Related Sections"
+        }
+      ]
+    },
+    {
+      "code": "jurisdiction",
+      "title": {
+        "en": "Jurisdiction Details",
+        "hi": "क्षेत्राधिकार विवरण"
+      }
+    }
+  ]
+}
