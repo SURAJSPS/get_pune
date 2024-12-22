@@ -253,7 +253,8 @@ class TaxAppealWidget extends StatelessWidget {
                                   ))),
                 ),
                 SizedBox(height: 5),
-                ...data["body_footer"].map((footer) => Padding(
+                if (data["body_footer"] != null) ...[
+                  ...data["body_footer"].map((footer) => Padding(
                       padding: const EdgeInsets.symmetric(vertical: 14),
                       child: Text(footer,
                           textAlign: TextAlign.justify,
@@ -264,7 +265,8 @@ class TaxAppealWidget extends StatelessWidget {
                                   fontSize: 12,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.bold)),
-                    ))
+                      ))
+                ]
               ],
             ))
       ],

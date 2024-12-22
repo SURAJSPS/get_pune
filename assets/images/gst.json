@@ -127,8 +127,8 @@
               {
                 "code": "faq",
                 "title": {
-                  "en": "FAQ on Pre-Deposit",
-                  "hi": "प्री-डिपॉजिट पर अक्सर पूछे जाने वाले प्रश्न"
+                  "en": "FAQ on Pre-Deposit for GST Appeal",
+                  "hi": "जीएसटी अपील पर प्री-डिपॉजिट पर अक्सर पूछे जाने वाले प्रश्न"
                 },
                 "leading_text": {
                   "en": {
@@ -383,8 +383,8 @@
               {
                 "code": "faq",
                 "title": {
-                  "en": "FAQ on Pre-Deposit",
-                  "hi": "प्री-डिपॉजिट पर अक्सर पूछे जाने वाले प्रश्न"
+                  "en": "FAQ on Pre-Deposit for Service Tax Appeal",
+                  "hi": "सेवा कर अपील पर प्री-डिपॉजिट पर अक्सर पूछे जाने वाले प्रश्न"
                 },
                 "leading_text": {
                   "en": {
@@ -403,7 +403,7 @@
                       "hi": "सेवा कर अपील दाखिल करने के समय अपीलकर्ता को कितना प्री-डिपॉजिट देना होगा?"
                     },
                     "answer": {
-                      "en": "As per Section 35F of the Finance Act, 1994, 7.5% of the disputed amount is required to be paid as pre-deposit while filing an appeal before the Commissioner (Appeals) or Appellate Tribunal (first appeal), and 10% for appeals before the Appellate Tribunal (second appeal).",
+                      "en": "As per Section 35F of the Central Excise Act, 1944 (Applicable to Service Tax by Section 83 of the Finance Act, 1994), 7.5% of the disputed amount is required to be paid as pre-deposit while filing an appeal before the Commissioner (Appeals) or Appellate Tribunal (first appeal), and 10% for appeals before the Appellate Tribunal (second appeal).",
                       "hi": "वित्त अधिनियम, 1994 की धारा 35F के अनुसार, अपीलकर्ता को अपील दाखिल करते समय विवादित राशि का 7.5% प्री-डिपॉजिट देना होगा।"
                     }
                   },
@@ -460,7 +460,7 @@
                   },
                   {
                     "en": {
-                      "heading": "Delay Condonation\n\nAs per Section 85 of the Finance Act, 1994, the delay may be condoned by the Commissioner (Appeals) for a further period if sufficient cause is presented by the appellant.\n\nThe Section 85 of the Finance Act, 1994 is as follows:",
+                      "heading": "Delay Condonation\n\nAs per Section 85 of the Finance Act, 1994, the delay may be condoned by the Commissioner (Appeals) for a further period if sufficient cause is presented by the appellant. The Section 85 of the Finance Act, 1994 is as follows:",
                       "subheading": "Section 85. Appeals to the Commissioner of Central Excise (Appeals).-",
                       "body": "(3) The Commissioner of Central Excise (Appeals) may, if he is satisfied that the appellant was prevented by sufficient cause from presenting the appeal within the aforesaid period of three months, allow it to be presented within a further period of three months."
                     },
@@ -475,40 +475,22 @@
               {
                 "code": "tax_appeal",
                 "title": {
-                  "en": "Relevant Sections and Rules Related to GST Appeals",
+                  "en": "Relevant Sections and Rules Related to Service Tax Appeals",
                   "hi": "जीएसटी अपील से संबंधित धाराएं और नियम"
                 },
                 "questions": [
                   {
                     "en": {
-                      "heading": "CGST Act, 2017",
+                      "heading": "Finance Act, 1994",
                       "data": [
                         {
-                          "subheading": "Section 107. Appeals to Appellate Authority.-",
+                          "subheading": "SECTION 85. Appeals to the Commissioner of Central Excise (Appeals).-",
                           "body": [
-                            "(1) Any person aggrieved by any decision or order passed under this Act or the State Goods and Services Tax Act or the Union Territory Goods and Services Tax Act by an adjudicating authority may appeal to such Appellate Authority as may be prescribed within three months from the date on which the said decision or order is communicated to such person.",
-                            "(2) The Commissioner may, on his own motion, or upon request from the Commissioner of State tax or the Commissioner of Union territory tax, call for and examine the record of any proceedings in which an adjudicating authority has passed any decision or order under this Act or the State Goods and Services Tax Act or the Union Territory Goods and Services Tax Act, for the purpose of satisfying himself as to the legality or propriety of the said decision or order and may, by order, direct any officer subordinate to him to apply to the Appellate Authority within six months from the date of communication of the said decision or order for the determination of such points arising out of the said decision or order as may be specified by the Commissioner in his order.",
-                            "(3) Where, in pursuance of an order under sub-section (2), the authorised officer makes an application to the Appellate Authority, such application shall be dealt with by the Appellate Authority as if it were an appeal made against the decision or order of the adjudicating authority and such authorised officer were an appellant and the provisions of this Act relating to appeals shall apply to such application.",
-                            "(4) The Appellate Authority may, if he is satisfied that the appellant was prevented by sufficient cause from presenting the appeal within the aforesaid period of three months or six months, as the case may be, allow it to be presented within a further period of one month.",
-                            "(5) Every appeal under this section shall be in such form and shall be verified in such manner as may be prescribed.",
-                            "(6) No appeal shall be filed under sub-section (1), unless the appellant has paid-\n\n(a) in full, such part of the amount of tax, interest, fine, fee and penalty arising from the impugned order, as is admitted by him; and\n\n(b) a sum equal to ten per cent. of the remaining amount of tax in dispute arising from the said order, \n\n1[subject to a maximum of 3[twenty] crore rupees], in relation to which the appeal has been filed.\n\n2[Provided that no appeal shall be filed against an order under sub-section (3) of section 129, unless a sum equal to twenty-five per cent. of the penalty has been paid by the appellant.]",
-                            "(7) Where the appellant has paid the amount under sub-section (6), the recovery proceedings for the balance amount shall be deemed to be stayed.",
-                            "(8) The Appellate Authority shall give an opportunity to the appellant of being heard.",
-                            "(9) The Appellate Authority may, if sufficient cause is shown at any stage of hearing of an appeal, grant time to the parties or any of them and adjourn the hearing of the appeal for reasons to be recorded in writing: \nProvided that no such adjournment shall be granted more than three times to a party during hearing of the appeal.",
-                            "(10) The Appellate Authority may, at the time of hearing of an appeal, allow an appellant to add any ground of appeal not specified in the grounds of appeal, if it is satisfied that the omission of that ground from the grounds of appeal was not wilful or unreasonable.",
-                            "(11) The Appellate Authority shall, after making such further inquiry as may be necessary, pass such order, as it thinks just and proper, confirming, modifying or annulling the decision or order appealed against but shall not refer the case back to the adjudicating authority that passed the said decision or order: \n\nProvided that an order enhancing any fee or penalty or fine in lieu of confiscation or confiscating goods of greater value or reducing the amount of refund or input tax credit shall not be passed unless the appellant has been given a reasonable opportunity of showing cause against the proposed order: \n\nProvided further that where the Appellate Authority is of the opinion that any tax has not been paid or short-paid or erroneously refunded, or where input tax credit has been wrongly availed or utilised, no order requiring the appellant to pay such tax or input tax credit shall be passed unless the appellant is given notice to show cause against the proposed order and the order is passed within the time limit specified under section 73 or section 74 4[or section 74A].",
-                            "(12) The order of the Appellate Authority disposing of the appeal shall be in writing and shall state the points for determination, the decision thereon and the reasons for such decision.",
-                            "(13) The Appellate Authority shall, where it is possible to do so, hear and decide every appeal within a period of one year from the date on which it is filed: \n\nProvided that where the issuance of order is stayed by an order of a court or Tribunal, the period of such stay shall be excluded in computing the period of one year.",
-                            "(14) On disposal of the appeal, the Appellate Authority shall communicate the order passed by it to the appellant, respondent and to the adjudicating authority.",
-                            "(15) A copy of the order passed by the Appellate Authority shall also be sent to the jurisdictional Commissioner or the authority designated by him in this behalf and the jurisdictional Commissioner of State tax or Commissioner of Union Territory Tax or an authority designated by him in this behalf.",
-                            "(16) Every order passed under this section shall, subject to the provisions of section 108 or section 113 or section 117 or section 118 be final and binding on the parties."
-                          ],
-                          "body_footer": [
-                            "* Enforced w.e.f. 1st July, 2017.",
-                            "1. Inserted by s. 25 of The Central Goods and Services Tax (Amendment) Act, 2018 (No. 31 of 2018) - Brought into force w.e.f. 01st February, 2019.",
-                            "2. Inserted (w.e.f. 1st January, 2022 vide Notification No. 39/2021-C.T., dated 21st December, 2021) by s. 116 of The Finance Act, 2021 (No. 13 of 2021) dated 28th March, 2021.",
-                            "3. Substituted by section 141 of The Finance Act (No. 2) Act, 2024 No. 15 of 2024 dated 16.08.2024 for \"twenty-five\".",
-                            "4. Inserted by section 141 of The Finance Act (No. 2) Act, 2024 No. 15 of 2024 dated 16.08.2024."
+                            "(1) Any person aggrieved by any decision or order passed by an adjudicating authority subordinate to the Principal Commissioner of Central Excise or Commissioner of Central Excise may appeal to the Commissioner of Central Excise (Appeals).",
+                            "(2) Every appeal shall be in the prescribed form and shall be verified in the prescribed manner.",
+                            "(3) An appeal shall be presented within three months from the date of receipt of the decision or order of such adjudicating authority, relating to service tax, interest or penalty under thi\n\nChapter, made before the date on which the Finance Bill, 2012, receives the assent of the President:\n\nProvided that the Commissioner of Central Excise (Appeals) may, if he is satisfied that the appellant was prevented by sufficient cause from presenting the appeal within the aforesaid period of three months, allow it to be presented within a further period of three months.\n\n(3A) An appeal shall be presented within two months from the date of receipt of the decision or order of such adjudicating authority, made on and after the Finance Bill, 2012 receives the assent of the President, relating to service tax, interest or penalty under this Chapter :\n\nProvided that the Commissioner of Central Excise (Appeals) may, if he is satisfied that the appellant was prevented by sufficient cause from presenting the appeal within the aforesaid period of two months, allow it to be presented within a further period of one month.",
+                            "(4) The Commissioner of Central Excise (Appeals) shall hear and determine the appeal and, subject to the provisions of this Chapter, pass such orders as he thinks fit and such orders may include an order enhancing the service tax, interest or penalty :\n\nProvided that an order enhancing the service tax, interest or penalty shall not be made unless the person affected thereby has been given a reasonable opportunity of showing cause against such enhancement.",
+                            "(5) Subject to the provisions of this Chapter, in hearing the appeals and making orders under this section, the Commissioner of Central Excise (Appeals) shall exercise the same powers and follow the same procedure as he exercises and follows in hearing the appeals and making orders under the Central Excise Act, 1944 (1 of 1944)."
                           ]
                         }
                       ]
@@ -516,61 +498,20 @@
                   },
                   {
                     "en": {
-                      "heading": "CGST Rules, 2017",
+                      "heading": "Service Tax Rules, 1994",
                       "data": [
                         {
-                          "subheading": "Rule 108. Appeal to the Appellate Authority.-",
+                          "subheading": "Form of Appeals to [Commissioner] of Central Excise (Appeals).-",
                           "body": [
-                            "(1) An appeal to the Appellate Authority under sub-section (1) of section 107 shall be filed in FORM GST APL-01, along with the relevant documents, 2[electronically], and a provisional acknowledgement shall be issued to the appellant immediately.\n\n3[Provided that an appeal to the Appellate Authority may be filed manually in FORM GST APL-01, along with the relevant documents, only if-\n\n(i) the Commissioner has so notified, or\n\n(ii) the same cannot be filed electronically due to non-availability of the decision or order to be appealed against on the common portal,\n\nand  in  such  case,  a  provisional  acknowledgement  shall  be  issued  to  the appellant immediately.]",
-                            "(2) The grounds of appeal and the form of verification as contained in FORM GST APL-01 shall be signed in the manner specified in rule 26.",
-                            "(3) 1[ Where the decision or order appealed against is uploaded on the common portal, a final acknowledgment, indicating appeal number, shall be issued in FORM GST APL-02 by the Appellate Authority or an officer authorised by him in this behalf and the date of issue of the provisional acknowledgment shall be considered as the date of filing of appeal:\n\nProvided that where the decision or order appealed against is not uploaded on the common portal, the appellant shall submit a self-certified copy of the said decision or order within a period of seven days from the date of filing of FORM GST APL-01 and a final acknowledgment, indicating appeal number, shall be issued in FORM GST APL-02 by the Appellate Authority or an officer authorised by him in this behalf, and the date of issue of the provisional acknowledgment shall be considered as the date of filing of appeal:\n\nProvided further that where the said self-certified copy of the decision or order is not submitted within a period of seven days from the date of filing of FORM GST APL-01, the date of submission of such copy shall be considered as the date of filing of appeal.\n\nExplanation. -For the provisions of this rule, the appeal shall be treated as filed only when the final acknowledgement, indicating the appeal number, is issued.\n\nProvided further that where the said self-certified copy of the decision or order is not submitted within a period of seven days from the date of filing of FORM GST APL-01, the date of submission of such copy shall be considered as the date of filing of appeal.\n\nExplanation. -For the provisions of this rule, the appeal shall be treated as filed only when the final acknowledgement, indicating the appeal number, is issued.\n\nExplanation. -For the provisions of this rule, the appeal shall be treated as filed only when the final acknowledgement, indicating the appeal number, is issued."
-                          ],
-                          "body_footer": [
-                            "1. Substituted vide Notification No. 26/2022-CT dated 26.12.2022 for \nA certified copy of the decision or order appealed against shall be submitted within seven days of filing the appeal under sub-rule (1) and a final acknowledgement, indicating appeal number shall be issued thereafter in FORM GST APL-02 by the Appellate Authority or an officer authorised by him in this behalf: Provided that where the certified copy of the decision or order is submitted within seven days from the date of filing the FORM GST APL-01 , the date of filing of the appeal shall be the date of the issue of the provisional acknowledgement and where the said copy is submitted after seven days, the date of filing of the appeal shall be the date of the submission of such copy.",
-                            "2. Substituted vide Notification No. 38/2023-CT, dated 04.08.2023.",
-                            "3. Inserted vide Notification No. 38/2023-CT, dated 04.08.2023."
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "en": {
-                      "heading": "",
-                      "data": [
-                        {
-                          "subheading": "1[Rule 109. Application to the Appellate Authority.-",
-                          "body": [
-                            "(1) An application to the Appellate Authority under sub-section (2) of section 107 shall be filed in FORM GST APL-03, along with the relevant documents, 2[electronically] or otherwise as may be notified by the Commissioner and a provisional acknowledgment shall be issued to the appellant immediately.\n\n3[Provided that an appeal to the Appellate Authority may be filed manually in FORM GST APL-03, along with the relevant documents, only if-\n\n(i) the Commissioner has so notified, or\n\n(ii) the same cannot be filed electronically due to non-availability of the decision or order to be appealed against on the common portal,\n\nand in such case, a provisional acknowledgement shall be issued to the appellant immediately.",
-                            "(2) Where the decision or order appealed against is uploaded on the common portal, a final acknowledgment, indicating appeal number, shall be issued in FORM GST APL-02 by the Appellate Authority or an officer authorised by him in this behalf and the date of issue of the provisional acknowledgment shall be considered as the date of filing of appeal under sub-rule (1):\n\nProvided that where the decision or order appealed against is not uploaded on the common portal, the appellant shall submit a self-certified copy of the said decision or order within a period of seven days from the date of filing of FORM GST APL-03 and a final acknowledgment, indicating appeal number, shall be issued in FORM GST APL-02 by the Appellate Authority or an officer authorised by him in this behalf, and the date of issue of the provisional acknowledgment shall be considered as the date of filing of appeal:\n\nProvided further that where the said self-certified copy of the decision or order is not submitted within a period of seven days from the date of filing of FORM GST APL-03, the date of submission of such copy shall be considered as the date of filing of appeal."
-                          ],
-                          "body_footer": [
-                            "1. Substituted vide Notification No. 26/2022-CT dated 26.12.2022 for Application to the Appellate Authority.- (1) An application to the Appellate Authority under sub-section (2) of section 107 shall be made in FORM GST APL-03 , along with the relevant documents, either electronically or otherwise as may be notified by the Commissioner. (2) A certified copy of the decision or order appealed against shall be submitted within seven days of the filing the application under sub-rule (1) and an appeal number shall be generated by the Appellate Authority or an officer authorised by him in this behalf.",
-                            "2. Substituted vide Notifiaction No. 38/2023- CT dated 04.08.2023",
-                            "3. Inserted vide Notifiaction No. 38/2023- CT dated 04.08.2023."
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "en": {
-                      "heading": "",
-                      "data": [
-                        {
-                          "subheading": "1[Rule 109A. Appointment of Appellate Authority.-",
-                          "body": [
-                            "(1) Any person aggrieved by any decision or order passed under this Act or the State Goods and Services Tax Act or the Union Territory Goods and Services Tax Act may appeal to -\n\n(a) the Commissioner (Appeals) where such decision or order is passed by the Additional or Joint Commissioner;\n\n(b) 2[any officer not below the rank of Joint Commissioner (Appeals)] where such decision or order is passed by the Deputy or Assistant Commissioner or Superintendent, within three months from the date on which the said decision or order is communicated to such person.",
-                            "(2) An officer directed under sub-section (2) of section 107 to appeal against any decision or order passed under this Act or the State Goods and Services Tax Act or the Union Territory Goods and Services Tax Act may appeal to -\n\n(a) the Commissioner (Appeals) where such decision or order is passed by the Additional or Joint Commissioner;\n\n(b) 2[any officer not below the rank of Joint Commissioner (Appeals)] where such decision or order is passed by the Deputy or Assistant Commissioner or the Superintendent, within six months from the date of communication of the said decision or order.]"
-                          ],
-                          "body_footer": [
-                            "1. Inserted vide Notification No. 55/2017-CT dated 15.11.2017.",
-                            "2 . Substituted for the Additional Commissioner (Appeals) vide Notification No. 60/2018 - CT dated 30.10.2018."
-                          ]
+                            "(1)An appeal under Section 85 of the Act to the [Commissioner] of Central Excise (Appeals) shall be in Form ST-4.",
+                            "(2)The appeal shall be filed in duplicate and shall be accompanied by a copy of order appealed against."
+                             ]
+                          
                         }
                       ]
                     }
                   }
+                  
                 ]
               }
             ],
@@ -593,10 +534,14 @@
                   "en": "Document Required For Filing Central Excise Appeal",
                   "hi": "केंद्रीय उत्पाद शुल्क अपील आवश्यक दस्तावेज़"
                 },
+                "note": {
+                  "en": "Note: Two sets of Appeal along with requred documents to be submitted",
+                  "hi": "टिप्पणी: दो अपील और आवश्यक दस्तावेजों को दाखिल करने के लिए"
+                },
                 "questions": [
                   {
                     "question": {
-                      "en": "Form CE-APL 01 along with Statement of facts and Grounds of Appeal",
+                      "en": "Form EA-01 along with Statement of facts and Grounds of Appeal",
                       "hi": "केंद्रीय उत्पाद शुल्क अपील आवश्यक दस्तावेज़"
                     }
                   },
@@ -604,6 +549,24 @@
                     "question": {
                       "en": "Self-Attested Copy of OIO (Order-in-Original) along with Court fee Stamp",
                       "hi": "जआईओ (ऑर्डर-इन-ओरिजिनल) की स्व-सत्यापित प्रति कोर्ट फी स्टैम्प के साथ"
+                    }
+                  },
+                  {
+                    "question": {
+                      "en": "Self-Attested Copy of Show Cause Notice (SCN)",
+                      "hi": "कारण बताओ नोटिस (एससीएन) की स्व-सत्यापित प्रति"
+                    }
+                  },
+                  {
+                    "question": {
+                      "en": "Letter of Condonation of delay in-case appeal filed after appeal period",
+                      "hi": "अपील अवधि के बाद दायर की गई अपील में देरी के लिए माफ़ी पत्र"
+                    }
+                  },
+                  {
+                    "question": {
+                      "en": "Challan Copy of Pre-Deposit (if applicable)",
+                      "hi": "प्री-डिपॉज़िट की चालान कॉपी (यदि अनुप्रयुक्त हो) "
                     }
                   },
                   {
@@ -617,18 +580,58 @@
               {
                 "code": "faq",
                 "title": {
-                  "en": "FAQ on Pre-Deposit for Central Excise",
-                  "hi": "केंद्रीय उत्पाद शुल्क पर प्री-डिपॉजिट पर अक्सर पूछे जाने वाले प्रश्न"
+                  "en": "FAQ on Pre-Deposit for Central Excise Appeal",
+                  "hi": "केंद्रीय उत्पाद शुल्क अपील पर प्री-डिपॉजिट पर अक्सर पूछे जाने वाले प्रश्न"
                 },
-                "questions": [
+                 "leading_text": {
+                  "en": {
+                    "question": "Question",
+                    "answer": "Answer"
+                  },
+                  "hi": {
+                    "question": "प्रश्न",
+                    "answer": "उत्तर"
+                  }
+                },
+               "questions": [
                   {
                     "question": {
-                      "en": "How much pre-deposit is required for filing a Central Excise Appeal?",
-                      "hi": "केंद्रीय उत्पाद शुल्क अपील दाखिल करने के समय कितना प्री-डिपॉजिट देना होगा?"
+                      "en": "How much pre-deposit is required to be paid by the appellant at the time of filing a Central Excise Appeal?",
+                      "hi": "सेवा कर अपील दाखिल करने के समय अपीलकर्ता को कितना प्री-डिपॉजिट देना होगा?"
                     },
                     "answer": {
-                      "en": "Typically, a percentage of the disputed duty amount is required as pre-deposit.",
-                      "hi": "आमतौर पर, विवादित शुल्क राशि का एक प्रतिशत प्री-डिपॉजिट के रूप में आवश्यक होता है।"
+                      "en": "As per Section 35F of the Central Excise Act, 1944, 7.5% of the disputed amount is required to be paid as pre-deposit while filing an appeal before the Commissioner (Appeals) or Appellate Tribunal (first appeal), and 10% for appeals before the Appellate Tribunal (second appeal).",
+                      "hi": "वित्त अधिनियम, 1994 की धारा 35F के अनुसार, अपीलकर्ता को अपील दाखिल करते समय विवादित राशि का 7.5% प्री-डिपॉजिट देना होगा।"
+                    }
+                  },
+                  {
+                    "question": {
+                      "en": "There is only interest and penalty demanded in the order. Does the appellant require to pay the pre-deposit while filing an appeal?",
+                      "hi": "यदि आदेश में केवल ब्याज और दंड की मांग की गई है, तो क्या अपीलकर्ता को अपील दाखिल करते समय प्री-डिपॉजिट देना होगा?"
+                    },
+                    "answer": {
+                      "en": "No. The pre-deposit is not required to be paid by the appellant in cases where the Central Excise Duty has been fully paid and only interest and penalty are under dispute.",
+                      "hi": "नहीं। यदि सेवा कर पूरी तरह से भुगतान किया गया है और केवल ब्याज और दंड विवाद में हैं, तो अपीलकर्ता को प्री-डिपॉजिट देने की आवश्यकता नहीं है।"
+                    }
+                  },
+                  {
+                    "question": {
+                      "en": "In cases where the appellant has partially paid the Central Excise Duty which is more than the required percentage, is the appellant still required to pay the pre-deposit?",
+                      "hi": "यदि अपीलकर्ता ने केंद्रीय उत्पाद शुल्क की राशि का आंशिक रूप से भुगतान किया है जो आवश्यक प्रतिशत से अधिक है, तो क्या अपीलकर्ता को अभी भी प्री-डिपॉजिट देना होगा?"
+                    },
+                    "answer": {
+                      "en": "If the amount paid by the appellant is appropriated in the order and is more than the required percentage of the disputed amount, then the pre-deposit is not required to be paid. If the payment of service tax is not appropriated in the order, then the specified pre-deposit is required to be paid for the admission of the appeal.",
+                      "hi": "यदि आदेश में अपीलकर्ता द्वारा भुगतान की गई राशि का उचित उपयोग किया गया है और यह विवादित राशि के आवश्यक प्रतिशत से अधिक है, तो प्री-डिपॉजिट देने की आवश्यकता नहीं है। यदि सेवा कर का भुगतान आदेश में उचित नहीं है, तो अपील की स्वीकृति के लिए निर्दिष्ट प्री-डिपॉजिट देना आवश्यक है।"
+                    }
+                  },
+                  {
+                    "question": {
+                      "en": "The appellant is filing a Central Excise appeal against an order related to Central Excise Duty refund. Is the appellant required to pay any pre-deposit while filing the appeal?",
+                      "hi": "अपीलकर्ता केंद्रीय उत्पाद शुल्क की वापसी से संबंधित आदेश के खिलाफ केंद्रीय उत्पाद शुल्क अपील दाखिल कर रहा है। क्या अपीलकर्ता को अपील दाखिल करते समय कोई प्री-डिपॉजिट देना आवश्यक है?"
+                    },
+                    "answer": {
+                      "en": "No. For appeals against orders related to Central Excise Duty refunds, the pre-deposit is not required to be paid by the appellant.",
+                      "hi": "नहीं। केंद्रीय उत्पाद शुल्क वापसी से संबंधित आदेशों के खिलाफ अपील के लिए, अपीलकर्ता को प्री-डिपॉजिट देने की आवश्यकता नहीं है।"
                     }
                   }
                 ]
