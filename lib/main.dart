@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:pune_gst/core/config/config_reader.dart';
 import 'package:pune_gst/presentation/language_page.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+ await ConfigReader.initialize();
   runApp(const MyApp());
 }
 

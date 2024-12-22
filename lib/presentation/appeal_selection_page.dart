@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pune_gst/core/config/config_reader.dart';
 
 import 'package:pune_gst/widgets/app_widget.dart';
 import 'package:pune_gst/presentation/appeal_details_info_page.dart';
@@ -6,17 +7,18 @@ import 'package:pune_gst/widgets/card_tile.dart';
 import 'package:pune_gst/widgets/custom_app_bar.dart';
 
 class AppealSelectionPage extends StatefulWidget {
-  const AppealSelectionPage({super.key});
+ final Map<String, dynamic> appealTypes;
+  const AppealSelectionPage({super.key, required this.appealTypes});
 
   @override
   State<AppealSelectionPage> createState() => _AppealSelectionPageState();
 }
 
 class _AppealSelectionPageState extends State<AppealSelectionPage> {
-  String? selectedAppealType;
+  Map<String, dynamic>? selectedAppealType={};
 
 
-  final appealTypes = [
+/*  final appealTypes = [
     {
       'code': 'gat_appeal',
       'title_en': 'GST Appeal',
@@ -375,7 +377,7 @@ Provided that where the issuance of order is stayed by an order of a court or Tr
 
 
     }
-  ];
+  ];*/
 
   @override
   Widget build(BuildContext context) {
@@ -383,17 +385,18 @@ Provided that where the issuance of order is stayed by an order of a court or Tr
             ? () {
                 Navigator.of(context).push(
                   MaterialPageRoute(
-                    builder: (context) =>  AppealDetailsInfoPage( appealType: appealTypes.firstWhere((type) => type['code'] == selectedAppealType)["data"] as Map<String, dynamic> ),
+                    builder: (context) =>  AppealDetailsInfoPage( appealType: selectedAppealType! ),
           ),
                 );
               }
-            : null, children: [  ...appealTypes.map((type) => CustomSelectionTile(
-                            title: ( type['title_$languageId'] as String ),
+            : null, children: [  ...widget.appealTypes["appeal_types"].map((type) => CustomSelectionTile(
+                            title: ( type['title'][languageId] as String ),
 
-                            isSelected: selectedAppealType == type['code'],
+                            isSelected: selectedAppealType?["code"] == type['code'],
+                            // isSelected: false,
                             onTap: () {
                               setState(() {
-                                selectedAppealType = type['code'] as String;
+                                selectedAppealType = type;
                               });
                             },
                             width: MediaQuery.of(context).size.width / 2,

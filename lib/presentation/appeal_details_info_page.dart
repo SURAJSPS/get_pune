@@ -15,46 +15,36 @@ class AppealDetailsInfoPage extends StatefulWidget {
 }
 
 class _AppealDetailsInfoPageState extends State<AppealDetailsInfoPage> {
-  String? selectedAppealType;
-
-  final appealTypes = [
-    {
-      'code': 'gat_appeal',
-      'title_en': 'Document Required For Filing GST Appeal',
-      'title_hi': 'जीएसटी अपील दस्तावेज़ आवश्यक',
-    },
-    {
-      'code': 'service_tex_appeal',
-      'title_en': 'Reverent Sections and Rules Related to GST Appeals',
-      'title_hi': 'जीएसटी अपील से संबंधित धाराएं और नियम',
-    }
-  ];
+  Map<String, dynamic>? selectedAppealType = {};
 
   @override
   Widget build(BuildContext context) {
     return AppWidget(
-        subHeading: languageId == "hi" ? 'विकल्प चुनें' : 'Select Option',
+        // subHeading: languageId == "hi" ? 'विकल्प चुनें' : 'Select Option',
+        subHeading: widget.appealType["title"][languageId],
         onPressed: selectedAppealType != null
             ? () {
                 Navigator.of(context).push(MaterialPageRoute(
                     builder: (context) => AppealDocumentsChecklist(
-
-                      index: appealTypes.indexOf(appealTypes.firstWhere((type) => type['code'] == selectedAppealType)),
-                        document: widget.appealType,
-                        subHeading: appealTypes.firstWhere((type) => type['code'] == selectedAppealType)['title_$languageId']!)));
+                          document: selectedAppealType!,
+                          subHeading: selectedAppealType!["title"][languageId],
+                          index: 0,
+                        )));
               }
             : null,
         children: [
-          ...appealTypes.map((type) => CustomSelectionTile(
-                title: (type['title_$languageId']!),
-                isSelected: selectedAppealType == type['code'],
-                onTap: () {
-                  setState(() {
-                    selectedAppealType = type['code'];
-                  });
-                },
-                width: MediaQuery.of(context).size.width / 2,
-              )),
+          ...widget.appealType["appeal_sub_type"]
+              .map((type) => CustomSelectionTile(
+                    title: (type['title'][languageId]!),
+                    isSelected: selectedAppealType?["code"] == type['code'],
+                    onTap: () {
+                      print(type);
+                      setState(() {
+                        selectedAppealType = type;
+                      });
+                    },
+                    width: MediaQuery.of(context).size.width / 2,
+                  )),
         ]);
   }
 }

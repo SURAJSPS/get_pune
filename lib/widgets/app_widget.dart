@@ -5,6 +5,7 @@ import 'package:pune_gst/widgets/custom_button.dart';
 class AppWidget extends StatelessWidget {
   final String? heading;
   final bool? isAppBar;
+  final bool? isFullWidth;
   final bool? isEnable;
   final String subHeading;
   final String? cardHeading;
@@ -16,6 +17,7 @@ class AppWidget extends StatelessWidget {
       this.heading,
       this.isAppBar = true,
       this.isEnable = true,
+      this.isFullWidth = false,
       required this.subHeading,
       this.cardHeading,
       this.cardSubHeading,
@@ -26,10 +28,7 @@ class AppWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: isAppBar == true
-          ? CustomAppBar(
-              titleKey: heading ?? '',
-              onLanguageChanged: (value) {},
-            )
+          ? CustomAppBar(titleKey: heading ?? '${DateTime.now()}')
           : null,
       body: Container(
         height: double.infinity,
@@ -42,6 +41,7 @@ class AppWidget extends StatelessWidget {
         ),
         child: SafeArea(
           child: SingleChildScrollView(
+            
             child: Padding(
               padding: const EdgeInsets.all(20.0),
               child: Center(
@@ -105,7 +105,9 @@ class AppWidget extends StatelessWidget {
                     ],
 
                     Container(
-                      width: MediaQuery.of(context).size.width / 2,
+                      width: isFullWidth == true
+                          ? MediaQuery.of(context).size.width
+                          : MediaQuery.of(context).size.width / 2,
                       margin: const EdgeInsets.symmetric(horizontal: 20),
                       decoration: BoxDecoration(
                         color: Colors.white,
@@ -125,7 +127,8 @@ class AppWidget extends StatelessWidget {
                           children: [
                             Center(
                               child: ShaderMask(
-                                shaderCallback: (bounds) => const LinearGradient(
+                                shaderCallback: (bounds) =>
+                                    const LinearGradient(
                                   colors: [Colors.blue, Colors.purple],
                                 ).createShader(bounds),
                                 child: Text(
@@ -138,9 +141,7 @@ class AppWidget extends StatelessWidget {
                                 ),
                               ),
                             ),
-
                             const SizedBox(height: 20),
-
                             if (cardSubHeading != null) ...[
                               Center(
                                 child: Text(
@@ -154,18 +155,17 @@ class AppWidget extends StatelessWidget {
                               ),
                               const SizedBox(height: 30),
                             ],
-
                             ...children,
-
                             const SizedBox(height: 20),
-
                             if (isEnable == true) ...[
-                            Center(
-                              child: CustomButton(
-                                text: languageId == "hi" ? 'जारी रखें' : 'Continue',
-                                textHindi: 'जारी रखें',
-                                isEnabled: onPressed != null,
-                                onPressed: onPressed ?? () {},
+                              Center(
+                                child: CustomButton(
+                                  text: languageId == "hi"
+                                      ? 'जारी रखें'
+                                      : 'Continue',
+                                  textHindi: 'जारी रखें',
+                                  isEnabled: onPressed != null,
+                                  onPressed: onPressed ?? () {},
                                 ),
                               ),
                             ]

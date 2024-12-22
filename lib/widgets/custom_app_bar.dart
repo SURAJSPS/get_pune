@@ -4,7 +4,6 @@ import '../constants/app_translations.dart';
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String titleKey;
   final bool showLanguageSwitch;
-  final bool isHindi;
   final ValueChanged<bool>? onLanguageChanged;
   final List<Widget>? additionalActions;
   final bool showHomeButton;
@@ -14,7 +13,6 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
     super.key,
     required this.titleKey,
     this.showLanguageSwitch = true,
-    this.isHindi = false,
     this.onLanguageChanged,
     this.additionalActions,
     this.showHomeButton = true,
@@ -32,21 +30,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
       ),
     
       actions: [
-        if (showLanguageSwitch) ...[
-          Switch(
-            value: isHindi,
-            onChanged: onLanguageChanged,
-          ),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 8.0),
-            child: Center(
-              child: Text(
-                isHindi ? 'हिंदी' : 'ENG',
-                style: const TextStyle(color: Colors.black),
-              ),
-            ),
-          ),
-        ],
+        
         if (additionalActions != null) ...additionalActions!,
         if (showHomeButton)
           IconButton(

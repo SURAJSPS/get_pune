@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pune_gst/core/config/config_reader.dart';
 import 'package:pune_gst/presentation/appeal_page.dart';
 import 'package:pune_gst/widgets/app_widget.dart';
 import 'package:pune_gst/widgets/card_tile.dart';
@@ -14,10 +15,7 @@ class LanguageSelector extends StatefulWidget {
 
 class _LanguageSelectorState extends State<LanguageSelector> {
   String selectedLanguage='English';
-  final languages = [
-    {'code': 'en', 'name': 'English'},
-    {'code': 'hi', 'name': 'हिंदी'},
-  ];
+
 
   @override
   Widget build(BuildContext context) {
@@ -39,7 +37,7 @@ class _LanguageSelectorState extends State<LanguageSelector> {
               }
             ,
         children: [
-          ...languages.map((lang) => CustomSelectionTile(
+          ...config["language"].map((lang) => CustomSelectionTile(
                 title: lang['name']!,
                 isSelected: languageId == lang['code'],
                 onTap: () {

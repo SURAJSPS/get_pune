@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:pune_gst/core/config/config_reader.dart';
 import 'package:pune_gst/presentation/appeal_details_page.dart';
 import 'package:pune_gst/presentation/appeal_selection_page.dart';
 import 'package:pune_gst/widgets/custom_app_bar.dart';
@@ -16,20 +17,7 @@ class AppealPage extends StatefulWidget {
 class _AppealPageState extends State<AppealPage> {
   String? selectedAppealType;
 
-  final appealTypes = [
-    {
-      'code': 'apple',
-      'title_en': 'Appeal Related Query',
-      'title_hi': 'अपील संबंधित प्रश्न',
-      'icon': CupertinoIcons.gear_alt_fill,
-    },
-    {
-      'code': 'jurisdiction',
-      'title_en': 'Jurisdiction Details',
-      'title_hi': 'क्षेत्राधिकार विवरण',
-      'icon': CupertinoIcons.money_dollar_circle_fill,
-    }
-  ];
+
 
   @override
   Widget build(BuildContext context) {
@@ -40,21 +28,24 @@ class _AppealPageState extends State<AppealPage> {
                 if (selectedAppealType != "jurisdiction") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => const AppealSelectionPage(),
+                      builder: (context) =>  AppealSelectionPage(
+                        appealTypes: config["dashboard"]["data"][0]
+                      ),
                     ),
                   );
                 } else {
                   Navigator.of(context).push(MaterialPageRoute(
                     builder: (context) => JurisdictionPage(
-                      subHeading: appealTypes.firstWhere((type) => type['code'] == selectedAppealType)['title_$languageId'] as String,
+
+                      subHeading: config["dashboard"]["data"].firstWhere((type) => type['code'] == selectedAppealType)['title'][languageId] as String,
                     ),
                   ));
                 }
               }
             : null,
         children: [
-          ...appealTypes.map((type) => CustomSelectionTile(
-                title: type['title_$languageId'] as String,
+          ...config["dashboard"]["data"].map((type) => CustomSelectionTile(
+                title: type['title'][languageId] as String,
                 isSelected: selectedAppealType == type['code'],
                 onTap: () {
                   setState(() {
