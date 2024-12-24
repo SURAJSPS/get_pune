@@ -338,7 +338,7 @@
                   "hi": "सेवा कर अपील आवश्यक दस्तावेज़"
                 },
                 "note": {
-                  "en": "Note: Two sets of Appeal along with requred documents to be submitted",
+                  "en": "Note: Two sets of Appeal along with required documents to be submitted",
                   "hi": "टिप्पणी: दो अपील और आवश्यक दस्तावेजों को दाखिल करने के लिए"
                 },
                 "questions": [
@@ -535,7 +535,7 @@
                   "hi": "केंद्रीय उत्पाद शुल्क अपील आवश्यक दस्तावेज़"
                 },
                 "note": {
-                  "en": "Note: Two sets of Appeal along with requred documents to be submitted",
+                  "en": "Note: Two sets of Appeal along with required documents to be submitted",
                   "hi": "टिप्पणी: दो अपील और आवश्यक दस्तावेजों को दाखिल करने के लिए"
                 },
                 "questions": [
@@ -645,9 +645,20 @@
                 "questions": [
                   {
                     "en": {
-                      "heading": "As per Section XYZ, the time limit for filing Central Excise Appeal is 3 months from the date of communication.",
-                      "subheading": "Section XYZ. Appeals to Central Excise Authority.-",
-                      "body": "(1) Any person aggrieved by any decision or order may appeal within three months from the date of communication."
+                      "heading": "As per Section 35 of the Central Excise Act, 1944, the time limit for filing an appeal to the Commissioner (Appeals) is 60 days from the date on which the decision or order is communicated to the person. The Section 35 of the Central Excise Act, 1944 is as follows:",
+                      "subheading": "Section 35. Appeals to Commissioner (Appeals).-",
+                      "body": "(1) Any person aggrieved by any decision or order passed under this Act by a Central Excise Officer lower in rank than a Commissioner of Central Excise may appeal to the Commissioner of Central Excise (Appeals) within sixty days from the date of the communication to him of such decision or order."
+                    },
+                    "hi": {
+                      "heading": "अनुच्छेद XYZ के अनुसार, केंद्रीय उत्पाद शुल्क अपील दाखिल करने की समय सीमा संचार की तारीख से 3 महीने है।",
+                      "subheading": "अनुच्छेद XYZ. केंद्रीय उत्पाद शुल्क प्राधिकरण के समक्ष अपील.-",
+                      "body": "(1) कोई भी व्यक्ति जो किसी निर्णय या आदेश से पीड़ित हो, वह संचार की तारीख से तीन महीने के भीतर अपील कर सकता है।"
+                    }
+                  },{
+                    "en": {
+                      "heading": "Delay Condonation \n\nAs per Section 35 of the Central Excise Act, 1944, the Commissioner (Appeals) may condone the delay for a further period of 30 days if sufficient cause is presented by the appellant. The Section 35 of the Central Excise Act, 1944 is as follows:",
+                      "subheading": "Section 35. Appeals to Commissioner (Appeals). -",
+                      "body": "(1) The Commissioner of Central Excise (Appeals) may, if he is satisfied that the appellant was prevented by sufficient cause from presenting the appeal within the aforesaid period of sixty days, allow it to be presented within a further period of thirty days."
                     },
                     "hi": {
                       "heading": "अनुच्छेद XYZ के अनुसार, केंद्रीय उत्पाद शुल्क अपील दाखिल करने की समय सीमा संचार की तारीख से 3 महीने है।",
@@ -666,25 +677,93 @@
                 "questions": [
                   {
                     "en": {
-                      "heading": "Central Excise Act, 2017",
+                      "heading": "Central Excise Act, 1944",
                       "data": [
                         {
-                          "subheading": "Section XYZ. Appeals to Central Excise Authority.-",
+                          "subheading": "Section 35. Appeals to Commissioner (Appeals).-",
                           "body": [
-                            "(1) Any person aggrieved by any decision or order may appeal within the prescribed time limit.",
-                            "(2) The Commissioner may review the order within six months."
+                            "(1) Any person aggrieved by any decision or order passed under this Act by a Central Excise Officer, lower in rank than a 2[Principal Commissioner of Central Excise or Commissioner of Central Excise], may appeal to the 3[Commissioner of Central Excise (Appeals)] [hereafter in this Chapter referred to as the 4[Commissioner(Appeals)]] 5[within sixty days] from the date of the communication to him of such decision or order :\n\n6[ Provided that the Commissioner (Appeals) may, if he is satisfied that the appellant was prevented by sufficient cause from presenting the appeal within the aforesaid period of sixty days, allow it to be presented within a further period of thirty days.]\n\n7[(1A) The Commissioner (Appeals) may, if sufficient cause is shown at any stage of hearing of an appeal, grant time, from time to time, to the parties or any of them and adjourn the hearing of the appeal for reasons to be recorded in writing :\n\nProvided that no such adjournment shall be granted more than three times to a party during hearing of the appeal.",
+                            "(2) Every appeal under this section shall be in the prescribed form and shall be verified in the prescribed manner." ],
+                          "body_footer": [
+                            "1. Substituted (w.e.f. 26-5-1995) by s. 70 of the Finance Act, 1995 (22 of 1995).",
+                            "2. Substituted (w.e.f. 6-8-2014) words Commissioner of Central Excise by s. 95 of the Finance (No. 2) Act, 2014 (25 of 2014).",
+                            "3. Substituted (w.e.f. 26-5-1995) by s. 70 of the Finance Act, 1995 (22 of 1995).",
+                            "4. Substituted (w.e.f. 26-5-1995) by s. 70 of the Finance Act, 1995 (22 of 1.995).",
+                            "5. Substituted (w.e.f. 11-5-2001) for the words within three months by s. 127 of the Finance Act, 2001 (14 of 2001).",
+                            "6. Substituted (w.e.f. 11-5-2001) by s. 127 of the Finance Act, 2001 (14 of 2001).",
+                            "7. Inserted by s. 82 of the Finance (No. 2) Act, 2004 (23 of 2004)."
                           ]
                         }
                       ]
-                    },
-                    "hi": {
-                      "heading": "केंद्रीय उत्पाद शुल्क अधिनियम, 2017",
+                    }
+                  },{
+                    "en": {
+                      "heading": "",
                       "data": [
                         {
-                          "subheading": "अनुच्छेद XYZ. केंद्रीय उत्पाद शुल्क प्राधिकरण के समक्ष अपील.-",
+                          "subheading": "1 Section 35F. Deposit of certain percentage of duty demanded or penalty imposed before filing appeal. -",
+                          "body": ["The Tribunal or the Commissioner (Appeals) , as the case may be, shall not entertain any appeal -\n\n(i) under sub-section (1) of section 35, unless the appellant has deposited seven and a half per cent. of the duty, in case where duty or duty and penalty are in dispute, or penalty, where such penalty is in dispute, in pursuance of a decision or an order passed by an officer of Central Excise lower in rank than the 2[Principal Commissioner of Central Excise or Commissioner of Central Excise ];\n\n(ii) against the decision or order referred to in clause (a) of sub-section (1) of section 35B, unless the appellant has deposited seven and a half per cent. of the duty, in case where duty or duty and penalty are in dispute, or penalty, where such penalty is in dispute, in pursuance of the decision or order appealed against;\n\n(iii) against the decision or order referred to in clause (b) of sub-section (1) of section 35B, unless the appellant has deposited ten per cent. of the duty, in case where duty or duty and penalty are in dispute, or penalty, where such penalty is in dispute, in pursuance of the decision or order appealed against:\n\nProvided that the amount required to be deposited under this section shall not exceed rupees ten crores:\n\nProvided further that the provisions of this section shall not apply to the stay applications and appeals pending before any appellate authority prior to the commencement of the Finance (No. 2) Act, 2014.\n\nExplanation. - For the purposes of this section duty demanded shall include, -\n\n(i) amount determined under section 11D;\n\n(ii) amount of erroneous Cenvat credit taken;\n\n(iii) amount payable under rule 6 of the Cenvat CreditRules, 2001 or the Cenvat Credit Rules, 2002 or the Cenvat Credit Rules, 2004.]"],
+                             "body_footer": [
+                            "1. Substituted (w.e.f. 6-8-2014) by s. 105 of the Finance (No. 2) Act, 2014 (25 of 2014).",
+                            "2. Substituted (w.e.f. 6-8-2014) words Commissioner of Central Excise by s. 105 of the Finance (No. 2) Act, 2014 (25 of 2014)."
+                          ]
+                        }
+                      ]
+                    }
+                  },
+
+                  {
+                    "en": {
+                      "heading": "CGST Rules, 2017",
+                      "data": [
+                        {
+                          "subheading": "Rule 108. Appeal to the Appellate Authority.-",
                           "body": [
-                            "(1) कोई भी व्यक्ति जो किसी निर्णय या आदेश से पीड़ित हो, वह निर्धारित समय सीमा के भीतर अपील कर सकता है।",
-                            "(2) आयुक्त छह महीने के भीतर आदेश की समीक्षा कर सकते हैं।"
+                            "(1) An appeal to the Appellate Authority under sub-section (1) of section 107 shall be filed in FORM GST APL-01, along with the relevant documents, 2[electronically], and a provisional acknowledgement shall be issued to the appellant immediately.\n\n3[Provided that an appeal to the Appellate Authority may be filed manually in FORM GST APL-01, along with the relevant documents, only if-\n\n(i) the Commissioner has so notified, or\n\n(ii) the same cannot be filed electronically due to non-availability of the decision or order to be appealed against on the common portal,\n\nand  in  such  case,  a  provisional  acknowledgement  shall  be  issued  to  the appellant immediately.]",
+                            "(2) The grounds of appeal and the form of verification as contained in FORM GST APL-01 shall be signed in the manner specified in rule 26.",
+                            "(3) 1[ Where the decision or order appealed against is uploaded on the common portal, a final acknowledgment, indicating appeal number, shall be issued in FORM GST APL-02 by the Appellate Authority or an officer authorised by him in this behalf and the date of issue of the provisional acknowledgment shall be considered as the date of filing of appeal:\n\nProvided that where the decision or order appealed against is not uploaded on the common portal, the appellant shall submit a self-certified copy of the said decision or order within a period of seven days from the date of filing of FORM GST APL-01 and a final acknowledgment, indicating appeal number, shall be issued in FORM GST APL-02 by the Appellate Authority or an officer authorised by him in this behalf, and the date of issue of the provisional acknowledgment shall be considered as the date of filing of appeal:\n\nProvided further that where the said self-certified copy of the decision or order is not submitted within a period of seven days from the date of filing of FORM GST APL-01, the date of submission of such copy shall be considered as the date of filing of appeal.\n\nExplanation. -For the provisions of this rule, the appeal shall be treated as filed only when the final acknowledgement, indicating the appeal number, is issued.\n\nProvided further that where the said self-certified copy of the decision or order is not submitted within a period of seven days from the date of filing of FORM GST APL-01, the date of submission of such copy shall be considered as the date of filing of appeal.\n\nExplanation. -For the provisions of this rule, the appeal shall be treated as filed only when the final acknowledgement, indicating the appeal number, is issued.\n\nExplanation. -For the provisions of this rule, the appeal shall be treated as filed only when the final acknowledgement, indicating the appeal number, is issued."
+                          ],
+                          "body_footer": [
+                            "1. Substituted vide Notification No. 26/2022-CT dated 26.12.2022 for \nA certified copy of the decision or order appealed against shall be submitted within seven days of filing the appeal under sub-rule (1) and a final acknowledgement, indicating appeal number shall be issued thereafter in FORM GST APL-02 by the Appellate Authority or an officer authorised by him in this behalf: Provided that where the certified copy of the decision or order is submitted within seven days from the date of filing the FORM GST APL-01 , the date of filing of the appeal shall be the date of the issue of the provisional acknowledgement and where the said copy is submitted after seven days, the date of filing of the appeal shall be the date of the submission of such copy.",
+                            "2. Substituted vide Notification No. 38/2023-CT, dated 04.08.2023.",
+                            "3. Inserted vide Notification No. 38/2023-CT, dated 04.08.2023."
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "en": {
+                      "heading": "",
+                      "data": [
+                        {
+                          "subheading": "1[Rule 109. Application to the Appellate Authority.-",
+                          "body": [
+                            "(1) An application to the Appellate Authority under sub-section (2) of section 107 shall be filed in FORM GST APL-03, along with the relevant documents, 2[electronically] or otherwise as may be notified by the Commissioner and a provisional acknowledgment shall be issued to the appellant immediately.\n\n3[Provided that an appeal to the Appellate Authority may be filed manually in FORM GST APL-03, along with the relevant documents, only if-\n\n(i) the Commissioner has so notified, or\n\n(ii) the same cannot be filed electronically due to non-availability of the decision or order to be appealed against on the common portal,\n\nand in such case, a provisional acknowledgement shall be issued to the appellant immediately.",
+                            "(2) Where the decision or order appealed against is uploaded on the common portal, a final acknowledgment, indicating appeal number, shall be issued in FORM GST APL-02 by the Appellate Authority or an officer authorised by him in this behalf and the date of issue of the provisional acknowledgment shall be considered as the date of filing of appeal under sub-rule (1):\n\nProvided that where the decision or order appealed against is not uploaded on the common portal, the appellant shall submit a self-certified copy of the said decision or order within a period of seven days from the date of filing of FORM GST APL-03 and a final acknowledgment, indicating appeal number, shall be issued in FORM GST APL-02 by the Appellate Authority or an officer authorised by him in this behalf, and the date of issue of the provisional acknowledgment shall be considered as the date of filing of appeal:\n\nProvided further that where the said self-certified copy of the decision or order is not submitted within a period of seven days from the date of filing of FORM GST APL-03, the date of submission of such copy shall be considered as the date of filing of appeal."
+                          ],
+                          "body_footer": [
+                            "1. Substituted vide Notification No. 26/2022-CT dated 26.12.2022 for Application to the Appellate Authority.- (1) An application to the Appellate Authority under sub-section (2) of section 107 shall be made in FORM GST APL-03 , along with the relevant documents, either electronically or otherwise as may be notified by the Commissioner. (2) A certified copy of the decision or order appealed against shall be submitted within seven days of the filing the application under sub-rule (1) and an appeal number shall be generated by the Appellate Authority or an officer authorised by him in this behalf.",
+                            "2. Substituted vide Notifiaction No. 38/2023- CT dated 04.08.2023",
+                            "3. Inserted vide Notifiaction No. 38/2023- CT dated 04.08.2023."
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "en": {
+                      "heading": "",
+                      "data": [
+                        {
+                          "subheading": "1[Rule 109A. Appointment of Appellate Authority.-",
+                          "body": [
+                            "(1) Any person aggrieved by any decision or order passed under this Act or the State Goods and Services Tax Act or the Union Territory Goods and Services Tax Act may appeal to -\n\n(a) the Commissioner (Appeals) where such decision or order is passed by the Additional or Joint Commissioner;\n\n(b) 2[any officer not below the rank of Joint Commissioner (Appeals)] where such decision or order is passed by the Deputy or Assistant Commissioner or Superintendent, within three months from the date on which the said decision or order is communicated to such person.",
+                            "(2) An officer directed under sub-section (2) of section 107 to appeal against any decision or order passed under this Act or the State Goods and Services Tax Act or the Union Territory Goods and Services Tax Act may appeal to -\n\n(a) the Commissioner (Appeals) where such decision or order is passed by the Additional or Joint Commissioner;\n\n(b) 2[any officer not below the rank of Joint Commissioner (Appeals)] where such decision or order is passed by the Deputy or Assistant Commissioner or the Superintendent, within six months from the date of communication of the said decision or order.]"
+                          ],
+                          "body_footer": [
+                            "1. Inserted vide Notification No. 55/2017-CT dated 15.11.2017.",
+                            "2 . Substituted for the Additional Commissioner (Appeals) vide Notification No. 60/2018 - CT dated 30.10.2018."
                           ]
                         }
                       ]

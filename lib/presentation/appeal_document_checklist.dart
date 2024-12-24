@@ -70,16 +70,16 @@ class FAQWidget extends StatelessWidget {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Expanded(
-            flex: 2,
+        SizedBox(
+            width: 110,
             child: Text("$leading : ",
                 textAlign: TextAlign.justify,
                 style: Theme.of(context)
                     .textTheme
                     .bodyLarge!
                     .copyWith(fontSize: 18, fontWeight: FontWeight.bold))),
-        Expanded(
-            flex: 11,
+        Flexible(
+            // flex: 11,
             child: Text(title,
                 textAlign: TextAlign.justify,
                 style: Theme.of(context).textTheme.bodySmall!.copyWith(
@@ -100,7 +100,6 @@ class AppealWidget extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       mainAxisSize: MainAxisSize.min,
       children: [
-
         ...?document["questions"].asMap().entries.map((entry) => Padding(
               padding: const EdgeInsets.symmetric(vertical: 10.0),
               child: Column(
@@ -131,15 +130,15 @@ class AppealWidget extends StatelessWidget {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Expanded(
+        SizedBox(
+            width: 40,
             child: Text("$leading :",
                 textAlign: TextAlign.justify,
                 style: Theme.of(context)
                     .textTheme
                     .bodyLarge!
-                    .copyWith(fontSize: 18))),
-        Expanded(
-            flex: 14,
+                    .copyWith(fontSize: 18, fontWeight: FontWeight.bold))),
+        Flexible(
             child: Text(title,
                 textAlign: TextAlign.justify,
                 style: Theme.of(context)
@@ -255,16 +254,16 @@ class TaxAppealWidget extends StatelessWidget {
                 SizedBox(height: 5),
                 if (data["body_footer"] != null) ...[
                   ...data["body_footer"].map((footer) => Padding(
-                      padding: const EdgeInsets.symmetric(vertical: 14),
-                      child: Text(footer,
-                          textAlign: TextAlign.justify,
-                          style: Theme.of(context)
-                              .textTheme
-                              .bodySmall!
-                              .copyWith(
-                                  fontSize: 12,
-                                  fontStyle: FontStyle.italic,
-                                  fontWeight: FontWeight.bold)),
+                        padding: const EdgeInsets.symmetric(vertical: 14),
+                        child: Text(footer,
+                            textAlign: TextAlign.justify,
+                            style: Theme.of(context)
+                                .textTheme
+                                .bodySmall!
+                                .copyWith(
+                                    fontSize: 12,
+                                    fontStyle: FontStyle.italic,
+                                    fontWeight: FontWeight.bold)),
                       ))
                 ]
               ],
