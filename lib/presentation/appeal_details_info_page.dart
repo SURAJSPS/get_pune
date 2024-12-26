@@ -38,7 +38,7 @@ class _AppealDetailsInfoPageState extends State<AppealDetailsInfoPage> {
                     title: (type['title'][languageId]!),
                     isSelected: selectedAppealType?["code"] == type['code'],
                     onTap: () {
-                      print(type);
+                     
                       setState(() {
                         selectedAppealType = type;
                       });

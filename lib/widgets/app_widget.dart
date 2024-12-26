@@ -12,6 +12,7 @@ class AppWidget extends StatelessWidget {
   final String? cardSubHeading;
   final List<Widget> children;
   final Function()? onPressed;
+  final String? appName;
   const AppWidget(
       {super.key,
       this.heading,
@@ -22,7 +23,8 @@ class AppWidget extends StatelessWidget {
       this.cardHeading,
       this.cardSubHeading,
       required this.children,
-      this.onPressed});
+      this.onPressed,
+      this.appName});
 
   @override
   Widget build(BuildContext context) {
@@ -41,67 +43,113 @@ class AppWidget extends StatelessWidget {
         ),
         child: SafeArea(
           child: SingleChildScrollView(
-            
             child: Padding(
-              padding: const EdgeInsets.all(20.0),
+              padding: const EdgeInsets.symmetric(horizontal: .0, vertical: 0),
               child: Center(
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Container(
-                      margin: const EdgeInsets.symmetric(vertical: 30),
+                    SizedBox(height: 20),
+                    SizedBox(
+                      height: 120,
+                      width: 120,
                       child: TweenAnimationBuilder(
                         tween: Tween<double>(begin: 0, end: 1),
                         duration: const Duration(milliseconds: 800),
                         builder: (context, double value, child) {
                           return Transform.scale(
                             scale: value,
-                            child: Container(
-                              height: 120,
-                              width: 120,
-                              decoration: BoxDecoration(
-                                color: Colors.white,
-                                borderRadius: BorderRadius.circular(12),
-                                boxShadow: [
-                                  BoxShadow(
-                                    color: Colors.blue.withOpacity(0.2),
-                                    blurRadius: 20,
-                                    spreadRadius: 5,
-                                  ),
-                                ],
-                              ),
-                              child: Center(
-                                child: Image.asset(
-                                  "assets/images/logo.png",
-                                  height: 120,
-                                  width: 120,
-                                ),
-                              ),
+                            child: Image.asset(
+                              "assets/images/logo.png",
+                              fit: BoxFit.fill,
+                              // height: 200,
+                              // width: 200,
                             ),
                           );
                         },
                       ),
                     ),
+                    SizedBox(height: 20),
 
-                    if (heading != null) ...[
+                    if (appName != null) ...[
                       ShaderMask(
                         shaderCallback: (bounds) => const LinearGradient(
-                          colors: [Colors.blue, Colors.black, Colors.purple],
+                          colors: [
+                            Color(0xFFFF9933),
+                            Color(0xFFFFFFFF),
+                            Color(0xFF138808)
+                          ],
                         ).createShader(bounds),
                         child: Text(
-                          heading!,
+                          appName!,
                           textAlign: TextAlign.center,
-                          style: const TextStyle(
-                            fontSize: 28,
+                          style: TextStyle(
+                            fontFamily: "Noto Sans",
+                            fontSize: 64,
                             fontWeight: FontWeight.bold,
                             color: Colors.white,
+                            shadows: [
+                              Shadow(
+                                offset: Offset(2.0, 2.0),
+                                blurRadius: 3.0,
+                                color: Colors.black.withOpacity(0.3),
+                              ),
+                            ],
                           ),
                         ),
                       ),
-                      const SizedBox(
-                        height: 40,
+                      RichText(
+                        textAlign: TextAlign.center,
+                        text: TextSpan(
+                          style: const TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.black,
+                          ),
+                          children: [
+                            TextSpan(
+                              text: '(',
+                              style: TextStyle(color: Colors.black),
+                            ),
+                            TextSpan(
+                              text: 'V',
+                              style: TextStyle(color: Colors.blue.shade700),
+                            ),
+                            const TextSpan(text: 'irtual '),
+                            TextSpan(
+                              text: 'I',
+                              style: TextStyle(color: Colors.purple.shade700),
+                            ),
+                            const TextSpan(text: 'nteractive '),
+                            TextSpan(
+                              text: 'D',
+                              style: TextStyle(color: Colors.red.shade700),
+                            ),
+                            const TextSpan(text: 'esk for '),
+                            TextSpan(
+                              text: 'A',
+                              style: TextStyle(color: Colors.green.shade700),
+                            ),
+                            const TextSpan(text: 'ssisting '),
+                            TextSpan(
+                              text: 'A',
+                              style: TextStyle(color: Colors.orange.shade700),
+                            ),
+                            const TextSpan(text: 'll '),
+                            TextSpan(
+                              text: 'N',
+                              style: TextStyle(color: Colors.indigo.shade700),
+                            ),
+                            const TextSpan(text: 'avigation'),
+                            TextSpan(
+                              text: ')',
+                              style: TextStyle(color: Colors.black),
+                            ),
+                          ],
+                        ),
                       ),
+                      SizedBox(height: 20),
                     ],
 
                     Container(
@@ -173,6 +221,26 @@ class AppWidget extends StatelessWidget {
                         ),
                       ),
                     ),
+                    if (heading != null) ...[
+                      SizedBox(height: 40),
+                      ShaderMask(
+                        shaderCallback: (bounds) => const LinearGradient(
+                          colors: [Colors.blue, Colors.black, Colors.purple],
+                        ).createShader(bounds),
+                        child: Text(
+                          heading!,
+                          textAlign: TextAlign.center,
+                          style: const TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        height: appName == null ? 40 : 10,
+                      ),
+                    ],
 
                     // Footer
                     const Padding(

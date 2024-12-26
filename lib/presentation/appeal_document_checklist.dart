@@ -156,7 +156,7 @@ class TimelineWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print(document["questions"]);
+   
     return Wrap(
       children: [
         ...?document["questions"].map((question) => Padding(
@@ -168,7 +168,7 @@ class TimelineWidget extends StatelessWidget {
   }
 
   Widget _buildTimeline(BuildContext context, Map<String, dynamic> question) {
-    print(question);
+  
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       mainAxisSize: MainAxisSize.min,

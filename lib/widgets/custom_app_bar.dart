@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../constants/app_translations.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String titleKey;

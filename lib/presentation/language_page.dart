@@ -21,8 +21,9 @@ class _LanguageSelectorState extends State<LanguageSelector> {
   Widget build(BuildContext context) {
     return AppWidget(
         isAppBar: false,
+        appName: "VIDHAAN",
         heading:
-            'Central Goods and Services Tax\nAppeals-II Commissionerate Pune',
+            "Central Goods and Services Tax, Appeals-II Commissionerate Pune\nकेंद्रीय वस्तु एवं सेवा कर, अपील-II आयुक्तालय, पुणे",
         subHeading: 'Choose Your Language',
         cardHeading: 'Choose Your Language',
         cardSubHeading: 'अपनी भाषा चुनें',
