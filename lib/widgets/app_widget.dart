@@ -128,8 +128,15 @@ class AppWidget extends StatelessWidget {
                             ),
                             const TextSpan(text: 'esk for '),
                             TextSpan(
-                              text: 'A',
+                              text: 'H',
                               style: TextStyle(color: Colors.green.shade700),
+                            ),
+                            const TextSpan(text: 'elping & '),
+                            TextSpan(
+                              text: 'A',
+                              style: TextStyle(
+                                  color:
+                                      const Color.fromARGB(255, 70, 56, 142)),
                             ),
                             const TextSpan(text: 'ssisting '),
                             TextSpan(
