@@ -107,53 +107,7 @@ class AppWidget extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                             color: Colors.black,
                           ),
-                          children: [
-                            TextSpan(
-                              text: '(',
-                              style: TextStyle(color: Colors.black),
-                            ),
-                            TextSpan(
-                              text: 'V',
-                              style: TextStyle(color: Colors.blue.shade700),
-                            ),
-                            const TextSpan(text: 'irtual '),
-                            TextSpan(
-                              text: 'I',
-                              style: TextStyle(color: Colors.purple.shade700),
-                            ),
-                            const TextSpan(text: 'nteractive '),
-                            TextSpan(
-                              text: 'D',
-                              style: TextStyle(color: Colors.red.shade700),
-                            ),
-                            const TextSpan(text: 'esk for '),
-                            TextSpan(
-                              text: 'H',
-                              style: TextStyle(color: Colors.green.shade700),
-                            ),
-                            const TextSpan(text: 'elping & '),
-                            TextSpan(
-                              text: 'A',
-                              style: TextStyle(
-                                  color:
-                                      const Color.fromARGB(255, 70, 56, 142)),
-                            ),
-                            const TextSpan(text: 'ssisting '),
-                            TextSpan(
-                              text: 'A',
-                              style: TextStyle(color: Colors.orange.shade700),
-                            ),
-                            const TextSpan(text: 'll '),
-                            TextSpan(
-                              text: 'N',
-                              style: TextStyle(color: Colors.indigo.shade700),
-                            ),
-                            const TextSpan(text: 'avigation'),
-                            TextSpan(
-                              text: ')',
-                              style: TextStyle(color: Colors.black),
-                            ),
-                          ],
+                          children: _buildVidhaaTextSpans(),
                         ),
                       ),
                       SizedBox(height: 20),
@@ -265,5 +219,49 @@ class AppWidget extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  List<TextSpan> _buildVidhaaTextSpans() {
+    final highlightStyle = TextStyle(
+      color: Colors.indigo.shade600.withOpacity(.9),
+      fontWeight: FontWeight.bold,
+      fontSize: 24,
+    );
+
+    final bracketStyle = TextStyle(
+      color: Colors.black,
+      fontWeight: FontWeight.bold,
+      fontSize: 24,
+    );
+
+    final Map<String, bool> text = {
+      '(': false,
+      'V': true,
+      'irtual ': false,
+      'I': true,
+      'nteractive ': false,
+      'D': true,
+      'esk for ': false,
+      'H': true,
+      'elping & ': false,
+      'A1': true,
+      'ssisting ': false,
+      'A2': true,
+      'll ': false,
+      'N': true,
+      'avigation': false,
+      ')': false,
+    };
+
+    return text.entries.map((entry) {
+      return TextSpan(
+        text: entry.key.startsWith('A') ? 'A' : entry.key,
+        style: entry.value
+            ? highlightStyle
+            : entry.key == '(' || entry.key == ')'
+                ? bracketStyle
+                : null,
+      );
+    }).toList();
   }
 }
