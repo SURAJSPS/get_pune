@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:pune_gst/presentation/appeal_details_page.dart';
 import 'package:pune_gst/presentation/appeal_document_checklist.dart';
 import 'package:pune_gst/widgets/app_widget.dart';
 import '../widgets/custom_app_bar.dart';
@@ -26,10 +24,8 @@ class _AppealDetailsInfoPageState extends State<AppealDetailsInfoPage> {
             ? () {
                 Navigator.of(context).push(MaterialPageRoute(
                     builder: (context) => AppealDocumentsChecklist(
-                          document: selectedAppealType!,
-                          subHeading: selectedAppealType!["title"][languageId],
-                          index: 0,
-                        )));
+                        document: selectedAppealType!,
+                        subHeading: selectedAppealType!["title"][languageId])));
               }
             : null,
         children: [
@@ -38,7 +34,6 @@ class _AppealDetailsInfoPageState extends State<AppealDetailsInfoPage> {
                     title: (type['title'][languageId]!),
                     isSelected: selectedAppealType?["code"] == type['code'],
                     onTap: () {
-                     
                       setState(() {
                         selectedAppealType = type;
                       });

@@ -1,4 +1,128 @@
 {
+  "jurisdiction": [
+    {
+      "code": "jurisdiction",
+      "id": "gst",
+      "subHeading": {
+        "en": "CGST PUNE-II Commissionerate",
+        "hi": "केंद्रीय वस्तु एवं सेवा कर पुणे-II आयुक्तालय"
+      },
+      "heading": {
+        "en": "Jurisdiction of GST, Service Tax and Central Excise Appeals",
+        "hi": "जीएसटी, सेवा कर और केंद्रीय आयकर अपील का क्षेत्राधिकार"
+      },
+      "data": [
+        {
+          "en": {
+            "heading": "DIVISION-I SHIVAJINAGAR",
+            "subtitle": "The area covered by PIN codes 411002,411003,411005,411011 and 411020 of Haveli Taluka of Pune District"
+          },
+          "hi": {
+            "heading": "मंडल-I शिवाजीनगर",
+            "subtitle": "पुणे जिले के हवेली तालुका के PIN कोड 411002, 411003, 411005, 411011 और 411020 द्वारा आवृत क्षेत्र"
+          }
+        },
+        {
+          "en": {
+            "heading": "DIVISION-II SWARGATE",
+            "subtitle": "The area covered by PIN codes 411009,411030 and 411042 of Haveli Taluka of Pune District."
+          },
+          "hi": {
+            "heading": "मंडल-II स्वारगेट",
+            "subtitle": "पुणे जिले के हवेली तालुका के PIN कोड 411009, 411030 और 411042 द्वारा आवृत क्षेत्र"
+          }
+        },
+        {
+          "en": {
+            "heading": "DIVISION-III DECCAN",
+            "subtitle": "The area covered by PIN codes 411004,411007 and 411016 of Haveli Taluka of Pune District"
+          },
+          "hi": {
+            "heading": "मंडल-III डेक्कन",
+            "subtitle": "पुणे जिले के हवेली तालुका के PIN कोड 411004, 411007 और 411016 द्वारा आवृत क्षेत्र"
+          }
+        },
+        {
+          "en": {
+            "heading": "DIVISION-IV KOTHRUD",
+            "subtitle": "The area covered by PIN codes 411008,411038, 411052 and 411058 of Haveli Taluka of Pune District"
+          },
+          "hi": {
+            "heading": "मंडल-IV कोथरुड",
+            "subtitle": "पुणे जिले के हवेली तालुका के PIN कोड 411008, 411038, 411052 और 411058 द्वारा आवृत क्षेत्र"
+          }
+        },
+        {
+          "en": {
+            "heading": "DIVISION-V KHADAKWASLA",
+            "subtitle": "The area covered by PIN codes 411021,411023,411024,411025,411045 and 412205 of Haveli Taluka, entire Bhor Taluka (PIN codes 412206,412213)and Velhe Taluka (PIN codes 412107, 412212 and 412213) of Pune District"
+          },
+          "hi": {
+            "heading": "मंडल-V खड़कवासला",
+            "subtitle": "पुणे जिले के हवेली तालुका के PIN कोड 411021, 411023, 411024, 411025, 411045 और 412205, तथा पूरे भोर तालुका (PIN कोड 412206, 412213) और वेल्हे तालुका (PIN कोड 412107, 412212 और 412213) द्वारा आवृत क्षेत्र"
+          }
+        },
+        {
+          "en": {
+            "heading": "DIVISION-VI HADAPSAR",
+            "subtitle": "The area covered by PIN codes 411022,411028,411040,411048,411060 and 412308 of Haveli Taluka of Pune District"
+          },
+          "hi": {
+            "heading": "मंडल-VI हड़पसर",
+            "subtitle": "पुणे जिले के हवेली तालुका के PIN कोड 411022, 411028, 411040, 411048, 411060 और 412308 द्वारा आवृत क्षेत्र"
+          }
+        },
+        {
+          "en": {
+            "heading": "DIVISION-VII KATRAJ",
+            "subtitle": "The area covered by PIN code 411037,411041,411043,411046 and 411051 of Haveli Taluka of Pune District"
+          },
+          "hi": {
+            "heading": "मंडल-VII कात्रज",
+            "subtitle": "पुणे जिले के हवेली तालुका के PIN कोड 411037, 411041, 411043, 411046 और 411051 द्वारा आवृत क्षेत्र"
+          }
+        },
+        {
+          "en": {
+            "heading": "DIVISION SOLAPUR",
+            "subtitle": "The entire area of District of Solapur having PIN codes 413001 to 413008, 413228 to 413228, 413248, 413253,413255,413101 ,413107 to 413109, 413111 to413113, 413118, 413301 to 413310, 413314, 413315, 413317, 413319, 413322, 413202,413203, 413206, 413250 to 413252, 413401 to 413404, 413406, 413409 to 413412 falling under the jurisdiction of Solapur district."
+          },
+          "hi": {
+            "heading": "मंडल सोलापुर",
+            "subtitle": "सोलापुर जिले का समस्त क्षेत्र जिसमें PIN कोड 413001 से 413008, 413228 से 413228, 413248, 413253, 413255, 413101, 413107 से 413109, 413111 से 413113, 413118, 413301 से 413310, 413314, 413315, 413317, 413319, 413322, 413202, 413203, 413206, 413250 से 413252, 413401 से 413404, 413406, 413409 से 413412 शामिल हैं"
+          }
+        },
+        {
+          "en": {
+            "heading": "DIVISION BARAMATI",
+            "subtitle": "The entire area falling under Talukas of Baramati in area of PIN codes 412102, 412103, 412204, 412304, 412306, 413102, 413104, 413110, 413115, 413116,413130 and 413133, Purandar having PIN codes 412104, 412205, 412301, 412303, 412305,412311 and 412312, Indapur having PIN codes 413103, 413106,413114, 413120, 413132 and Daund having PIN codes 412203,412214,412215,412219,413105, 413801, and 413802 (except the area falling in PIN code 412202 and 412207) of Pune District"
+          },
+          "hi": {
+            "heading": "मंडल बारामती",
+            "subtitle": "पुणे जिले के बारामती तालुका में आने वाला पूरा क्षेत्र जिसमें PIN कोड 412102, 412103, 412204, 412304, 412306, 413102, 413104, 413110, 413115, 413116, 413130 और 413133 शामिल हैं; पुरंदर तालुका जिसमें PIN कोड 412104, 412205, 412301, 412303, 412305, 412311 और 412312 हैं; इंदापुर तालुका जिसमें PIN कोड 413103, 413106, 413114, 413120, 413132 हैं; और दौंड तालुका जिसमें PIN कोड 412203, 412214, 412215, 412219, 413105, 413801 और 413802 हैं (PIN कोड 412202 और 412207 में आने वाले क्षेत्र को छोड़कर)"
+          }
+        }
+      ]
+    },
+    {
+      "code": "jurisdiction",
+      "id": "customs",
+      "heading": {
+        "en": "Jurisdiction of Customs Appeals",
+        "hi": "सीमा शुल्क अपील का क्षेत्राधिकार"
+      },
+      "data": [
+        {
+          "en": {
+            "heading": "Pune Customs Commissionerate"
+          },
+          "hi": {
+            "heading": "सीमा शुल्क आयुक्तालय पुणे"
+          }
+        }
+      ]
+    }
+  ],
   "language": [
     {
       "code": "en",

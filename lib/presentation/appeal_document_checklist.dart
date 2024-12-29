@@ -5,13 +5,9 @@ import 'package:pune_gst/widgets/custom_app_bar.dart';
 class AppealDocumentsChecklist extends StatelessWidget {
   final Map<String, dynamic> document;
   final String subHeading;
-  final int index;
 
   const AppealDocumentsChecklist(
-      {super.key,
-      required this.document,
-      required this.subHeading,
-      required this.index});
+      {super.key, required this.document, required this.subHeading});
 
   @override
   Widget build(BuildContext context) {
@@ -20,6 +16,9 @@ class AppealDocumentsChecklist extends StatelessWidget {
         isEnable: false,
         subHeading: subHeading,
         children: [
+          if (document["code"] == "jurisdiction") ...[
+            JurisdictionWidget(document: document),
+          ],
           if (document["code"] == "appeal") ...[
             AppealWidget(document: document),
           ],
@@ -33,6 +32,78 @@ class AppealDocumentsChecklist extends StatelessWidget {
             TaxAppealWidget(document: document),
           ],
         ]);
+  }
+}
+
+class JurisdictionWidget extends StatelessWidget {
+  final Map<String, dynamic> document;
+  const JurisdictionWidget({super.key, required this.document});
+
+  @override
+  Widget build(BuildContext context) {
+    return Wrap(
+      alignment: WrapAlignment.center,
+      children: [
+        if (document["subHeading"] != null) ...[
+          Padding(
+            padding: const EdgeInsets.only(bottom: 10.0),
+            child: Text(document["subHeading"][languageId],
+                textAlign: TextAlign.justify,
+                style: Theme.of(context)
+                    .textTheme
+                    .bodyLarge!
+                    .copyWith(fontSize: 20, fontWeight: FontWeight.bold)),
+          ),
+        ],
+        ...?document["data"].map((data) => _buildJurisdiction(data, context))
+      ],
+    );
+  }
+
+  _buildJurisdiction(Map<String, dynamic> data, BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 10.0),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          SizedBox(
+              width: 20,
+              child: Text("#",
+                  textAlign: TextAlign.justify,
+                  style: Theme.of(context)
+                      .textTheme
+                      .bodyLarge!
+                      .copyWith(fontSize: 18, fontWeight: FontWeight.bold))),
+          Flexible(
+              // flex: 11,
+              child: Text.rich(
+                  TextSpan(children: [
+                    TextSpan(
+                        text: data[languageId]["heading"],
+                        style: Theme.of(context).textTheme.bodySmall!.copyWith(
+                            fontSize: 18, fontWeight: FontWeight.bold)),
+                    if (data[languageId]["subtitle"] != null) ...[
+                      TextSpan(
+                          text: "\n",
+                          style:
+                              Theme.of(context).textTheme.bodySmall!.copyWith(
+                                    fontSize: 18,
+                                  )),
+                      TextSpan(
+                          text: data[languageId]["subtitle"],
+                          style:
+                              Theme.of(context).textTheme.bodySmall!.copyWith(
+                                    fontSize: 16,
+                                  ))
+                    ]
+                  ]),
+                  textAlign: TextAlign.justify,
+                  style: Theme.of(context).textTheme.bodySmall!.copyWith(
+                        fontSize: 18,
+                      ))),
+        ],
+      ),
+    );
   }
 }
 
@@ -156,7 +227,6 @@ class TimelineWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-   
     return Wrap(
       children: [
         ...?document["questions"].map((question) => Padding(
@@ -168,7 +238,6 @@ class TimelineWidget extends StatelessWidget {
   }
 
   Widget _buildTimeline(BuildContext context, Map<String, dynamic> question) {
-  
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       mainAxisSize: MainAxisSize.min,
@@ -217,61 +286,60 @@ class TaxAppealWidget extends StatelessWidget {
   }
 
   Widget _buildTaxAppeal(BuildContext context, Map<String, dynamic> question) {
-    if(question[languageId] == null) return SizedBox.shrink();
+    if (question[languageId] == null) return SizedBox.shrink();
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        Center(
-          child: Text(question[languageId]["heading"],
-              textAlign: TextAlign.justify,
-              style: Theme.of(context)
-                  .textTheme
-                  .bodySmall!
-                  .copyWith(fontWeight: FontWeight.w900, fontSize: 20)),
-        ),
-        SizedBox(height: 10),
-        if(question[languageId]["data"] != null) 
-        ...question[languageId]["data"].map((data) => Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Text(data["subheading"],
-                    textAlign: TextAlign.justify,
-                    style: Theme.of(context)
-                        .textTheme
-                        .bodySmall!
-                        .copyWith(fontWeight: FontWeight.bold, fontSize: 18)),
-                SizedBox(height: 5),
-                ...data["body"].map(
-                  (body) => Padding(
-                      padding: const EdgeInsets.symmetric(vertical: 14),
-                      child: Text(body,
-                          textAlign: TextAlign.justify,
-                          style:
-                              Theme.of(context).textTheme.bodySmall!.copyWith(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Center(
+            child: Text(question[languageId]["heading"],
+                textAlign: TextAlign.justify,
+                style: Theme.of(context)
+                    .textTheme
+                    .bodySmall!
+                    .copyWith(fontWeight: FontWeight.w900, fontSize: 20)),
+          ),
+          SizedBox(height: 10),
+          if (question[languageId]["data"] != null)
+            ...question[languageId]["data"].map((data) => Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Text(data["subheading"],
+                        textAlign: TextAlign.justify,
+                        style: Theme.of(context).textTheme.bodySmall!.copyWith(
+                            fontWeight: FontWeight.bold, fontSize: 18)),
+                    SizedBox(height: 5),
+                    ...data["body"].map(
+                      (body) => Padding(
+                          padding: const EdgeInsets.symmetric(vertical: 14),
+                          child: Text(body,
+                              textAlign: TextAlign.justify,
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .bodySmall!
+                                  .copyWith(
                                     fontSize: 16,
                                   ))),
-                ),
-                SizedBox(height: 5),
-                if (data["body_footer"] != null) ...[
-                  ...data["body_footer"].map((footer) => Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 14),
-                        child: Text(footer,
-                            textAlign: TextAlign.justify,
-                            style: Theme.of(context)
-                                .textTheme
-                                .bodySmall!
-                                .copyWith(
-                                    fontSize: 12,
-                                    fontStyle: FontStyle.italic,
-                                    fontWeight: FontWeight.bold)),
-                      ))
-                ]
-              ],
-            ))
-      ]
-    );
+                    ),
+                    SizedBox(height: 5),
+                    if (data["body_footer"] != null) ...[
+                      ...data["body_footer"].map((footer) => Padding(
+                            padding: const EdgeInsets.symmetric(vertical: 14),
+                            child: Text(footer,
+                                textAlign: TextAlign.justify,
+                                style: Theme.of(context)
+                                    .textTheme
+                                    .bodySmall!
+                                    .copyWith(
+                                        fontSize: 12,
+                                        fontStyle: FontStyle.italic,
+                                        fontWeight: FontWeight.bold)),
+                          ))
+                    ]
+                  ],
+                ))
+        ]);
   }
 }
 /*
