@@ -176,14 +176,14 @@
                   },
                   {
                     "question": {
-                      "en": "Self-Attested Copy of OIO (Order-in-Original) along with Court fee Stamp",
-                      "hi": "कोर्ट फीस स्टांप के साथ मूल आदेश की स्व-प्रमाणित प्रति"
+                      "en": "Copy of OIO (Order-in-Original)",
+                      "hi": "मूल आदेश की प्रति"
                     }
                   },
                   {
                     "question": {
-                      "en": "Self-Attested Copy of Show Cause Notice (SCN)",
-                      "hi": "कारण बताओ नोटिस की स्व-प्रमाणित प्रति"
+                      "en": "Copy of Show Cause Notice (SCN)",
+                      "hi": "कारण बताओ नोटिस की प्रति"
                     }
                   },
                   {
@@ -614,26 +614,26 @@
                 "questions": [
                   {
                     "en": {
-                      "heading": "As per Section 85 of the Finance Act, 1994, the time limit for filing a Service Tax Appeal to the Commissioner (Appeals) is 3 months from the date on which the said decision or order is communicated to the person. The Section 85 of the Finance Act, 1994 is as follows:",
+                      "heading": "As per Section 85 of the Finance Act, 1994, the time limit for filing a Service Tax Appeal to the Commissioner (Appeals) is 2 months from the date on which the said decision or order is communicated to the person. The Section 85 of the Finance Act, 1994 is as follows:",
                       "subheading": "Section 85. Appeals to the Commissioner of Central Excise (Appeals).-",
-                      "body": "(1) Any person aggrieved by any decision or order passed by a central excise officer under this Chapter may appeal to the Commissioner of Central Excise (Appeals) within three months from the date of communication of the decision or order to him."
+                      "body": "(3A) An appeal shall be presented within two months from the date of receipt of the decision or order of such adjudicating authority, made on and after the Finance Bill, 2012 receives the assent of the President, relating to service tax, interest or penalty under this Chapter"
                     },
                     "hi": {
-                      "heading": "वित्त अधिनियम, 1994 की धारा 85 के अनुसार, सेवा कर अपील दाखिल करने की समय सीमा आदेश के संप्रेषण की तारीख से 3 महीने है। वित्त अधिनियम, 1994 की धारा 85 इस प्रकार है:",
+                      "heading": "वित्त अधिनियम, 1994 की धारा 85 के अनुसार, सेवा कर अपील दाखिल करने की समय सीमा आदेश के संप्रेषण की तारीख से 2 महीने है। वित्त अधिनियम, 1994 की धारा 85 इस प्रकार है:",
                       "subheading": "धारा 85. केंद्रीय उत्पाद शुल्क आयुक्त (अपील) के समक्ष अपीलें।-",
-                      "body": "(1) इस अध्याय के तहत केंद्रीय उत्पाद शुल्क अधिकारी द्वारा पारित किसी भी निर्णय या आदेश से असंतुष्ट व्यक्ति तीन महीने के भीतर केंद्रीय उत्पाद शुल्क आयुक्त (अपील) के समक्ष अपील कर सकता है।"
+                      "body": "(3क) ऐसा निर्णय या आदेश प्राप्त होने की तारीख से दो महीने के भीतर अपील प्रस्तुत की जाएगी, जो इस अध्याय के अंतर्गत सेवा कर, ब्याज या दंड से संबंधित है, जिसे ऐसे न्यायनिर्णायक प्राधिकारी द्वारा किया गया है, जब वित्त विधेयक, 2012 को राष्ट्रपति की स्वीकृति प्राप्त हो जाती है।"
                     }
                   },
                   {
                     "en": {
                       "heading": "Delay Condonation\n\nAs per Section 85 of the Finance Act, 1994, the delay may be condoned by the Commissioner (Appeals) for a further period if sufficient cause is presented by the appellant. The Section 85 of the Finance Act, 1994 is as follows:",
                       "subheading": "Section 85. Appeals to the Commissioner of Central Excise (Appeals).-",
-                      "body": "(3) The Commissioner of Central Excise (Appeals) may, if he is satisfied that the appellant was prevented by sufficient cause from presenting the appeal within the aforesaid period of three months, allow it to be presented within a further period of three months."
+                      "body": "(3A) An appeal shall be presented within two months from the date of receipt of the decisionor order of such adjudicating authority, made on and after the Finance Bill, 2012 receives the assent of the President, relating to service tax, interest or penalty under this Chapter :\n\nProvided that the Commissioner of Central Excise (Appeals) may, if he is satisfied that the appellant was prevented by sufficient cause from presenting the appeal within the aforesaid period of two months, allow it to be presented within a further period of one month."
                     },
                     "hi": {
-                      "heading": "देरी की माफी\n\nवित्त अधिनियम, 1994 की धारा 85 के अनुसार, यदि अपीलकर्ता द्वारा पर्याप्त कारण प्रस्तुत किया जाता है तो आयुक्त (अपील) द्वारा विलंब को और अवधि के लिए माफ किया जा सकता है। वित्त अधिनियम, 1994 की धारा 85 इस प्रकार है:",
+                      "heading": "देरी की माफी\n\nवित्त अधिनियम, 1994 की धारा 85 के अनुसार, यदि अपीलकर्ता द्वारा पर्याप्त कारण प्रस्तुत किया जाता है तो आयुक्त (अपील) द्वारा विलंब को और अवधि के लिए माफ किया जा सकता है। वित्त अधिनियम, 1994 की धारा 85 इस प्रकार है",
                       "subheading": "धारा 85. केंद्रीय उत्पाद शुल्क आयुक्त (अपील) के समक्ष अपीलें।-",
-                      "body": "(3) यदि केंद्रीय उत्पाद शुल्क आयुक्त (अपील) संतुष्ट है कि अपीलकर्ता पर्याप्त कारण से तीन महीने की अवधि के भीतर अपील प्रस्तुत करने में असमर्थ था, तो वह इसे तीन महीने की और अवधि के भीतर प्रस्तुत करने की अनुमति दे सकता है।"
+                     "body": "(3क) ऐसा निर्णय या आदेश प्राप्त होने की तारीख से दो महीने के भीतर अपील प्रस्तुत की जाएगी, जो इस अध्याय के अंतर्गत सेवा कर, ब्याज या दंड से संबंधित है, जिसे ऐसे निर्णयकारी प्राधिकारी द्वारा किया गया है, जब वित्त विधेयक, 2012 को राष्ट्रपति की स्वीकृति प्राप्त हो जाती है\n\nबशर्ते कि केंद्रीय उत्पाद शुल्क (अपील) के आयुक्त, यदि वह इस बात से संतुष्ट हैं कि अपीलकर्ता पर्याप्त कारण से उक्त दो महीने की अवधि के भीतर अपील प्रस्तुत करने में असमर्थ था, तो वह इसे अतिरिक्त एक महीने की अवधि के भीतर प्रस्तुत करने की अनुमति दे सकते हैं।"
                     }
                   }
                 ]
@@ -850,12 +850,12 @@
                     "en": {
                       "heading": "Delay Condonation \n\nAs per Section 35 of the Central Excise Act, 1944, the Commissioner (Appeals) may condone the delay for a further period of 30 days if sufficient cause is presented by the appellant. The Section 35 of the Central Excise Act, 1944 is as follows:",
                       "subheading": "Section 35. Appeals to Commissioner (Appeals). -",
-                      "body": "(1) The Commissioner of Central Excise (Appeals) may, if he is satisfied that the appellant was prevented by sufficient cause from presenting the appeal within the aforesaid period of sixty days, allow it to be presented within a further period of thirty days."
+                      "body": "(1) Any person aggrieved by any decision or order passed under this Act by a Central Excise Officer, lower in rank than a 2[Principal Commissioner of Central Excise or Commissioner of Central Excise], may appeal to the 3[Commissioner of Central Excise (Appeals)] [hereafter in this Chapter referred to as the 4[Commissioner(Appeals)]] 5[within sixty days] from the date of the communication to him of such decision or order :\n\n Provided that the Commissioner (Appeals) may, if he is satisfied that the appellant was prevented by sufficient cause from presenting the appeal within the aforesaid period of sixty days, allow it to be presented within a further period of thirty days."
                     },
                     "hi": {
                       "heading": "देरी की माफी \n\nकेंद्रीय उत्पाद शुल्क अधिनियम, 1944 की धारा 35 के अनुसार, यदि अपीलकर्ता द्वारा पर्याप्त कारण प्रस्तुत किया जाता है, तो आयुक्त (अपील) विलंब को और 30 दिनों की अवधि के लिए माफ कर सकते हैं। केंद्रीय उत्पाद शुल्क अधिनियम, 1944 की धारा 35 इस प्रकार है:",
                       "subheading": "धारा 35. आयुक्त (अपील) के समक्ष अपीलें। -",
-                      "body": "(1) यदि केंद्रीय उत्पाद शुल्क आयुक्त (अपील) संतुष्ट है कि अपीलकर्ता को उपरोक्त साठ दिनों की अवधि के भीतर अपील प्रस्तुत करने से पर्याप्त कारण से रोका गया था, तो वह इसे तीस दिनों की और अवधि के भीतर प्रस्तुत करने की अनुमति दे सकता है।"
+                     "body": "(1) इस अधिनियम के तहत किसी केंद्रीय उत्पाद शुल्क अधिकारी, जो रैंक में 2[केंद्रीय उत्पाद शुल्क के प्रधान आयुक्त या केंद्रीय उत्पाद शुल्क के आयुक्त] से निम्न है, द्वारा पारित किसी भी निर्णय या आदेश से पीड़ित कोई भी व्यक्ति, ऐसे निर्णय या आदेश की सूचना मिलने की तारीख से 5[साठ दिनों के भीतर] 3[केंद्रीय उत्पाद शुल्क (अपील) के आयुक्त] [जिसे इस अध्याय में आगे 4[आयुक्त (अपील)] कहा गया है] के पास अपील कर सकता है:\n\nबशर्ते कि आयुक्त (अपील), यदि वह इस बात सेुष्ट हैं कि अपीलकर्ता पर्याप्त कारण से उक्त साठ दिनों की अवधि के भीतर अपील प्रस्तुत करने में असमर्थ था, तो वह इसे अतिरिक्त तीस दिनों की अवधि के भीतर प्रस्तुत करने की अनुमति दे सकते हैं।"
                     }
                   }
                 ]
@@ -1200,26 +1200,26 @@
                 "questions": [
                   {
                     "en": {
-                      "heading": "As per Section 128 of the Customs Act, 1962, the time limit for filing an appeal to the Commissioner (Appeals) is **60 days** from the date on which the decision or order is communicated to the person. The Section 128 of the Customs Act, 1962 is as follows:",
+                      "heading": "As per Section 128 of the Customs Act, 1962, the time limit for filing an appeal to the Commissioner (Appeals) is 60 days from the date on which the decision or order is communicated to the person. The Section 128 of the Customs Act, 1962 is as follows:",
                       "subheading": "Section 128. Appeals to Commissioner (Appeals). -",
-                      "body": "(1) Any person aggrieved by any decision or order passed under this Act by an officer of customs lower in rank than a Principal Commissioner of Customs or Commissioner of Customs may appeal to the Commissioner (Appeals) within **sixty days** from the date of the communication to him of such decision or order."
+                      "body": "(1) Any person aggrieved by any decision or order passed under this Act by an officer of customs lower in rank than a [Principal Commissioner of Customs or Commissioner of Customs] may appeal to the [Commissioner (Appeals)] [within sixty days] from the date of the communication to him of such decision or order:"
                     },
                     "hi": {
-                      "heading": "सीमा शुल्क अधिनियम, 1962 की धारा 128 के अनुसार, अपील दाखिल करने की समय सीमा निर्णय या आदेश के संप्रेषण की तारीख से **60 दिन** है। सीमा शुल्क अधिनियम, 1962 की धारा 128 इस प्रकार है:",
+                      "heading": "सीमा शुल्क अधिनियम, 1962 की धारा 128 के अनुसार, अपील दाखिल करने की समय सीमा निर्णय या आदेश के संप्रेषण की तारीख से 60 दिन है। सीमा शुल्क अधिनियम, 1962 की धारा 128 इस प्रकार है:",
                       "subheading": "धारा 128. आयुक्त (अपील) के समक्ष अपीलें। -",
-                      "body": "(1) कोई भी व्यक्ति जो इस अधिनियम के तहत एक प्रधान आयुक्त या आयुक्त से नीचे के रैंक के सीमा शुल्क अधिकारी द्वारा पारित किसी निर्णय या आदेश से पीड़ित है, वह ऐसे निर्णय या आदेश के उसे संप्रेषित होने की तारीख से **साठ दिन** के भीतर आयुक्त (अपील) के पास अपील कर सकता है।"
+                      "body": "(1) इस अधिनियम के तहत किसी ऐसे सीमा शुल्क अधिकारी द्वारा पारित किसी भी निर्णय या आदेश से पीड़ित कोई भी व्यक्ति, जो [मुख्य सीमा शुल्क आयुक्त या सीमा शुल्क आयुक्त] से रैंक में नीचे है, तो वह उस निर्णय या आदेश की सूचना मिलने की तारीख से 3 [साठ दिनों के भीतर] 1 [आयुक्त (अपील)] के पास अपील कर सकता है:"
                     }
                   },
                   {
                     "en": {
                       "heading": "Delay Condonation\n\nAs per Section 128 of the Customs Act, 1962, the Commissioner (Appeals) may condone the delay for a further period of **30 days** if sufficient cause is presented by the appellant. The Section 128 of the Customs Act, 1962 is as follows:",
                       "subheading": "Section 128. Appeals to Commissioner (Appeals). -",
-                      "body": "(1) The Commissioner (Appeals) may, if he is satisfied that the appellant was prevented by sufficient cause from presenting the appeal within the aforesaid period of **sixty days**, allow it to be presented within a further period of **thirty days**."
+                      "body": "(1) Any person aggrieved by any decision or order passed under this Act by an officer of customs lower in rank than a 2 [Principal Commissioner of Customs or Commissioner of Customs] may appeal to the [Commissioner (Appeals)] [within sixty days] from the date of the communication to him of such decision or order:\n\n Provided that the Commissioner (Appeals) may, if he is satisfied that the appellant was prevented by sufficient cause from presenting the appeal within the aforesaid period of sixty days, allow it to be presented within a further period of thirty days.]"
                     },
                     "hi": {
                       "heading": "देरी की माफी\n\nसीमा शुल्क अधिनियम, 1962 की धारा 128 के अनुसार, यदि अपीलकर्ता द्वारा पर्याप्त कारण प्रस्तुत किया जाता है, तो आयुक्त (अपील) देरी को और **30 दिनों** की अवधि तक माफ कर सकते हैं। सीमा शुल्क अधिनियम, 1962 की धारा 128 इस प्रकार है:",
                       "subheading": "धारा 128. आयुक्त (अपील) के समक्ष अपीलें। -",
-                      "body": "(1) यदि आयुक्त (अपील) संतुष्ट हैं कि अपीलकर्ता पर्याप्त कारणों से **साठ दिनों** की उक्त अवधि के भीतर अपील प्रस्तुत करने से वंचित था, तो वह इसे आगे के **तीस दिनों** की अवधि के भीतर प्रस्तुत करने की अनुमति दे सकता है।"
+                      "body": "(1) इस अधिनियम के तहत किसी ऐसे सीमा शुल्क अधिकारी द्वारा पारित किसी भी निर्णय या आदेश से पीड़ित कोई भी व्यक्ति, जो [मुख्य सीमा शुल्क आयुक्त या सीमा शुल्क आयुक्त] से रैंक में निम्न है, वह ऐसे निर्णय या आदेश की सूचना मिलने की तारीख से [साठ दिनों के भीतर] [आयुक्त (अपील)] के पास अपील कर सकता है:\n\n[बशर्ते कि आयुक्त (अपील), यदि वे इस बात से संतुष्ट हैं कि अपीलकर्ता पर्याप्त कारणों से उक्त साठ दिनों की अवधि के भीतर अपील प्रस्तुत करने में असमर्थ था, तो वे इसे अतिरिक्त तीस दिनों की अवधि के भीतर प्रस्तुत करने की अनुमति दे सकते हैं।]"
                     }
                   }
                 ]
