@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:pune_gst/core/app_util.dart';
 
 class CustomSelectionTile extends StatelessWidget {
   final String title;
 
   final bool isSelected;
   final VoidCallback onTap;
-  final double width;
+  final double? width;
 
   const CustomSelectionTile({
     super.key,
@@ -13,13 +14,13 @@ class CustomSelectionTile extends StatelessWidget {
 
     required this.isSelected,
     required this.onTap,
-    required this.width,
+     this.width,
   });
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: width,
+      width: AppUtil.isMobile()?MediaQuery.of(context).size.width:MediaQuery.of(context).size.width/2,
       child: GestureDetector(
         onTap: onTap,
         child: AnimatedContainer(

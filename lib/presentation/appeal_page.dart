@@ -15,29 +15,34 @@ class AppealPage extends StatefulWidget {
 }
 
 class _AppealPageState extends State<AppealPage> {
-  String? selectedAppealType;
-
-
+  Map<String, dynamic>? selectedAppealAuthority = {};
 
   @override
   Widget build(BuildContext context) {
     return AppWidget(
         subHeading: languageId == "hi" ? 'विकल्प चुनें' : 'Select Option',
-        onPressed: selectedAppealType != null
+        onPressed: selectedAppealAuthority != null
             ? () {
-                if (selectedAppealType != "jurisdiction") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) =>  AppealSelectionPage(
-                        appealTypes: config["dashboard"]["data"][0]
+                if (selectedAppealAuthority?["code"] != "jurisdiction") {
+                  final data = config["dashboard"]["data"].firstWhere((type) =>
+                      type['code'] == selectedAppealAuthority?["code"]);
+
+                  if (data != null) {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (context) =>
+                            AppealSelectionPage(appealTypes: data),
                       ),
-                    ),
-                  );
+                    );
+                  }
                 } else {
                   Navigator.of(context).push(MaterialPageRoute(
                     builder: (context) => JurisdictionPage(
-
-                      subHeading: config["dashboard"]["data"].firstWhere((type) => type['code'] == selectedAppealType)['title'][languageId] as String,
+                      subHeading: config["dashboard"]["data"].firstWhere(
+                              (type) =>
+                                  type['code'] ==
+                                  selectedAppealAuthority?["code"])['title']
+                          [languageId] as String,
                     ),
                   ));
                 }
@@ -46,11 +51,10 @@ class _AppealPageState extends State<AppealPage> {
         children: [
           ...config["dashboard"]["data"].map((type) => CustomSelectionTile(
                 title: type['title'][languageId] as String,
-                isSelected: selectedAppealType == type['code'],
+                isSelected: selectedAppealAuthority?["code"] == type['code'],
                 onTap: () {
-                  setState(() {
-                    selectedAppealType = type['code'] as String?;
-                  });
+                  selectedAppealAuthority = type;
+                  setState(() {});
                 },
                 width: MediaQuery.of(context).size.width / 2,
               )),

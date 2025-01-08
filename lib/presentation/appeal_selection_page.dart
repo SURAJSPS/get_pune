@@ -29,7 +29,7 @@ class _AppealSelectionPageState extends State<AppealSelectionPage> {
           ),
                 );
               }
-            : null, children: [  ...widget.appealTypes["appeal_types"].map((type) => CustomSelectionTile(
+            : null, children: [  ...widget.appealTypes[widget.appealTypes["code"]].map((type) => CustomSelectionTile(
                             title: ( type['title'][languageId] as String ),
 
                             isSelected: selectedAppealType?["code"] == type['code'],
