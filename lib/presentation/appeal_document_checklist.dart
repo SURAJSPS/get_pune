@@ -31,7 +31,76 @@ class AppealDocumentsChecklist extends StatelessWidget {
           if (document["code"] == "tax_appeal") ...[
             TaxAppealWidget(document: document),
           ],
+          if (document["type"] == "table") ...[
+            TableWidget(document: document),
+          ],
         ]);
+  }
+}
+
+class TableWidget extends StatelessWidget {
+  final Map<String, dynamic> document;
+  const TableWidget({super.key, required this.document});
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: [Colors.white, Colors.blue],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
+          image: DecorationImage(
+            image: AssetImage("assets/images/appellate.jpg"),
+            fit: BoxFit.fitWidth,
+            colorFilter: ColorFilter.mode(
+              Colors.white.withValues(alpha: 0.80),
+              BlendMode.lighten,
+            ),
+          ),
+        ),
+        child: DataTable(
+          dataTextStyle: TextStyle(
+            fontSize: 16,
+            fontWeight: FontWeight.bold,
+          ),
+          headingTextStyle: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 18,
+          ),
+          columnSpacing: 10,
+          horizontalMargin: 10,
+          border: TableBorder.all(
+            color: Colors.grey,
+            borderRadius: BorderRadius.circular(10),
+          ),
+          columns: [
+            DataColumn(label: Text(document["data"][languageId]["h3"])),
+            DataColumn(label: Text(document["data"][languageId]["h1"])),
+            DataColumn(label: Text(document["data"][languageId]["h2"])),
+          ],
+          rows: <DataRow>[
+            ...document["data"][languageId]["1h"].asMap().entries.map((e) =>
+                _buildDataRow((e.key + 1).toString(), e.value,
+                    document["data"][languageId]["2h"][e.key])),
+          ],
+        ),
+      ),
+    );
+  }
+
+  _buildDataRow(String i, String orderPassedBy, String appellateAuthority) {
+    return DataRow(cells: [
+      DataCell(Center(child: Text(i))),
+      _buildDataCell(orderPassedBy),
+      _buildDataCell(appellateAuthority)
+    ]);
+  }
+
+  _buildDataCell(String text) {
+    return DataCell(Text(text));
   }
 }
 
