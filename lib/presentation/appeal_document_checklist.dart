@@ -47,11 +47,6 @@ class TableWidget extends StatelessWidget {
     return Center(
       child: Container(
         decoration: BoxDecoration(
-          gradient: LinearGradient(
-            colors: [Colors.white, Colors.blue],
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-          ),
           image: DecorationImage(
             image: AssetImage("assets/images/appellate.jpg"),
             fit: BoxFit.fitWidth,
