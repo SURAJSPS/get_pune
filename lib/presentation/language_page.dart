@@ -68,7 +68,7 @@ class _LanguageSelectorState extends State<LanguageSelector> {
     if (!_mounted) return;
 
     try {
-      await player.play(AssetSource("audio/${languageId}.mp3"));
+      await player.play(AssetSource("audio/$languageId.mp3"));
     } catch (e) {
       debugPrint('Error playing audio: $e');
     }

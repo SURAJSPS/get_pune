@@ -220,7 +220,7 @@
                 "h3": "Sr No",
                 "1h": [
                   "All officers upto Joint Commissioner/Additional Commissioner",
-                  "All officers upto & including Joint Commissioner/Additional Commissioner",
+                  
                   "Commissioner",
                   "Commissioner (Appeals)",
                   "Tribunal",
@@ -228,7 +228,7 @@
                 ],
                 "2h": [
                   "Commissioner (Appeals)",
-                  "Revisional Authority",
+                 
                   "Tribunal",
                   "Tribunal",
                   "High Court on question of law\nSupreme Court",
@@ -241,7 +241,7 @@
                 "h3": "क्रम संख्या",
                 "1h": [
                   "संयुक्त आयुक्त/अपर आयुक्त तक के सभी अधिकारी",
-                  "संयुक्त आयुक्त/अपर आयुक्त सहित सभी अधिकारी",
+                  
                   "आयुक्त",
                   "आयुक्त (अपील)",
                   "न्यायाधिकरण",
@@ -249,7 +249,7 @@
                 ],
                 "2h": [
                   "आयुक्त (अपील)",
-                  "पुनरीक्षण प्राधिकरण",
+                  
                   "न्यायाधिकरण",
                   "न्यायाधिकरण",
                   "विधि के प्रश्न पर उच्च न्यायालय\nसर्वोच्च न्यायालय",

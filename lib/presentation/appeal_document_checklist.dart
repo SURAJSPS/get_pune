@@ -1,3 +1,5 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
+import 'package:expansion_tile_group/expansion_tile_group.dart';
 import 'package:flutter/material.dart';
 import 'package:pune_gst/widgets/app_widget.dart';
 import 'package:pune_gst/widgets/custom_app_bar.dart';
@@ -171,115 +173,228 @@ class JurisdictionWidget extends StatelessWidget {
   }
 }
 
-class FAQWidget extends StatelessWidget {
+class FAQWidget extends StatefulWidget {
   final Map<String, dynamic> document;
   const FAQWidget({super.key, required this.document});
 
   @override
-  Widget build(BuildContext context) {
-    return Wrap(
-      children: [
-        ...?document["questions"].map((question) => Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10.0),
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  _buildFAQ(
-                      context,
-                      document["leading_text"][languageId]["question"],
-                      question["question"][languageId]),
-                  SizedBox(height: 5),
-                  _buildFAQ(
-                      context,
-                      document["leading_text"][languageId]["answer"],
-                      question["answer"][languageId]),
-                ],
-              ),
-            ))
-      ],
-    );
-  }
-
-  Widget _buildFAQ(BuildContext context, String leading, String title) {
-    return Row(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        SizedBox(
-            width: 110,
-            child: Text("$leading : ",
-                textAlign: TextAlign.justify,
-                style: Theme.of(context)
-                    .textTheme
-                    .bodyLarge!
-                    .copyWith(fontSize: 18, fontWeight: FontWeight.bold))),
-        Flexible(
-            // flex: 11,
-            child: Text(title,
-                textAlign: TextAlign.justify,
-                style: Theme.of(context).textTheme.bodySmall!.copyWith(
-                      fontSize: 18,
-                    ))),
-      ],
-    );
-  }
+  State<FAQWidget> createState() => _FAQWidgetState();
 }
 
-class AppealWidget extends StatelessWidget {
+class _FAQWidgetState extends State<FAQWidget> {
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        Expanded(
+          child: Image.asset("assets/images/faq.png", fit: BoxFit.fill),
+        ),
+        Expanded(
+            child: ExpansionTileGroup(
+                spaceBetweenItem: 10,
+                toggleType: ToggleType.expandOnlyCurrent,
+                children: [
+              ...?widget.document["questions"].map((question) =>
+                  ExpansionTileItem(
+                    textColor: Colors.black,
+                    border: Border.all(
+                      color: Colors.transparent,
+                    ),
+                    title: Text(
+                      question["question"][languageId],
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.w400),
+                    ),
+                    children: [
+                      Text(
+                        question["answer"][languageId],
+                        style:
+                            TextStyle(fontSize: 16, color: Colors.blueAccent),
+                      ),
+                    ],
+                  ))
+            ])
+
+            // child: Wrap(
+            //   children: [
+            //     ...?widget.document["questions"].map((question) => Padding(
+            //           padding: const EdgeInsets.symmetric(vertical: 10.0),
+            //           child: Column(
+            //             mainAxisSize: MainAxisSize.min,
+            //             crossAxisAlignment: CrossAxisAlignment.center,
+            //             children: [
+            //               // _buildFAQ(context, question["question"][languageId],
+            //               //     question["answer"][languageId]),
+            //               // SizedBox(height: 5),
+            //               // _buildFAQ(
+            //               //     context,
+            //               //     question["question"][languageId],
+            //               //     question["answer"][languageId]),
+            //             ],
+            //           ),
+            //         ))
+            //   ],
+            // ),
+            ),
+      ],
+    );
+  }
+
+  // Widget _buildFAQ(BuildContext context, String question, String answer) {
+  //   return ExpansionTile(
+  //     dense: true,
+  //     tilePadding: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+  //     textColor: Colors.black,
+  //     backgroundColor: const Color.fromARGB(255, 251, 251, 251),
+  //     childrenPadding: EdgeInsets.symmetric(horizontal: 20),
+  //     shape: RoundedRectangleBorder(
+  //       side: BorderSide.none,
+  //     ),
+  //     title: Text(question,style: TextStyle(fontSize: 14,)),
+  //     children: [
+  //       Text(answer,
+  //           style:
+  //               Theme.of(context).textTheme.bodySmall!.copyWith(fontSize: 12)),
+  //     ],
+  //   );
+
+  // }
+}
+
+class AppealWidget extends StatefulWidget {
   final Map<String, dynamic> document;
   const AppealWidget({super.key, required this.document});
 
   @override
+  State<AppealWidget> createState() => _AppealWidgetState();
+}
+
+class _AppealWidgetState extends State<AppealWidget>
+    with TickerProviderStateMixin {
+  // Add controller map for multiple texts
+  final Map<int, AnimationController> _controllers = {};
+  final Map<int, Animation<int>> _typingAnimations = {};
+
+  @override
+  void initState() {
+    super.initState();
+    // Initialize controllers for each text item
+    widget.document["questions"].asMap().forEach((index, _) {
+      _controllers[index] = AnimationController(
+        duration: Duration(milliseconds: 2000),
+        vsync: this,
+      );
+      _typingAnimations[index] = StepTween(
+        begin: 0,
+        end: widget.document["questions"][index]["question"][languageId].length,
+      ).animate(_controllers[index]!);
+
+      // Start animation with a delay based on index
+      Future.delayed(Duration(milliseconds: 300), () {
+        _controllers[index]?.forward();
+      });
+    });
+  }
+
+  @override
+  void dispose() {
+    _controllers.values.forEach((controller) => controller.dispose());
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      mainAxisSize: MainAxisSize.min,
+    return Row(
       children: [
-        ...?document["questions"].asMap().entries.map((entry) => Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10.0),
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  _buildAppeal(context, (entry.key + 1).toString(),
-                      entry.value["question"][languageId]),
-                ],
-              ),
-            )),
-        if (document["note"] != null) ...[
-          SizedBox(height: 20),
-          Center(
-            child: Text(document["note"][languageId],
-                textAlign: TextAlign.justify,
-                style: Theme.of(context).textTheme.bodySmall!.copyWith(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                    )),
-          )
-        ]
+        Expanded(
+          child: Container(
+            child: Image.asset("assets/images/doc.png", fit: BoxFit.fitWidth),
+          ),
+        ),
+        Expanded(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              ...?widget.document["questions"].asMap().entries.map((entry) {
+                final index = entry.key;
+                final question = entry.value["question"][languageId];
+
+                return Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 10.0),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      _buildAppeal(
+                          context, (index + 1).toString(), question, index),
+                    ],
+                  ),
+                );
+              }),
+              if (widget.document["note"] != null) ...[
+                SizedBox(height: 20),
+                Center(
+                  child: AnimatedTextKit(
+                    animatedTexts: [
+                      TypewriterAnimatedText(
+                        widget.document["note"][languageId],
+                        textAlign: TextAlign.justify,
+                        textStyle:
+                            Theme.of(context).textTheme.bodySmall!.copyWith(
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                        speed: Duration(milliseconds: 50),
+                      ),
+                    ],
+                    isRepeatingAnimation: false,
+                  ),
+                )
+              ]
+            ],
+          ),
+        ),
       ],
     );
   }
 
-  Widget _buildAppeal(BuildContext context, String leading, String title) {
+  Widget _buildAppeal(
+      BuildContext context, String leading, String title, int index) {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         SizedBox(
-            width: 40,
-            child: Text("$leading :",
-                textAlign: TextAlign.justify,
-                style: Theme.of(context)
-                    .textTheme
-                    .bodyLarge!
-                    .copyWith(fontSize: 18, fontWeight: FontWeight.bold))),
+          width: 40,
+          child: Text(
+            "→",
+            textAlign: TextAlign.justify,
+            style: Theme.of(context).textTheme.bodyLarge!.copyWith(
+                  fontSize: 25,
+                  fontWeight: FontWeight.bold,
+                  height: 0,
+                ),
+          ),
+        ),
         Flexible(
-            child: Text(title,
-                textAlign: TextAlign.justify,
-                style: Theme.of(context)
-                    .textTheme
-                    .bodySmall!
-                    .copyWith(fontSize: 18))),
+          child: AnimatedBuilder(
+            animation: _typingAnimations[index]!,
+            builder: (context, child) {
+              String animatedText = title.substring(
+                0,
+                _typingAnimations[index]!.value,
+              );
+              return Text(
+                animatedText,
+                // textAlign: TextAlign.justify,
+                style: Theme.of(context).textTheme.bodySmall!.copyWith(
+                      fontSize: 18,
+                      wordSpacing: -.05,
+                    ),
+              );
+            },
+          ),
+        ),
       ],
     );
   }
@@ -413,7 +528,7 @@ class TaxAppealWidget extends StatelessWidget {
                         {
                           "subheading": "धारा 107. अपीलीय प्राधिकारी के समक्ष अपीलें।-",
                           "body": [
-                            "(1) इस अधिनियम या राज्य वस्तु एवं सेवा कर अधिनियम या केंद्र शासित प्रदेश वस्तु एवं सेवा कर अधिनियम के तहत किसी निर्णायक प्राधिकारी द्वारा पारित किसी निर्णय या आदेश से पीड़ित कोई भी व्यक्ति, उक्त निर्णय या आदेश के उसे संप्रेषित किए जाने की तारीख से तीन महीने के भीतर, ऐसे अपीलीय प्राधिकारी के पास अपील कर सकता है जैसा कि निर्धारित किया गया हो।",
+                            "(1) इस अधिनियम या राज्य वस्तु एवं सेवा कर अधिनियम या केंद्र शासित प्रदेश वस्तु एवं सेवा कर अधिनियम के तहत किसी निर्णायक प्राधिकारी द्वारा पारित किसी निर्णय या आदेश से पीड़ित कोई भ्यक्ति, उक्त निर्णय या आदेश के उसे संप्रेषित किए जाने की तारीख से तीन महीने के भीतर, ऐसे अपीलीय प्राधिकारी के पास अपील कर सकता है जैसा कि निर्धारित किया गया हो।",
                             "(2) आयुक्त स्वयं, या राज्य कर आयुक्त या केंद्र शासित प्रदेश कर आयुक्त के अनुरोध पर, किसी भी कार्यवाही के अभिलेखों को मंगा सकते हैं जिसमें किसी निर्णायक प्राधिकारी ने इस अधिनियम या राज्य वस्तु एवं सेवा कर अधिनियम या केंद्र शासित प्रदेश वस्तु एवं सेवा कर अधिनियम के तहत कोई निर्णय या आदेश पारित किया हो, ताकि वह उक्त निर्णय या आदेश की वैधता या उपयुक्तता से स्वयं को संतुष्ट कर सकें, और अपने आदेश द्वारा अपने अधीनस्थ किसी भी अधिकारी को निर्देश दे सकते हैं कि वह उक्त निर्णय या आदेश के संप्रेषण की तारीख से छह महीने के भीतर अपीलीय प्राधिकारी के पास आवेदन करे, ताकि उक्त निर्णय या आदेश से उत्पन्न ऐसे बिंदुओं का निर्धारण किया जा सके जैसा कि आयुक्त ने अपने आदेश में निर्दिष्ट किया हो।",
                             "(3) जहां, उप-धारा (2) के तहत एक आदेश के अनुपालन में, अधिकृत अधिकारी अपीलीय प्राधिकारी के पास आवेदन करता है, तो ऐसे आवेदन को अपीलीय प्राधिकारी द्वारा ऐसे माना जाएगा मानो वह निर्णायक प्राधिकारी के निर्णय या आदेश के विरुद्ध की गई अपील हो और ऐसे अधिकृत अधिकारी को अपीलकर्ता माना जाएगा और अपीलों से संबंधित इस अधिनियम के प्रावधान ऐसे आवेदन पर लागू होंगे।",
                             "(4) अपीलीय प्राधिकारी, यदि वह संतुष्ट है कि अपीलकर्ता पर्याप्त कारणों से उक्त तीन महीने या छह महीने की अवधि के भीतर अपील प्रस्तुत करने से वंचित था, तो वह इसे आगे एक महीने की अवधि के भीतर प्रस्तुत करने की अनुमति दे सकता है।",
