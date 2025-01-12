@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pune_gst/core/config/config_reader.dart';
 import 'package:pune_gst/presentation/appeal_details_page.dart';
+import 'package:pune_gst/presentation/appeal_document_checklist.dart';
 import 'package:pune_gst/presentation/appeal_selection_page.dart';
 import 'package:pune_gst/widgets/custom_app_bar.dart';
 import 'package:pune_gst/widgets/card_tile.dart';
@@ -22,12 +23,22 @@ class _AppealPageState extends State<AppealPage> {
         subHeading: languageId == "hi" ? 'विकल्प चुनें' : 'Select Option',
         onPressed: selectedAppealAuthority != null
             ? () {
+                if (selectedAppealAuthority?["code"] == "flow_chart") {
+                 
+                  return Navigator.of(context).push(MaterialPageRoute(
+                    builder: (context) => AppealDocumentsChecklist(
+                      subHeading: "Appeal Flowchart",
+                      document: selectedAppealAuthority!,
+                    ),
+                  ));
+                }
+
                 if (selectedAppealAuthority?["code"] != "jurisdiction") {
                   final data = config["dashboard"]["data"].firstWhere((type) =>
                       type['code'] == selectedAppealAuthority?["code"]);
 
                   if (data != null) {
-                    Navigator.of(context).push(
+                    return Navigator.of(context).push(
                       MaterialPageRoute(
                         builder: (context) =>
                             AppealSelectionPage(appealTypes: data),
@@ -35,7 +46,7 @@ class _AppealPageState extends State<AppealPage> {
                     );
                   }
                 } else {
-                  Navigator.of(context).push(MaterialPageRoute(
+                  return Navigator.of(context).push(MaterialPageRoute(
                     builder: (context) => JurisdictionPage(
                       subHeading: config["dashboard"]["data"].firstWhere(
                               (type) =>

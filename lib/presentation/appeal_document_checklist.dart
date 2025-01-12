@@ -1,8 +1,10 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:expansion_tile_group/expansion_tile_group.dart';
 import 'package:flutter/material.dart';
+import 'package:pune_gst/core/app_util.dart';
 import 'package:pune_gst/widgets/app_widget.dart';
 import 'package:pune_gst/widgets/custom_app_bar.dart';
+import 'package:pune_gst/widgets/pdf_widget.dart';
 
 class AppealDocumentsChecklist extends StatelessWidget {
   final Map<String, dynamic> document;
@@ -18,6 +20,11 @@ class AppealDocumentsChecklist extends StatelessWidget {
         isEnable: false,
         subHeading: subHeading,
         children: [
+
+          if (document["code"] == "flow_chart") ...[
+            Image.asset(document["data"][languageId]),
+          ],
+
           if (document["code"] == "jurisdiction") ...[
             JurisdictionWidget(document: document),
           ],
@@ -107,68 +114,77 @@ class JurisdictionWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Wrap(
-      alignment: WrapAlignment.center,
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        if (document["subHeading"] != null) ...[
-          Padding(
-            padding: const EdgeInsets.only(bottom: 10.0),
-            child: Text(document["subHeading"][languageId],
-                textAlign: TextAlign.justify,
-                style: Theme.of(context)
-                    .textTheme
-                    .bodyLarge!
-                    .copyWith(fontSize: 20, fontWeight: FontWeight.bold)),
+        Expanded(
+          child: Image.asset("assets/images/map_pune.jpg", fit: BoxFit.fill),
+        ),
+        Expanded(
+          child: Column(
+            children: [
+              if (document["subHeading"] != null) ...[
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 10.0),
+                  child: Text(document["subHeading"][languageId],
+                      textAlign: TextAlign.justify,
+                      style: Theme.of(context)
+                          .textTheme
+                          .bodyLarge!
+                          .copyWith(fontSize: 20, fontWeight: FontWeight.bold)),
+                ),
+              ],
+              ExpansionTileGroup(
+                toggleType: ToggleType.expandOnlyCurrent,
+                children: [
+                  ...?document["data"]
+                      .map((data) => _buildJurisdiction(data, context))
+                ],
+              )
+            ],
           ),
-        ],
-        ...?document["data"].map((data) => _buildJurisdiction(data, context))
-      ],
+        )
+      ], 
+    
     );
   }
 
   _buildJurisdiction(Map<String, dynamic> data, BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 10.0),
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          SizedBox(
-              width: 20,
-              child: Text("#",
-                  textAlign: TextAlign.justify,
-                  style: Theme.of(context)
-                      .textTheme
-                      .bodyLarge!
-                      .copyWith(fontSize: 18, fontWeight: FontWeight.bold))),
-          Flexible(
-              // flex: 11,
-              child: Text.rich(
-                  TextSpan(children: [
-                    TextSpan(
-                        text: data[languageId]["heading"],
-                        style: Theme.of(context).textTheme.bodySmall!.copyWith(
-                            fontSize: 18, fontWeight: FontWeight.bold)),
-                    if (data[languageId]["subtitle"] != null) ...[
-                      TextSpan(
-                          text: "\n",
-                          style:
-                              Theme.of(context).textTheme.bodySmall!.copyWith(
-                                    fontSize: 18,
-                                  )),
-                      TextSpan(
-                          text: data[languageId]["subtitle"],
-                          style:
-                              Theme.of(context).textTheme.bodySmall!.copyWith(
-                                    fontSize: 16,
-                                  ))
-                    ]
-                  ]),
-                  textAlign: TextAlign.justify,
-                  style: Theme.of(context).textTheme.bodySmall!.copyWith(
-                        fontSize: 18,
-                      ))),
-        ],
-      ),
+    return ExpansionTileItem(
+      border: Border.all(color: Colors.transparent),
+      title: Text.rich(TextSpan(children: [
+        TextSpan(
+            text: "#",
+            style: Theme.of(context).textTheme.bodySmall!.copyWith(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                )),
+        TextSpan(
+            text: data[languageId]["heading"],
+            style: Theme.of(context).textTheme.bodySmall!.copyWith(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                )),
+      ])),
+      children: [
+        Text.rich(
+            TextSpan(children: [
+              if (data[languageId]["subtitle"] != null) ...[
+               
+                TextSpan(
+                    text: data[languageId]["subtitle"],
+                    style: Theme.of(context)
+                        .textTheme
+                        .bodySmall!
+                        .copyWith(fontSize: 16, color: Colors.blueAccent))
+              ]
+            ]),
+            textAlign: TextAlign.justify,
+            style: Theme.of(context).textTheme.bodySmall!.copyWith(
+                  fontSize: 18,
+                )),
+      ],
     );
   }
 }
@@ -215,27 +231,7 @@ class _FAQWidgetState extends State<FAQWidget> {
                   ))
             ])
 
-            // child: Wrap(
-            //   children: [
-            //     ...?widget.document["questions"].map((question) => Padding(
-            //           padding: const EdgeInsets.symmetric(vertical: 10.0),
-            //           child: Column(
-            //             mainAxisSize: MainAxisSize.min,
-            //             crossAxisAlignment: CrossAxisAlignment.center,
-            //             children: [
-            //               // _buildFAQ(context, question["question"][languageId],
-            //               //     question["answer"][languageId]),
-            //               // SizedBox(height: 5),
-            //               // _buildFAQ(
-            //               //     context,
-            //               //     question["question"][languageId],
-            //               //     question["answer"][languageId]),
-            //             ],
-            //           ),
-            //         ))
-            //   ],
-            // ),
-            ),
+           ),
       ],
     );
   }
@@ -384,13 +380,37 @@ class _AppealWidgetState extends State<AppealWidget>
                 0,
                 _typingAnimations[index]!.value,
               );
-              return Text(
-                animatedText,
-                // textAlign: TextAlign.justify,
-                style: Theme.of(context).textTheme.bodySmall!.copyWith(
-                      fontSize: 18,
-                      wordSpacing: -.05,
+              return Wrap(
+                children: [
+                  Text(
+                    animatedText,
+                    // textAlign: TextAlign.justify,
+                    style: Theme.of(context).textTheme.bodySmall!.copyWith(
+                          fontSize: 18,
+                          wordSpacing: -.05,
+                        ),
+                  ),
+                  if (AppUtil.checkPdfPath(title)) ...[
+                    SizedBox(width: 10),
+                    InkWell(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) =>
+                                    PDFWidget(path: AppUtil.pdfPath(title))));
+                      },
+                      child: Text(
+                        AppUtil.pdfText(title, languageId),
+                        style: Theme.of(context).textTheme.bodySmall!.copyWith(
+                              fontSize: 12,
+                              color: Colors.blue,
+                              wordSpacing: -.05,
+                            ),
+                      ),
                     ),
+                  ]
+                ],
               );
             },
           ),
@@ -515,34 +535,53 @@ class TaxAppealWidget extends StatelessWidget {
   const TaxAppealWidget({super.key, required this.document});
 
   @override
+
   Widget build(BuildContext context) {
-    return Wrap(
-      spacing: 10,
-      runSpacing: 10,
+
+
+
+return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        ...?document["questions"].map((question) => Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10.0),
-              child: _buildTaxAppeal(context, question),
-            ))
+        Expanded(
+          child: Image.asset("assets/images/rules.jpg", fit: BoxFit.fill),
+        ),
+        Expanded(
+          child: ExpansionTileGroup(
+            toggleType: ToggleType.expandOnlyCurrent,
+            children: [
+              ...?document["questions"]
+                  .map((question) => _buildTaxAppeal(context, question))
+            ],
+          ),
+        ),
       ],
     );
+
+    // return Wrap(
+    //   spacing: 10,
+    //   runSpacing: 10,
+    //   children: [
+    //     ...?document["questions"].map((question) => Padding(
+    //           padding: const EdgeInsets.symmetric(vertical: 10.0),
+    //           child: _buildTaxAppeal(context, question),
+    //         ))
+    //   ],
+    // );
   }
 
   Widget _buildTaxAppeal(BuildContext context, Map<String, dynamic> question) {
     if (question[languageId] == null) return SizedBox.shrink();
-    return Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        mainAxisSize: MainAxisSize.min,
+    return ExpansionTileItem(
+        border: Border.all(color: Colors.transparent),
+        title: Text(question[languageId]["heading"],
+            textAlign: TextAlign.justify,
+            style: TextStyle()
+                .copyWith(fontWeight: FontWeight.w900, fontSize: 20)),
+        
         children: [
-          Center(
-            child: Text(question[languageId]["heading"],
-                textAlign: TextAlign.justify,
-                style: Theme.of(context)
-                    .textTheme
-                    .bodySmall!
-                    .copyWith(fontWeight: FontWeight.w900, fontSize: 20)),
-          ),
-          SizedBox(height: 10),
+          
           if (question[languageId]["data"] != null)
             ...question[languageId]["data"].map((data) => Column(
                   crossAxisAlignment: CrossAxisAlignment.start,

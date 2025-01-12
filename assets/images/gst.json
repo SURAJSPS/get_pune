@@ -687,7 +687,7 @@
                   {
                     "question": {
                       "en": "Form ST-04 along with Statement of facts and Grounds of Appeal",
-                      "hi": "फॉर्म ST-04 के साथ तथ्यों का विवरण (स्टेटमेंट ऑफ फैक्ट्स) और अपील के आधार।"
+                      "hi": "फॉर्म एसटी-04 के साथ तथ्यों का विवरण (स्टेटमेंट ऑफ फैक्ट्स) और अपील के आधार।"
                     }
                   },
                   {
@@ -1626,7 +1626,22 @@
             "related_sections": "Section XYZ. Appeals to Customs Authority..."
           }
         ]
-      }
+      },
+
+{
+  "code": "flow_chart",
+  "title": {
+    "en": "Appeal Flowchart",
+    "hi": "अपील प्रवाह संचित्र"
+  },
+  "data": 
+    {
+      "en": "assets/images/flow_chart_en.png",
+      "hi": "assets/images/flow_chart_hi.png"
+    }
+  
+
+}
     ]
   }
 }
