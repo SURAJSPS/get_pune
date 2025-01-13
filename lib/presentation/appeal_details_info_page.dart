@@ -13,7 +13,7 @@ class AppealDetailsInfoPage extends StatefulWidget {
 }
 
 class _AppealDetailsInfoPageState extends State<AppealDetailsInfoPage> {
-  Map<String, dynamic>? selectedAppealType = {};
+  Map<String, dynamic>? selectedAppealType;
 
   @override
   Widget build(BuildContext context) {

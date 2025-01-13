@@ -5,54 +5,6 @@ import 'package:pune_gst/widgets/app_widget.dart';
 import 'package:pune_gst/widgets/card_tile.dart';
 import 'package:pune_gst/widgets/custom_app_bar.dart';
 
-// class JurisdictionPage extends StatelessWidget {
-//   final String subHeading;
-
-//   const JurisdictionPage({super.key, required this.subHeading});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return AppWidget(isEnable: false, subHeading: subHeading, children: [
-//       Center(
-//           child: Text(
-//         "CGST Pune-II Commissionerate",
-//         style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-//       )),
-
-//       _buildSubTitle("DIVISION-I SHIVAJI NAGAR"),
-//       _buildSubTitle("DIVISION-II SWARGATE"),
-//       _buildSubTitle("DIVISION-III DECCAN"),
-//       _buildSubTitle("DIVISION-IV KOTHRUD"),
-//       _buildSubTitle("DIVISION-V KHADAKWASLA"),
-//       _buildSubTitle("DIVISION-VI HADAPSAR"),
-//       _buildSubTitle("DIVISION-VII KATRAJ"),
-//       _buildSubTitle("SOLAPUR DIVISION"),
-//       _buildSubTitle("BARAMATI DIVISION"),
-//       Center(
-//           child: Text(
-//         "&",
-//         style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-//       )),
-//       Center(
-//           child: Text(
-//         "Customs Commissionerate Pune",
-//         style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-//       )),
-//     ]);
-//   }
-
-//   Widget _buildSubTitle(String subTitle) {
-//     return Padding(
-//       padding: const EdgeInsets.all(8.0),
-//       child: Center(
-//           child: Text(
-//         subTitle,
-//         style: TextStyle(fontSize: 14),
-//       )),
-//     );
-//   }
-// }
-
 class JurisdictionPage extends StatefulWidget {
   final String subHeading;
 

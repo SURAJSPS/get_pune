@@ -15,7 +15,7 @@ class AppealPage extends StatefulWidget {
 }
 
 class _AppealPageState extends State<AppealPage> {
-  Map<String, dynamic>? selectedAppealAuthority = {};
+  Map<String, dynamic>? selectedAppealAuthority;
 
   @override
   Widget build(BuildContext context) {

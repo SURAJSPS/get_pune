@@ -15,13 +15,13 @@ class AppealSelectionPage extends StatefulWidget {
 }
 
 class _AppealSelectionPageState extends State<AppealSelectionPage> {
-  Map<String, dynamic>? selectedAppealType = {};
+  Map<String, dynamic>? selectedAppealType;
 
   @override
   Widget build(BuildContext context) {
     return AppWidget(
-        subHeading:
-            languageId == "hi" ? 'अपील प्रकार चुनें' : 'Select Appeal Type',
+        subHeading: getSubHeading(),
+        // languageId == "hi" ? 'अपील प्रकार चुनें' : 'Select Appeal Type',
         onPressed: selectedAppealType != null
             ? () {
                 if (selectedAppealType?["type"] == "table") {
@@ -55,5 +55,8 @@ class _AppealSelectionPageState extends State<AppealSelectionPage> {
                     width: MediaQuery.of(context).size.width / 2,
                   ))
         ]);
+  }
+  String getSubHeading() {
+    return widget.appealTypes["title"][languageId] as String;
   }
 }
