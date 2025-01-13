@@ -301,6 +301,8 @@ class _AppealWidgetState extends State<AppealWidget>
   @override
   Widget build(BuildContext context) {
     return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Expanded(
           child: Container(
@@ -310,6 +312,7 @@ class _AppealWidgetState extends State<AppealWidget>
         Expanded(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.start,
             mainAxisSize: MainAxisSize.min,
             children: [
               ...?widget.document["questions"].asMap().entries.map((entry) {
@@ -318,14 +321,8 @@ class _AppealWidgetState extends State<AppealWidget>
 
                 return Padding(
                   padding: const EdgeInsets.symmetric(vertical: 10.0),
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: [
-                      _buildAppeal(
-                          context, (index + 1).toString(), question, index),
-                    ],
-                  ),
+                  child: _buildAppeal(
+                      context, (index + 1).toString(), question, index),
                 );
               }),
               if (widget.document["note"] != null) ...[
@@ -359,9 +356,13 @@ class _AppealWidgetState extends State<AppealWidget>
       BuildContext context, String leading, String title, int index) {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
+      mainAxisAlignment: MainAxisAlignment.start,
+      mainAxisSize: MainAxisSize.min,
       children: [
-        SizedBox(
+        Container(
+          alignment: Alignment.topLeft,
           width: 40,
+          
           child: Text(
             "→",
             textAlign: TextAlign.justify,

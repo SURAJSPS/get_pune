@@ -14,7 +14,7 @@ class PDFWidget extends StatelessWidget {
         titleKey: 'PDF Viewer',
         showHomeButton: false,
       ),
-      body: SfPdfViewer.asset(path),
+      body: SfPdfViewer.asset(path,),
     );
   }
 }
