@@ -169,7 +169,8 @@
                 "1h": [
                   "All officers upto Assistant Commissioner/Deputy Commissioner ",
                   "Joint Commissioner/Additional Commissioner ",
-                  "All officers upto & including Joint Commissioner/Additional Commissioner",
+                  "All officers upto & including Assistant Commissioner/Deputy Commissioner",
+                  "Joint Commissioner/Additional Commissioner",
                   "Joint / Additional Commissioner (Appeals) & Commissioner (Appeals)",
                   "Tribunal",
                   "High Court"
@@ -177,9 +178,10 @@
                 "2h": [
                   "Joint/ Additional Commissioner (Appeals) (u/s 107)",
                   "Commissioner (Appeals) (u/s 107)",
-                  "Revisional Authority (u/s 108)",
+                  "Revisional Authority (ADC/JC) (u/s 108)",
+                  "Revisional Authority (Commissioner) (u/s 108)",
                   "Tribunal (to be formed) (u/s 112)",
-                  "High Court on question of law (u/s 117)\nSupreme Court (u/s 118)",
+                  "➔High Court on question of law (u/s 117)\n➔Supreme Court (u/s 118)",
                   "Supreme Court (u/s 118)"
                 ]
               },
@@ -190,7 +192,8 @@
                 "1h": [
                   "सहायक आयुक्त/उपायुक्त तक के सभी अधिकारी",
                   "संयुक्त आयुक्त/अपर आयुक्त",
-                  "संयुक्त आयुक्त/अपर आयुक्त सहित सभी अधिकारी",
+                  "सहायक आयुक्त/उपायुक्त तक के सभी अधिकारी",
+                  "संयुक्त आयुक्त/अपर आयुक्त",
                   "संयुक्त / अपर आयुक्त (अपील) और आयुक्त (अपील)",
                   "न्यायाधिकरण",
                   "उच्च न्यायालय"
@@ -198,9 +201,10 @@
                 "2h": [
                   "संयुक्त/अपर आयुक्त (अपील) (धारा 107)",
                   "आयुक्त (अपील) (धारा 107)",
-                  "पुनरीक्षण प्राधिकरण (धारा 108)",
+                  "पुनरीक्षण प्राधिकरण (संयुक्त आयुक्त/अपर आयुक्त)(धारा 108)",
+                  "पुनरीक्षण प्राधिकरण (आयुक्त)(धारा 108)",
                   "न्यायाधिकरण (गठित किया जाना है) (धारा 112)",
-                  "कानून के प्रश्न पर उच्च न्यायालय (धारा 117)\nसर्वोच्च न्यायालय (धारा 118)",
+                  "➔कानून के प्रश्न पर उच्च न्यायालय (धारा 117)\n➔सर्वोच्च न्यायालय (धारा 118)",
                   "सर्वोच्च न्यायालय (धारा 118)"
                 ]
               }
@@ -396,14 +400,14 @@
                       "hi": "जीएसटी अपील दाखिल करने के समय अपीलकर्ता को कितना प्री-डिपॉजिट देना होगा?"
                     },
                     "answer": {
-                      "en": "As per Section 107(6) of the CGST Act, 2017, 10% of the disputed amount is required to be paid as pre-deposit while filing Form GST APL-01.",
-                      "hi": "सीजीएसटी अधिनियम, 2017 की धारा 107(6) के अनुसार, फॉर्म जीएसटी-एपीएल-01 दाखिल करते समय विवादित राशि का 10% प्री-डिपॉजिट के रूप में जमा करना आवश्यक है।"
+                      "en": "As per Section 107(6) of the CGST Act, 2017, 10% of the disputed amount is required to be paid as pre-deposit while filing Form GST APL-01 for Order passed under Section 73/74 of the CGST Act, 2017. For Order passed under Section 129, the 25% of the penalty is required to be paid as pre-deposit while filing Form GST APL-01.",
+                      "hi": "सीजीएसटी अधिनियम, 2017 की धारा 107(6) के अनुसार, सीजीएसटी अधिनियम, 2017 की धारा 73/74 के तहत पारित आदेश के लिए फॉर्म जीएसटी एपीएल-01 दाखिल करते समय विवादित राशि का 10% पूर्व जमा के रूप में भुगतान करना आवश्यक है। धारा 129 के तहत पारित आदेश के लिए, फॉर्म जीएसटी एपीएल-01 दाखिल करते समय जुर्माने का 25% पूर्व-जमा के रूप में भुगतान करना आवश्यक है।"
                     }
                   },
                   {
                     "question": {
-                      "en": "There is only Interest and Penalty is demanded in the Order. Does the appellant require to pay the pre-deposit while filing Form GST APL-01?",
-                      "hi": "आदेश में केवल ब्याज और दंड अदा किया जाता है। क्या अपीलकर्ता फॉर्म जीएसटी-एपीएल-01 दाखिल करते समय प्री-डिपॉजिट देना होगा?"
+                      "en": "There is only Interest and Penalty is demanded in the Order passed under Section 73/74 of the CGST Act, 2017. Does the appellant require to pay the pre-deposit while filing Form GST APL-01?",
+                      "hi": "सीजीएसटी अधिनियम, 2017 की धारा 73/74 के तहत पारित आदेश में केवल ब्याज और जुर्माने की मांग की गई है। क्या अपीलकर्ता को फॉर्म जीएसटी एपीएल-01 दाखिल करते समय पूर्व-जमा का भुगतान करने की आवश्यकता है?"
                     },
                     "answer": {
                       "en": "No. The pre-deposit is not required to be paid by the appellant in case where the tax has been fully paid and only interest and penalty is under dispute.",
@@ -1424,7 +1428,7 @@
                  
                   {
                     "en": {
-                      "heading": "Customs (Appeals) Rules, 1982.",
+                      "heading": "Customs (Appeals) Rules, 1982",
                       "data": [
                         {
                           "subheading": "Rule 3. Form of appeal to 1[Commissioner] (Appeals). -",

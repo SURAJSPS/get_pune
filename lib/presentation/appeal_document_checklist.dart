@@ -207,16 +207,25 @@ class _FAQWidgetState extends State<FAQWidget> {
         ),
         Expanded(
             child: ExpansionTileGroup(
+
                 spaceBetweenItem: 10,
                 toggleType: ToggleType.expandOnlyCurrent,
                 children: [
               ...?widget.document["questions"].map((question) =>
                   ExpansionTileItem(
+                    expandedAlignment: Alignment.topLeft,
+                    childrenPadding: EdgeInsets.only(left: 55),
+                    leading: Text(
+                      "→",
+                      style:
+                          TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+                    ),
                     textColor: Colors.black,
                     border: Border.all(
                       color: Colors.transparent,
                     ),
                     title: Text(
+                      textAlign: TextAlign.justify,
                       question["question"][languageId],
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.w400),
@@ -439,11 +448,13 @@ class TimelineWidget extends StatelessWidget {
         Expanded(
           child: Center(
             child: ExpansionTileGroup(
-              
+
                 spaceBetweenItem: 10,
+                
                 toggleType: ToggleType.expandOnlyCurrent,
                 children: [
                   ...?document["questions"].map((question) => ExpansionTileItem(
+                        childrenPadding: EdgeInsets.only(left: 55),
                     leading: Text(
                           "→",
                           style: TextStyle(
@@ -491,7 +502,10 @@ class TimelineWidget extends StatelessWidget {
                                               ),
                                             ));
                                   },
-                                  child: Text("Read More...",
+                                  child: Text(
+                                      languageId == "hi"
+                                          ? "अधिक पढ़ें..."
+                                          : "Read More...",
                                       style: TextStyle(
                                           fontSize: 12,
                                           fontWeight: FontWeight.bold,

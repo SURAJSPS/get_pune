@@ -34,6 +34,7 @@ class _LanguageSelectorState extends State<LanguageSelector> {
   @override
   Widget build(BuildContext context) {
     return AppWidget(
+        showDisclaimer: true,
         isAppBar: false,
         appName: "VIDHAAN",
         heading:

@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:pune_gst/widgets/custom_app_bar.dart';
 import 'package:pune_gst/widgets/custom_button.dart';
+import 'package:marquee/marquee.dart';
 
 class AppWidget extends StatelessWidget {
+  final bool showDisclaimer;
   final String? heading;
   final bool? isAppBar;
   final bool? isFullWidth;
@@ -19,6 +21,7 @@ class AppWidget extends StatelessWidget {
       this.isAppBar = true,
       this.isEnable = true,
       this.isFullWidth = false,
+      this.showDisclaimer = false,
       required this.subHeading,
       this.cardHeading,
       this.cardSubHeading,
@@ -202,15 +205,38 @@ class AppWidget extends StatelessWidget {
                         height: appName == null ? 40 : 10,
                       ),
                     ],
-
-                    // Footer
-                    const Padding(
-                      padding: EdgeInsets.all(20.0),
-                      child: Text(
-                        '©2024 Your Company Name. All rights reserved.',
+                    if (showDisclaimer == true) ...[
+                      Padding(
+                        padding: EdgeInsets.all(10.0),
+                        child: Container(
+                          height: 30,
+                          child: Marquee(
+                            text: languageId == "hi"
+                                ? 'अस्वीकरण: यह पोर्टल केवल सूचनात्मक उद्देश्यों के लिए है। विवरण के लिए कृपया संबंधित अधिनियम और नियम देखें।'
+                                : 'Disclaimer: This portal is for information purposes only. Please refer to the relevant Act and Rules for details.',
+                            style: TextStyle(color: Colors.red, fontSize: 16),
+                            scrollAxis: Axis.horizontal,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            blankSpace: 50.0,
+                            velocity: 50.0,
+                            pauseAfterRound: Duration(seconds: 1),
+                            startPadding: 10.0,
+                            accelerationDuration: Duration(seconds: 1),
+                            accelerationCurve: Curves.linear,
+                            decelerationDuration: Duration(milliseconds: 500),
+                            decelerationCurve: Curves.easeOut,
+                          ),
+                        ),
+                      ),
+                      Text(
+                        'Conceptualize by - Shri Dinesh Bhoyar (Commissioner), Guided By - Shri Rahul Gawande (Additional Commissioner),\n Designed & Developed By - Shri Pramod Kumar Kushwaha (Superintendent)',
+                        textAlign: TextAlign.center,
                         style: TextStyle(color: Colors.grey),
                       ),
-                    ),
+                    ],
+                    
+                   
+                   
                   ],
                 ),
               ),
