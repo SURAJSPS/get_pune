@@ -439,10 +439,16 @@ class TimelineWidget extends StatelessWidget {
         Expanded(
           child: Center(
             child: ExpansionTileGroup(
+              
                 spaceBetweenItem: 10,
                 toggleType: ToggleType.expandOnlyCurrent,
                 children: [
                   ...?document["questions"].map((question) => ExpansionTileItem(
+                    leading: Text(
+                          "→",
+                          style: TextStyle(
+                              fontSize: 22, fontWeight: FontWeight.bold),
+                        ),
                         expandedAlignment: Alignment.centerLeft,
                         textColor: Colors.black,
                         border: Border.all(
@@ -575,6 +581,7 @@ return Row(
   Widget _buildTaxAppeal(BuildContext context, Map<String, dynamic> question) {
     if (question[languageId] == null) return SizedBox.shrink();
     return ExpansionTileItem(
+      leading: Text("→",style: TextStyle(fontSize: 22,fontWeight: FontWeight.bold),),
         border: Border.all(color: Colors.transparent),
         title: Text(question[languageId]["heading"],
             textAlign: TextAlign.justify,
