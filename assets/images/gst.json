@@ -1524,11 +1524,32 @@
     "en": "Appeal Flowchart",
     "hi": "अपील प्रवाह संचित्र"
   },
-  "data": 
+  "flow_chart": [
     {
-      "en": "assets/images/flow_chart_en.png",
-      "hi": "assets/images/flow_chart_hi.png"
+      "code": "flow_chart_gst",
+      "type": "flow_chart",
+      "title": {
+        "en": "GST Appeal Flowchart",
+        "hi": "जीएसटी अपील प्रवाह संचित्र"
+      },
+      "data": {
+        "en": "assets/images/flow_chart_en.png",
+        "hi": "assets/images/flow_chart_hi.png"
+      }
+    },
+    {
+      "code": "flow_chart_service_tax",
+      "type": "flow_chart",
+      "title": {
+        "en": "Service Tax, Central Excise and Customs Appeal Flowchart",
+        "hi": "सेवा कर, केंद्रीय उत्पादन और सीमा शुल्क अपील प्रवाह संचित्र"
+      },
+      "data": {
+        "en": "assets/images/Flowchart_Legacy_En.png",
+        "hi": "assets/images/Flowchart_Legacy_Hi.png"
+      }
     }
+  ]
   
 
 }

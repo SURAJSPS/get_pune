@@ -21,7 +21,7 @@ class AppealDocumentsChecklist extends StatelessWidget {
         subHeading: subHeading,
         children: [
 
-          if (document["code"] == "flow_chart") ...[
+          if (document["type"] == "flow_chart") ...[
             Image.asset(document["data"][languageId]),
           ],
 

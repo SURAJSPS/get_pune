@@ -24,6 +24,20 @@ class _AppealSelectionPageState extends State<AppealSelectionPage> {
         // languageId == "hi" ? 'अपील प्रकार चुनें' : 'Select Appeal Type',
         onPressed: selectedAppealType != null
             ? () {
+
+
+
+                if (selectedAppealType?["type"] == "flow_chart") {
+
+                  return Navigator.of(context).push(MaterialPageRoute(
+                    builder: (context) => AppealDocumentsChecklist(
+                      subHeading: selectedAppealType!["title"][languageId] as String,
+                      document: selectedAppealType!,
+                    ),
+                  ));
+                }
+
+
                 if (selectedAppealType?["type"] == "table") {
                   return Navigator.of(context).push(MaterialPageRoute(
                       builder: (context) => AppealDocumentsChecklist(
