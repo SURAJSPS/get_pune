@@ -364,24 +364,25 @@ class _AppealWidgetState extends State<AppealWidget>
   Widget _buildAppeal(
       BuildContext context, String leading, String title, int index) {
     return Row(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      mainAxisAlignment: MainAxisAlignment.start,
-      mainAxisSize: MainAxisSize.min,
+      // crossAxisAlignment: CrossAxisAlignment.start,
+      // mainAxisAlignment: MainAxisAlignment.start,
+      // mainAxisSize: MainAxisSize.min,
       children: [
-        Container(
-          alignment: Alignment.topLeft,
-          width: 40,
+        // Container(
+        //   alignment: Alignment.topLeft,
+        //   width: 40,
+        //   height: 30,
           
-          child: Text(
-            "→",
-            textAlign: TextAlign.justify,
-            style: Theme.of(context).textTheme.bodyLarge!.copyWith(
-                  fontSize: 25,
-                  fontWeight: FontWeight.bold,
-                  height: 0,
-                ),
-          ),
-        ),
+        //   child: Text(
+        //     "→",
+        //     textAlign: TextAlign.justify,
+        //     style: Theme.of(context).textTheme.bodyLarge!.copyWith(
+        //           fontSize: 25,
+        //           fontWeight: FontWeight.bold,
+        //           height: 0,
+        //         ),
+        //   ),
+        // ),
         Flexible(
           child: AnimatedBuilder(
             animation: _typingAnimations[index]!,
@@ -390,10 +391,13 @@ class _AppealWidgetState extends State<AppealWidget>
                 0,
                 _typingAnimations[index]!.value,
               );
-              return Wrap(
+              return Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.start,
+                mainAxisSize: MainAxisSize.min,
                 children: [
                   Text(
-                    animatedText,
+                    "→ $animatedText",
                     // textAlign: TextAlign.justify,
                     style: Theme.of(context).textTheme.bodySmall!.copyWith(
                           fontSize: 18,
@@ -402,21 +406,25 @@ class _AppealWidgetState extends State<AppealWidget>
                   ),
                   if (AppUtil.checkPdfPath(title)) ...[
                     SizedBox(width: 10),
-                    InkWell(
-                      onTap: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) =>
-                                    PDFWidget(path: AppUtil.pdfPath(title))));
-                      },
-                      child: Text(
-                        AppUtil.pdfText(title, languageId),
-                        style: Theme.of(context).textTheme.bodySmall!.copyWith(
-                              fontSize: 12,
-                              color: Colors.blue,
-                              wordSpacing: -.05,
-                            ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 22.0),
+                      child: InkWell(
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) =>
+                                      PDFWidget(path: AppUtil.pdfPath(title))));
+                        },
+                        child: Text(
+                          AppUtil.pdfText(title, languageId),
+                          style:
+                              Theme.of(context).textTheme.bodySmall!.copyWith(
+                                    fontSize: 12,
+                                    color: Colors.blue,
+                                    wordSpacing: -.05,
+                                  ),
+                        ),
                       ),
                     ),
                   ]
