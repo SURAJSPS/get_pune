@@ -208,7 +208,7 @@ class AppWidget extends StatelessWidget {
                     if (showDisclaimer == true) ...[
                       SizedBox(height: 40),
                       Text(
-                        'Conceptualize by - Shri Dinesh Bhoyar (Commissioner), Guided By - Shri Rahul Gawande (Additional Commissioner),\n Designed & Developed By - Shri Pramod Kumar Kushwaha (Superintendent)',
+                        'Conceptualized & Guided by - Shri Dinesh Bhoyar (Commissioner) & Shri Rahul Gawande (Additional Commissioner),\n Designed & Developed By - Shri Pramod Kumar Kushwaha (Superintendent)',
                         textAlign: TextAlign.center,
                         style: TextStyle(color: Colors.grey),
                       ),
