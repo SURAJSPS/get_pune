@@ -206,6 +206,13 @@ class AppWidget extends StatelessWidget {
                       ),
                     ],
                     if (showDisclaimer == true) ...[
+                      SizedBox(height: 40),
+                      Text(
+                        'Conceptualize by - Shri Dinesh Bhoyar (Commissioner), Guided By - Shri Rahul Gawande (Additional Commissioner),\n Designed & Developed By - Shri Pramod Kumar Kushwaha (Superintendent)',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(color: Colors.grey),
+                      ),
+                      SizedBox(height: 10),
                       Padding(
                         padding: EdgeInsets.all(10.0),
                         child: Container(
@@ -228,11 +235,8 @@ class AppWidget extends StatelessWidget {
                           ),
                         ),
                       ),
-                      Text(
-                        'Conceptualize by - Shri Dinesh Bhoyar (Commissioner), Guided By - Shri Rahul Gawande (Additional Commissioner),\n Designed & Developed By - Shri Pramod Kumar Kushwaha (Superintendent)',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(color: Colors.grey),
-                      ),
+                      
+                    
                     ],
                     
                    
