@@ -23,15 +23,15 @@ class _AppealPageState extends State<AppealPage> {
         subHeading: languageId == "hi" ? 'विकल्प चुनें' : 'Select Option',
         onPressed: selectedAppealAuthority != null
             ? () {
-                // if (selectedAppealAuthority?["code"] == "flow_chart") {
+                if (selectedAppealAuthority?["code"] == "important_links") {
                  
-                //   return Navigator.of(context).push(MaterialPageRoute(
-                //     builder: (context) => AppealDocumentsChecklist(
-                //       subHeading: "Appeal Flowchart",
-                //       document: selectedAppealAuthority!,
-                //     ),
-                //   ));
-                // }
+                  return Navigator.of(context).push(MaterialPageRoute(
+                    builder: (context) => AppealDocumentsChecklist(
+                      subHeading: selectedAppealAuthority!["title"][languageId] as String,
+                      document: selectedAppealAuthority!,
+                    ),
+                  ));
+                }
 
                 if (selectedAppealAuthority?["code"] != "jurisdiction") {
                   final data = config["dashboard"]["data"].firstWhere((type) =>

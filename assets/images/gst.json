@@ -1550,8 +1550,17 @@
       }
     }
   ]
-  
-
+},{
+  "code": "important_links",
+  "type": "flow_chart",
+  "title": {
+    "en": "Important Links",
+    "hi": "महत्वपूर्ण लिंक"
+  },
+  "data": {
+    "en": "assets/images/QR_en.png",
+    "hi": "assets/images/QR_hi.png"
+  }
 }
     ]
   }
