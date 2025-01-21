@@ -119,18 +119,22 @@
         
         {
           "en": {
-            "heading": "CGST PUNE-I Commissionerate"
+            "heading": "CGST PUNE-I Commissionerate",
+            "subtitle":"Appeals filed by the taxpayer and the department against the appealable quasi-judicial orders passed by the jurisdictional officer of this commissionerate."
           },
           "hi": {
-            "heading": "केंद्रीय वस्तु एवं सेवा कर, पुणे-I आयुक्तालय"
+            "heading": "केंद्रीय वस्तु एवं सेवा कर, पुणे-I आयुक्तालय",
+            "subtitle":"इस आयुक्तालय के क्षेत्राधिकार अधिकारी द्वारा पारित अपील योग्य अर्ध-न्यायिक आदेशों के खिलाफ करदाता और विभाग द्वारा दायर अपील।"
           }
         },
         {
           "en": {
-            "heading": "CGST KOLHAPUR Commissionerate"
+            "heading": "CGST KOLHAPUR Commissionerate",
+            "subtitle": "Appeals filed by the taxpayer and the department against the appealable quasi-judicial orders passed by the jurisdictional officer of this commissionerate."
           },
           "hi": {
-            "heading": "केंद्रीय वस्तु एवं सेवा कर, कोल्हापुर आयुक्तालय"
+            "heading": "केंद्रीय वस्तु एवं सेवा कर, कोल्हापुर आयुक्तालय",
+            "subtitle": "इस आयुक्तालय के क्षेत्राधिकार अधिकारी द्वारा पारित अपील योग्य अर्ध-न्यायिक आदेशों के खिलाफ करदाता और विभाग द्वारा दायर अपील।"
           }
         }
       ]
@@ -145,18 +149,22 @@
       "data": [
         {
           "en": {
-            "heading": "CGST GOA Commissionerate"
+            "heading": "CGST GOA Commissionerate",
+            "subtitle": "Appeals filed by the taxpayer and the department against the appealable quasi-judicial orders passed by the jurisdictional officer of this commissionerate."
           },
           "hi": {
-            "heading": "केंद्रीय वस्तु एवं सेवा कर, गोवा आयुक्तालय"
+            "heading": "केंद्रीय वस्तु एवं सेवा कर, गोवा आयुक्तालय",
+            "subtitle": "इस आयुक्तालय के क्षेत्राधिकार अधिकारी द्वारा पारित अपील योग्य अर्ध-न्यायिक आदेशों के खिलाफ करदाता और विभाग द्वारा दायर अपील।"
           }
         },
         {
           "en": {
-            "heading": "GOA Customs Commissionerate"
+            "heading": "GOA Customs Commissionerate",
+            "subtitle": "Appeals filed by the taxpayer and the department against the appealable quasi-judicial orders passed by the jurisdictional officer of this commissionerate."
           },
           "hi": {
-            "heading": "गोवा सीमा शुल्क आयुक्तालय"
+            "heading": "गोवा सीमा शुल्क आयुक्तालय",
+            "subtitle": "इस आयुक्तालय के क्षेत्राधिकार अधिकारी द्वारा पारित अपील योग्य अर्ध-न्यायिक आदेशों के खिलाफ करदाता और विभाग द्वारा दायर अपील।"
           }
         }
       ]
@@ -211,7 +219,7 @@
                   "All officers upto & including Assistant Commissioner/Deputy Commissioner",
                   "Joint Commissioner/Additional Commissioner",
                   "Joint / Additional Commissioner (Appeals) & Commissioner (Appeals)",
-                  "Tribunal",
+                  "GSTAT (Goods and Services Tax Appellate Tribunal)",
                   "High Court"
                 ],
                 "2h": [
@@ -219,7 +227,7 @@
                   "Commissioner (Appeals) (u/s 107)",
                   "Revisional Authority (ADC/JC) (u/s 108)",
                   "Revisional Authority (Commissioner) (u/s 108)",
-                  "Tribunal (to be formed) (u/s 112)",
+                  "GSTAT (Goods and Services Tax Appellate Tribunal) (u/s 112)",
                   "➔High Court on question of law (u/s 117)\n➔Supreme Court (u/s 118)",
                   "Supreme Court (u/s 118)"
                 ]
@@ -234,7 +242,7 @@
                   "सहायक आयुक्त/उपायुक्त तक के सभी अधिकारी",
                   "संयुक्त आयुक्त/अपर आयुक्त",
                   "संयुक्त / अपर आयुक्त (अपील) और आयुक्त (अपील)",
-                  "न्यायाधिकरण",
+                  "वस्तु एवं सेवा कर अपीलीय न्यायाधिकरण",
                   "उच्च न्यायालय"
                 ],
                 "2h": [
@@ -242,7 +250,7 @@
                   "आयुक्त (अपील) (धारा 107)",
                   "पुनरीक्षण प्राधिकरण (संयुक्त आयुक्त/अपर आयुक्त)(धारा 108)",
                   "पुनरीक्षण प्राधिकरण (आयुक्त)(धारा 108)",
-                  "न्यायाधिकरण (गठित किया जाना है) (धारा 112)",
+                  "वस्तु एवं सेवा कर अपीलीय न्यायाधिकरण (धारा 112)",
                   "➔कानून के प्रश्न पर उच्च न्यायालय (धारा 117)\n➔सर्वोच्च न्यायालय (धारा 118)",
                   "सर्वोच्च न्यायालय (धारा 118)"
                 ]
@@ -265,13 +273,13 @@
                   "All officers upto Joint Commissioner/Additional Commissioner",
                   "Commissioner",
                   "Commissioner (Appeals)",
-                  "Tribunal",
+                  "CESTAT (Customs, Excise and Service Tax Appellate Tribunal)",
                   "High Court"
                 ],
                 "2h": [
                   "Commissioner (Appeals)",
-                  "Tribunal",
-                  "Tribunal",
+                  "CESTAT (Customs, Excise and Service Tax Appellate Tribunal)",
+                  "CESTAT (Customs, Excise and Service Tax Appellate Tribunal)",
                   "➔High Court on question of law\n➔Supreme Court",
                   "Supreme Court"
                 ]
@@ -284,13 +292,13 @@
                   "संयुक्त आयुक्त/अपर आयुक्त तक के सभी अधिकारी",
                   "आयुक्त",
                   "आयुक्त (अपील)",
-                  "न्यायाधिकरण",
+                  "सीमा शुल्क, उत्पाद शुल्क और सेवा कर अपीलीय न्यायाधिकरण",
                   "उच्च न्यायालय"
                 ],
                 "2h": [
                   "आयुक्त (अपील)",
-                  "न्यायाधिकरण",
-                  "न्यायाधिकरण",
+                  "सीमा शुल्क, उत्पाद शुल्क और सेवा कर अपीलीय न्यायाधिकरण",
+                  "सीमा शुल्क, उत्पाद शुल्क और सेवा कर अपीलीय न्यायाधिकरण",
                   "➔विधि के प्रश्न पर उच्च न्यायालय\n➔सर्वोच्च न्यायालय",
                   "सर्वोच्च न्यायालय"
                 ]
