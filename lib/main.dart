@@ -32,5 +32,15 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const LanguageSelector();
   }
+
+
+  crateUser({required String name,int age=0}){
+
+  }
+
+
 }
+
+
+
 

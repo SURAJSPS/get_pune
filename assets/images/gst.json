@@ -8,8 +8,12 @@
         "hi": "केंद्रीय वस्तु एवं सेवा कर पुणे-II आयुक्तालय"
       },
       "heading": {
-        "en": "Jurisdiction of GST, Service Tax and Central Excise Appeals",
-        "hi": "जीएसटी, सेवा कर और केंद्रीय आयकर अपील का क्षेत्राधिकार"
+        "en": "Jurisdiction of CGST Appeals-II Commissionerate Pune",
+        "hi": "केंद्रीय वस्तु एवं सेवा कर, अपील्स-II आयुक्तालय पुणे का क्षेत्राधिकार"
+      },
+      "footer": {
+        "en": "Pune Customs Commissionerate",
+        "hi": "सीमा शुल्क आयुक्तालय पुणे"
       },
       "data": [
         {
@@ -108,16 +112,51 @@
       "code": "jurisdiction",
       "id": "customs",
       "heading": {
-        "en": "Jurisdiction of Customs Appeals",
-        "hi": "सीमा शुल्क अपील का क्षेत्राधिकार"
+        "en": "Jurisdiction of CGST Appeals-I Commissionerate Pune",
+        "hi": "केंद्रीय वस्तु एवं सेवा कर, अपील्स-I आयुक्तालय पुणे का क्षेत्राधिकार"
+      },
+      "data": [
+        
+        {
+          "en": {
+            "heading": "CGST PUNE-I Commissionerate"
+          },
+          "hi": {
+            "heading": "केंद्रीय वस्तु एवं सेवा कर, पुणे-I आयुक्तालय"
+          }
+        },
+        {
+          "en": {
+            "heading": "CGST KOLHAPUR Commissionerate"
+          },
+          "hi": {
+            "heading": "केंद्रीय वस्तु एवं सेवा कर, कोल्हापुर आयुक्तालय"
+          }
+        }
+      ]
+    },
+    {
+      "code": "jurisdiction",
+      "id": "goa",
+      "heading": {
+        "en": "Jurisdiction of CGST GOA Appeals Commissionerate",
+        "hi": "केंद्रीय वस्तु एवं सेवा कर, गोवा अपील्स आयुक्तालय का क्षेत्राधिकार"
       },
       "data": [
         {
           "en": {
-            "heading": "Pune Customs Commissionerate"
+            "heading": "CGST GOA Commissionerate"
           },
           "hi": {
-            "heading": "सीमा शुल्क आयुक्तालय पुणे"
+            "heading": "केंद्रीय वस्तु एवं सेवा कर, गोवा आयुक्तालय"
+          }
+        },
+        {
+          "en": {
+            "heading": "GOA Customs Commissionerate"
+          },
+          "hi": {
+            "heading": "गोवा सीमा शुल्क आयुक्तालय"
           }
         }
       ]
@@ -224,7 +263,6 @@
                 "h3": "Sr No",
                 "1h": [
                   "All officers upto Joint Commissioner/Additional Commissioner",
-                  
                   "Commissioner",
                   "Commissioner (Appeals)",
                   "Tribunal",
@@ -232,7 +270,6 @@
                 ],
                 "2h": [
                   "Commissioner (Appeals)",
-                 
                   "Tribunal",
                   "Tribunal",
                   "➔High Court on question of law\n➔Supreme Court",
@@ -245,7 +282,6 @@
                 "h3": "क्रम संख्या",
                 "1h": [
                   "संयुक्त आयुक्त/अपर आयुक्त तक के सभी अधिकारी",
-                  
                   "आयुक्त",
                   "आयुक्त (अपील)",
                   "न्यायाधिकरण",
@@ -253,7 +289,6 @@
                 ],
                 "2h": [
                   "आयुक्त (अपील)",
-                  
                   "न्यायाधिकरण",
                   "न्यायाधिकरण",
                   "➔विधि के प्रश्न पर उच्च न्यायालय\n➔सर्वोच्च न्यायालय",
@@ -296,7 +331,6 @@
                   "en": "Time Limit for Filing GST Appeal",
                   "hi": "जीएसटी अपील दाखिल करने की समय सीमा"
                 },
-
                 "questions": [
                   {
                     "en": {
@@ -595,8 +629,6 @@
                       ]
                     }
                   }
-                 
-                 
                 ]
               }
             ],
@@ -638,7 +670,6 @@
                   },
                   {
                     "en": {
-                      
                       "question": "Delay Condonation ?",
                       "answer": "Further 1 month if sufficient cause is presented.",
                       "heading": "Delay Condonation\n\nAs per Section 85 of the Finance Act, 1994, the delay may be condoned by the Commissioner (Appeals) for a further period of 1 month if sufficient cause is presented by the appellant. The Section 85 of the Finance Act, 1994 is as follows:",
@@ -1064,7 +1095,6 @@
                       ]
                     }
                   },
-                 
                   {
                     "en": {
                       "heading": "Central Excise (Appeals) Rules, 2001",
@@ -1143,8 +1173,6 @@
                       ]
                     }
                   }
-                  
-                 
                 ]
               }
             ],
@@ -1425,7 +1453,6 @@
                       ]
                     }
                   },
-                 
                   {
                     "en": {
                       "heading": "Customs (Appeals) Rules, 1982",
@@ -1517,51 +1544,51 @@
           }
         ]
       },
-
-{
-  "code": "flow_chart",
-  "title": {
-    "en": "Appeal Flowchart",
-    "hi": "अपील प्रवाह संचित्र"
-  },
-  "flow_chart": [
-    {
-      "code": "flow_chart_gst",
-      "type": "flow_chart",
-      "title": {
-        "en": "GST Appeal Flowchart",
-        "hi": "जीएसटी अपील प्रवाह संचित्र"
+      {
+        "code": "flow_chart",
+        "title": {
+          "en": "Appeal Flowchart",
+          "hi": "अपील प्रवाह संचित्र"
+        },
+        "flow_chart": [
+          {
+            "code": "flow_chart_gst",
+            "type": "flow_chart",
+            "title": {
+              "en": "GST Appeal Flowchart",
+              "hi": "जीएसटी अपील प्रवाह संचित्र"
+            },
+            "data": {
+              "en": "assets/images/flow_chart_en.png",
+              "hi": "assets/images/flow_chart_hi.png"
+            }
+          },
+          {
+            "code": "flow_chart_service_tax",
+            "type": "flow_chart",
+            "title": {
+              "en": "Service Tax, Central Excise and Customs Appeal Flowchart",
+              "hi": "सेवा कर, केंद्रीय उत्पादन और सीमा शुल्क अपील प्रवाह संचित्र"
+            },
+            "data": {
+              "en": "assets/images/Flowchart_Legacy_En.png",
+              "hi": "assets/images/Flowchart_Legacy_Hi.png"
+            }
+          }
+        ]
       },
-      "data": {
-        "en": "assets/images/flow_chart_en.png",
-        "hi": "assets/images/flow_chart_hi.png"
+      {
+        "code": "important_links",
+        "type": "flow_chart",
+        "title": {
+          "en": "Important Links",
+          "hi": "महत्वपूर्ण लिंक"
+        },
+        "data": {
+          "en": "assets/images/QR_en.png",
+          "hi": "assets/images/QR_hi.png"
+        }
       }
-    },
-    {
-      "code": "flow_chart_service_tax",
-      "type": "flow_chart",
-      "title": {
-        "en": "Service Tax, Central Excise and Customs Appeal Flowchart",
-        "hi": "सेवा कर, केंद्रीय उत्पादन और सीमा शुल्क अपील प्रवाह संचित्र"
-      },
-      "data": {
-        "en": "assets/images/Flowchart_Legacy_En.png",
-        "hi": "assets/images/Flowchart_Legacy_Hi.png"
-      }
-    }
-  ]
-},{
-  "code": "important_links",
-  "type": "flow_chart",
-  "title": {
-    "en": "Important Links",
-    "hi": "महत्वपूर्ण लिंक"
-  },
-  "data": {
-    "en": "assets/images/QR_en.png",
-    "hi": "assets/images/QR_hi.png"
-  }
-}
     ]
   }
 }

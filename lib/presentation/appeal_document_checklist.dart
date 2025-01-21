@@ -132,7 +132,9 @@ class JurisdictionWidget extends StatelessWidget {
                       style: Theme.of(context)
                           .textTheme
                           .bodyLarge!
-                          .copyWith(fontSize: 20, fontWeight: FontWeight.bold)),
+                          .copyWith(fontSize: 20, fontWeight: FontWeight.bold)
+                          
+                          ),
                 ),
               ],
               ExpansionTileGroup(
@@ -141,7 +143,16 @@ class JurisdictionWidget extends StatelessWidget {
                   ...?document["data"]
                       .map((data) => _buildJurisdiction(data, context))
                 ],
-              )
+              ),
+              if (document["footer"] != null) ...[
+                SizedBox(height: 20),
+                Text(document["footer"][languageId],
+                    textAlign: TextAlign.justify,
+                    style: Theme.of(context)
+                        .textTheme
+                        .bodyLarge!
+                        .copyWith(fontSize: 20, fontWeight: FontWeight.bold)),
+              ]
             ],
           ),
         )
