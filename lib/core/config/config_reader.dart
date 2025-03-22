@@ -10,7 +10,8 @@ abstract class ConfigReader {
 
 
   static FutureOr<void> initialize() async {
-    final String response = await rootBundle.loadString('assets/images/gst.json');
+    // final String response = await rootBundle.loadString('assets/images/gst.json');
+    final String response = await rootBundle.loadString('assets/images/know_your_office.json');
      config = await json.decode(response);
 
   }

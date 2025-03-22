@@ -9,7 +9,8 @@ class AppWidget extends StatelessWidget {
   final bool? isAppBar;
   final bool? isFullWidth;
   final bool? isEnable;
-  final String subHeading;
+  final String ?
+  subHeading;
   final String? cardHeading;
   final String? cardSubHeading;
   final List<Widget> children;
@@ -22,7 +23,7 @@ class AppWidget extends StatelessWidget {
       this.isEnable = true,
       this.isFullWidth = false,
       this.showDisclaimer = false,
-      required this.subHeading,
+       this.subHeading,
       this.cardHeading,
       this.cardSubHeading,
       required this.children,
@@ -137,23 +138,26 @@ class AppWidget extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Center(
-                              child: ShaderMask(
-                                shaderCallback: (bounds) =>
-                                    const LinearGradient(
-                                  colors: [Colors.blue, Colors.purple],
-                                ).createShader(bounds),
-                                child: Text(
-                                  subHeading,
-                                  style: const TextStyle(
-                                    fontSize: 24,
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.white,
+                            if(subHeading!=null)...[
+                              Center(
+                                child: ShaderMask(
+                                  shaderCallback: (bounds) =>
+                                      const LinearGradient(
+                                        colors: [Colors.blue, Colors.purple],
+                                      ).createShader(bounds),
+                                  child: Text(
+                                    subHeading!,
+                                    style: const TextStyle(
+                                      fontSize: 24,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.white,
+                                    ),
                                   ),
                                 ),
                               ),
-                            ),
-                            const SizedBox(height: 20),
+                              const SizedBox(height: 20),
+                            ],
+
                             if (cardSubHeading != null) ...[
                               Center(
                                 child: Text(
@@ -215,7 +219,7 @@ class AppWidget extends StatelessWidget {
                       SizedBox(height: 10),
                       Padding(
                         padding: EdgeInsets.all(10.0),
-                        child: Container(
+                        child: SizedBox(
                           height: 30,
                           child: Marquee(
                             text: languageId == "hi"
@@ -264,22 +268,38 @@ class AppWidget extends StatelessWidget {
       fontSize: 24,
     );
 
+    // final Map<String, bool> text = {
+    //   '(': false,
+    //   'V': true,
+    //   'irtual ': false,
+    //   'I': true,
+    //   'nteractive ': false,
+    //   'D': true,
+    //   'esk for ': false,
+    //   'H': true,
+    //   'elping & ': false,
+    //   'A1': true,
+    //   'ssisting ': false,
+    //   'A2': true,
+    //   'll ': false,
+    //   'N': true,
+    //   'avigation': false,
+    //   ')': false,
+    // };
+    //Destination Information Search and Help Application
     final Map<String, bool> text = {
       '(': false,
-      'V': true,
-      'irtual ': false,
-      'I': true,
-      'nteractive ': false,
       'D': true,
-      'esk for ': false,
+      'estination ': false,
+      'I': true,
+      'nformation ': false,
+      'S': true,
+      'earch and ': false,
       'H': true,
-      'elping & ': false,
-      'A1': true,
-      'ssisting ': false,
-      'A2': true,
-      'll ': false,
-      'N': true,
-      'avigation': false,
+      'elp & ': false,
+      'A': true,
+      'pplication ': false,
+
       ')': false,
     };
 
