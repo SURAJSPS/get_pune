@@ -184,7 +184,7 @@ class _LanguageSelectorState extends State<LanguageSelector> {
           ],
 
           if (section?.isNotEmpty ?? false) ...[
-            SizedBox(height: 50),
+            SizedBox(height: 20),
             Text(section?['addresses'].first["name"])
           ]
         ]);
