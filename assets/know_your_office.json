@@ -1,0 +1,30 @@
+{
+    "formations": [
+        {
+            "id": "cco",
+            "name": "Chief Commissioner Office (CCO)",
+            "formations_categories": []
+        },{
+            "id": "executive",
+            "name": "Executive",
+            "formations_categories": []
+        },{
+            "id": "audit",
+            "name": "Audit",
+            "formations_categories": []
+        },
+        {
+            "id": "appeals",
+            "name": "Appeals",
+            "formations_categories": []
+        },{
+            "id": "customs",
+            "name": "Customs",
+            "formations_categories": []
+        }
+
+        
+        
+        
+    ]
+}

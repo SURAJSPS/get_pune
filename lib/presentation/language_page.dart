@@ -43,40 +43,13 @@ class _LanguageSelectorState extends State<LanguageSelector> {
         cardHeading: 'Choose Your Language',
         cardSubHeading: 'अपनी भाषा चुनें',
         onPressed: () {
-          closeAudio();
-          Navigator.push(
-            context,
-            MaterialPageRoute(builder: (context) => const AppealPage()),
-          );
+
+
         },
         children: [
-          ...config["language"].map((lang) => CustomSelectionTile(
-                title: lang['name']!,
-                isSelected: languageId == lang['code'],
-                onTap: () {
-                  setState(() {
-                    languageId = lang['code']!;
-                    selectedLanguage = lang['name']!;
-                  });
-                  playAudio();
-                },
-                width: MediaQuery.of(context).size.width / 2,
-              )),
+
         ]);
   }
 
-  void playAudio() async {
-    if (!_mounted) return;
 
-    try {
-      await player.play(AssetSource("audio/$languageId.mp3"));
-    } catch (e) {
-      debugPrint('Error playing audio: $e');
-    }
-  }
-
-  void closeAudio() {
-    if (!_mounted) return;
-    player.pause();
-  }
 }
