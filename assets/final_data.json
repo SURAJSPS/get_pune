@@ -1,0 +1,4409 @@
+{
+  "formations": [
+    {
+      "id": "executive",
+      "name": "Executive",
+      "commissionerates": [
+        {
+          "id": "cgst_pune-i_commissionerate",
+          "name": "CGST Pune-I Commissionerate",
+          "divisions": [
+            {
+              "id": "technical-hq",
+              "name": "Technical-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "2nd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "admin_section-hq",
+              "name": "Admin Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "2nd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "edp_section-hq",
+              "name": "EDP Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "3rd Floor, C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "vigilance_&_confidential_section-hq",
+              "name": "Vigilance & Confidential Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "2nd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "accounts_section-hq",
+              "name": "Accounts Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "2nd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "establishment_section-hq",
+              "name": "Establishment Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "2nd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "review_section-hq",
+              "name": "Review Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "2nd Floor, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "adjudication-hq",
+              "name": "Adjudication-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "2nd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "legal_&_tribunal-hq",
+              "name": "Legal & Tribunal-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "2nd Floor, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "preventive_section-hq",
+              "name": "Preventive Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "2nd Floor, C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "training_&_inspection-hq",
+              "name": "Training & Inspection-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "2nd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "hindi_cell-hq",
+              "name": "Hindi Cell-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "rti_section-hq",
+              "name": "RTI Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "2nd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "land_&_building-hq",
+              "name": "Land & Building-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "2nd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "cera,_pre_&_post_audit-hq",
+              "name": "CERA, Pre & Post Audit-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "2nd Floor, E & A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "sevottam_cell-hq",
+              "name": "Sevottam Cell-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "2nd Floor, C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "si_section-hq",
+              "name": "SI Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "2nd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "division-i(talegaon)",
+              "name": "Division-I(Talegaon)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                }
+              ]
+            },
+            {
+              "id": "division-ii(pimpri)",
+              "name": "Division-II(Pimpri)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                }
+              ]
+            },
+            {
+              "id": "division-iii(bhosari)",
+              "name": "Division-III(Bhosari)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                }
+              ]
+            },
+            {
+              "id": "division-iv(chakan)",
+              "name": "Division-IV(Chakan)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
+                }
+              ]
+            },
+            {
+              "id": "division-v(viman_nagar)",
+              "name": "Division-V(Viman Nagar)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "division-vi(koregaon_park)",
+              "name": "Division-VI(Koregaon Park)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B & C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B & C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B & C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B & C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B & C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B & C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B & C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B & C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B & C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B & C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B & C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B & C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B & C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "2nd Floor, B & C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "division-vii(shirur)",
+              "name": "Division-VII(Shirur)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "2nd Floor, C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "2nd Floor, C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "2nd Floor, C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "2nd Floor, C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "2nd Floor, C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "2nd Floor, C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "2nd Floor, C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "2nd Floor, C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "2nd Floor, C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "Ground Floor, C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "Ground Floor, C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "Ground Floor, C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "2nd Floor, C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "2nd Floor, C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cgst_pune-ii_commissionerate",
+          "name": "CGST Pune-II Commissionerate",
+          "divisions": [
+            {
+              "id": "technical-hq",
+              "name": "Technical-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "1st Floor , D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "admin_section-hq",
+              "name": "Admin Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "1st Floor , C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "edp_section-hq",
+              "name": "EDP Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "1st Floor , E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "vigilance_&_confidential_section-hq",
+              "name": "Vigilance & Confidential Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "1st Floor , F Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "accounts_section-hq",
+              "name": "Accounts Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "1st Floor , F Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "establishment_section-hq",
+              "name": "Establishment Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "1st Floor , D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "review_section-hq",
+              "name": "Review Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "1st Floor , C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "adjudication-hq",
+              "name": "Adjudication-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "1st Floor , D & E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "legal_&_tribunal-hq",
+              "name": "Legal & Tribunal-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "1st Floor , C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "preventive_section-hq",
+              "name": "Preventive Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "1st Floor , E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "training_&_inspection-hq",
+              "name": "Training & Inspection-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "1st Floor , D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "hindi_cell-hq",
+              "name": "Hindi Cell-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "1st Floor , E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "rti_section-hq",
+              "name": "RTI Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "1st Floor , D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "cera,_pre_&_post_audit-hq",
+              "name": "CERA, Pre & Post Audit-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "1st Floor , D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "sevottam_cell-hq",
+              "name": "Sevottam Cell-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "1st Floor , E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "si_section-hq",
+              "name": "SI Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "1st Floor , E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "division-i(shivaji_nagar)",
+              "name": "Division-I(Shivaji Nagar)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                }
+              ]
+            },
+            {
+              "id": "division-ii(swargate)",
+              "name": "Division-II(Swargate)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "1st Floor , C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "1st Floor , C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "1st Floor , C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "1st Floor , C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "1st Floor , C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "1st Floor , C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "1st Floor , C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "1st Floor , C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "1st Floor , C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "1st Floor , C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "1st Floor , C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "1st Floor , C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "1st Floor , C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "1st Floor , C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "division-iii(deccan)",
+              "name": "Division-III(Deccan)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "BSNL Building, Second Floor, Model Colony, Shivaji Nagar, Pune-411016"
+                }
+              ]
+            },
+            {
+              "id": "division-iv(kothrud)",
+              "name": "Division-IV(Kothrud)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "division-v(khadakwasla)",
+              "name": "Division-V(Khadakwasla)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "1st Floor , B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "division-vi(hadapsar)",
+              "name": "Division-VI(Hadapsar)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "division-vii(katraj)",
+              "name": "Division-VII(Katraj)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "1st Floor , A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "division-(solapur)",
+              "name": "Division-(Solapur)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Central Tax, Plot No. 3, Opposite Hotel Kinara, Hotgi Road, Solapur-413003"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "Central Tax, Plot No. 3, Opposite Hotel Kinara, Hotgi Road, Solapur-413003"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "Central Tax, Plot No. 3, Opposite Hotel Kinara, Hotgi Road, Solapur-413003"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "Central Tax, Plot No. 3, Opposite Hotel Kinara, Hotgi Road, Solapur-413003"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "Central Tax, Plot No. 3, Opposite Hotel Kinara, Hotgi Road, Solapur-413003"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "Central Tax, Plot No. 3, Opposite Hotel Kinara, Hotgi Road, Solapur-413003"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "Central Tax, Plot No. 3, Opposite Hotel Kinara, Hotgi Road, Solapur-413003"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "Central Tax, Plot No. 3, Opposite Hotel Kinara, Hotgi Road, Solapur-413003"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "Central Tax, Plot No. 3, Opposite Hotel Kinara, Hotgi Road, Solapur-413003"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "Central Tax, Plot No. 3, Opposite Hotel Kinara, Hotgi Road, Solapur-413003"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "Central Tax, Plot No. 3, Opposite Hotel Kinara, Hotgi Road, Solapur-413003"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "Central Tax, Plot No. 3, Opposite Hotel Kinara, Hotgi Road, Solapur-413003"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "Central Tax, Plot No. 3, Opposite Hotel Kinara, Hotgi Road, Solapur-413003"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "Central GST, Opposite ST Stand, Pandharpur-413304"
+                },
+                {
+                  "id": "range_15",
+                  "name": "Range",
+                  "addresses": "Dr. Babasaheb Ambedkar Shopping Centre, Shop No. 42, 43, 44 & 45 Near Barshi Nagar Parishad, Tal.- Barshi, District-Solapur-413401"
+                }
+              ]
+            },
+            {
+              "id": "division-(baramati)",
+              "name": "Division-(Baramati)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "1st Floor, Seth Ramchand Malukchand Udhyog Bhavan, Opposite Baramati Municipal Council, Teen Hatti Chowk, Baramati, Pune-413102"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "1st Floor, Seth Ramchand Malukchand Udhyog Bhavan, Opposite Baramati Municipal Council, Teen Hatti Chowk, Baramati, Pune-413102"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "1st Floor, Seth Ramchand Malukchand Udhyog Bhavan, Opposite Baramati Municipal Council, Teen Hatti Chowk, Baramati, Pune-413102"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "1st Floor, Seth Ramchand Malukchand Udhyog Bhavan, Opposite Baramati Municipal Council, Teen Hatti Chowk, Baramati, Pune-413102"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "1st Floor, Seth Ramchand Malukchand Udhyog Bhavan, Opposite Baramati Municipal Council, Teen Hatti Chowk, Baramati, Pune-413102"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "1st Floor, Seth Ramchand Malukchand Udhyog Bhavan, Opposite Baramati Municipal Council, Teen Hatti Chowk, Baramati, Pune-413102"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "1st Floor, Seth Ramchand Malukchand Udhyog Bhavan, Opposite Baramati Municipal Council, Teen Hatti Chowk, Baramati, Pune-413102"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "1st Floor, Seth Ramchand Malukchand Udhyog Bhavan, Opposite Baramati Municipal Council, Teen Hatti Chowk, Baramati, Pune-413102"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "1st Floor, Seth Ramchand Malukchand Udhyog Bhavan, Opposite Baramati Municipal Council, Teen Hatti Chowk, Baramati, Pune-413102"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "1st Floor, Seth Ramchand Malukchand Udhyog Bhavan, Opposite Baramati Municipal Council, Teen Hatti Chowk, Baramati, Pune-413102"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "1st Floor, Seth Ramchand Malukchand Udhyog Bhavan, Opposite Baramati Municipal Council, Teen Hatti Chowk, Baramati, Pune-413102"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "C.F.C Center, MIDC Jejuri, Pune-412303"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "Shree Mahesh Society, Plot Mo. 19, Sarpanch Wasti, Gopalwadi Road, Daund, Pune-412801"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "Walchandnagar Industries Limited, Walchandnagar, Pune-413114"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cgst_kolhapur_commissionerate",
+          "name": "CGST Kolhapur Commissionerate",
+          "divisions": [
+            {
+              "id": "technical-hq",
+              "name": "Technical-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Vasant Plaza Commercial Complex, 4th & 5th Floor, Rajaram Road, Bagal Chowk, Kolhapur-416001"
+                }
+              ]
+            },
+            {
+              "id": "admin_section-hq",
+              "name": "Admin Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Vasant Plaza Commercial Complex, 4th & 5th Floor, Rajaram Road, Bagal Chowk, Kolhapur-416001"
+                }
+              ]
+            },
+            {
+              "id": "edp_section-hq",
+              "name": "EDP Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Vasant Plaza Commercial Complex, 4th & 5th Floor, Rajaram Road, Bagal Chowk, Kolhapur-416001"
+                }
+              ]
+            },
+            {
+              "id": "vigilance_&_confidential_section-hq",
+              "name": "Vigilance & Confidential Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Vasant Plaza Commercial Complex, 4th & 5th Floor, Rajaram Road, Bagal Chowk, Kolhapur-416001"
+                }
+              ]
+            },
+            {
+              "id": "accounts_section-hq",
+              "name": "Accounts Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Vasant Plaza Commercial Complex, 4th & 5th Floor, Rajaram Road, Bagal Chowk, Kolhapur-416001"
+                }
+              ]
+            },
+            {
+              "id": "establishment_section-hq",
+              "name": "Establishment Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Vasant Plaza Commercial Complex, 4th & 5th Floor, Rajaram Road, Bagal Chowk, Kolhapur-416001"
+                }
+              ]
+            },
+            {
+              "id": "review_section-hq",
+              "name": "Review Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Vasant Plaza Commercial Complex, 4th & 5th Floor, Rajaram Road, Bagal Chowk, Kolhapur-416001"
+                }
+              ]
+            },
+            {
+              "id": "adjudication-hq",
+              "name": "Adjudication-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Vasant Plaza Commercial Complex, 4th & 5th Floor, Rajaram Road, Bagal Chowk, Kolhapur-416001"
+                }
+              ]
+            },
+            {
+              "id": "legal_&_tribunal-hq",
+              "name": "Legal & Tribunal-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Vasant Plaza Commercial Complex, 4th & 5th Floor, Rajaram Road, Bagal Chowk, Kolhapur-416001"
+                }
+              ]
+            },
+            {
+              "id": "preventive_section-hq",
+              "name": "Preventive Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Vasant Plaza Commercial Complex, 4th & 5th Floor, Rajaram Road, Bagal Chowk, Kolhapur-416001"
+                }
+              ]
+            },
+            {
+              "id": "training_&_inspection-hq",
+              "name": "Training & Inspection-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Vasant Plaza Commercial Complex, 4th & 5th Floor, Rajaram Road, Bagal Chowk, Kolhapur-416001"
+                }
+              ]
+            },
+            {
+              "id": "hindi_cell-hq",
+              "name": "Hindi Cell-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Vasant Plaza Commercial Complex, 4th & 5th Floor, Rajaram Road, Bagal Chowk, Kolhapur-416001"
+                }
+              ]
+            },
+            {
+              "id": "rti_section-hq",
+              "name": "RTI Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Vasant Plaza Commercial Complex, 4th & 5th Floor, Rajaram Road, Bagal Chowk, Kolhapur-416001"
+                }
+              ]
+            },
+            {
+              "id": "land_&_building-hq",
+              "name": "Land & Building-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Vasant Plaza Commercial Complex, 4th & 5th Floor, Rajaram Road, Bagal Chowk, Kolhapur-416001"
+                }
+              ]
+            },
+            {
+              "id": "cera,_pre_&_post_audit-hq",
+              "name": "CERA, Pre & Post Audit-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Vasant Plaza Commercial Complex, 4th & 5th Floor, Rajaram Road, Bagal Chowk, Kolhapur-416001"
+                }
+              ]
+            },
+            {
+              "id": "sevottam_cell-hq",
+              "name": "Sevottam Cell-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Vasant Plaza Commercial Complex, 4th & 5th Floor, Rajaram Road, Bagal Chowk, Kolhapur-416001"
+                }
+              ]
+            },
+            {
+              "id": "si_section-hq",
+              "name": "SI Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Vasant Plaza Commercial Complex, 4th & 5th Floor, Rajaram Road, Bagal Chowk, Kolhapur-416001"
+                }
+              ]
+            },
+            {
+              "id": "division-i(satara)",
+              "name": "Division-I(Satara)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "P-11/14 Old MIDC Near Fulora Hotel, Satara-415004"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "P-11/14 Old MIDC Near Fulora Hotel, Satara-415004"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "P-11/14 Old MIDC Near Fulora Hotel, Satara-415004"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "P-11/14 Old MIDC Near Fulora Hotel, Satara-415004"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "P-11/14 Old MIDC Near Fulora Hotel, Satara-415004"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "P-11/14 Old MIDC Near Fulora Hotel, Satara-415004"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "P-11/14 Old MIDC Near Fulora Hotel, Satara-415004"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "P-11/14 Old MIDC Near Fulora Hotel, Satara-415004"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "P-11/14 Old MIDC Near Fulora Hotel, Satara-415004"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "Jay Bhawani Complex, Near Shri General Hospital, Shirwal, Khandala, Satara-412801"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "P-11/14 Old MIDC Near Fulora Hotel, Satara-415004"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "P-11/14 Old MIDC Near Fulora Hotel, Satara-415004"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "Survay No. 1987 & 1989, Navi Peth, Above SBI Bank, Khandala Road, Lonan, Satara-415521"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "58, Sanjivini Housing Society, Taluka - Karad, Satara - 415110"
+                }
+              ]
+            },
+            {
+              "id": "division-ii",
+              "name": "Division-II",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Second Floor, Ratikamal Complex, Opposite Basant Bahar, Sahapuri, Kolhapur-416001"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "Second Floor, Ratikamal Complex, Opposite Basant Bahar, Sahapuri, Kolhapur-416001"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "Second Floor, Ratikamal Complex, Opposite Basant Bahar, Sahapuri, Kolhapur-416001"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "Second Floor, Ratikamal Complex, Opposite Basant Bahar, Sahapuri, Kolhapur-416001"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "Second Floor, Ratikamal Complex, Opposite Basant Bahar, Sahapuri, Kolhapur-416001"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "Second Floor, Ratikamal Complex, Opposite Basant Bahar, Sahapuri, Kolhapur-416001"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "Second Floor, Ratikamal Complex, Opposite Basant Bahar, Sahapuri, Kolhapur-416001"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "Second Floor, Ratikamal Complex, Opposite Basant Bahar, Sahapuri, Kolhapur-416001"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "Second Floor, Ratikamal Complex, Opposite Basant Bahar, Sahapuri, Kolhapur-416001"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "Second Floor, Ratikamal Complex, Opposite Basant Bahar, Sahapuri, Kolhapur-416001"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "Central Excise Campus, Opp. Shah Petrol Pump, Sangli-Kolhapur Road, Near Post Office, Jayasingpur, Kolhapur-416001"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "Central Excise Campus, Opp. Shah Petrol Pump, Sangli-Kolhapur Road, Near Post Office, Jayasingpur, Kolhapur-416001"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "Central Excise Campus, Opp. Shah Petrol Pump, Sangli-Kolhapur Road, Near Post Office, Jayasingpur, Kolhapur-416001"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "Second Floor, Ratikamal Complex, Opposite Basant Bahar, Sahapuri, Kolhapur-416001"
+                }
+              ]
+            },
+            {
+              "id": "division-iii",
+              "name": "Division-III",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "228/229, E-Ward, CGST Building, Tarabai Park, Kolhapur-416005"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "228/229, E-Ward, CGST Building, Tarabai Park, Kolhapur-416005"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "228/229, E-Ward, CGST Building, Tarabai Park, Kolhapur-416005"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "228/229, E-Ward, CGST Building, Tarabai Park, Kolhapur-416005"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "228/229, E-Ward, CGST Building, Tarabai Park, Kolhapur-416005"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "228/229, E-Ward, CGST Building, Tarabai Park, Kolhapur-416005"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "228/229, E-Ward, CGST Building, Tarabai Park, Kolhapur-416005"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "228/229, E-Ward, CGST Building, Tarabai Park, Kolhapur-416005"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "228/229, E-Ward, CGST Building, Tarabai Park, Kolhapur-416005"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "228/229, E-Ward, CGST Building, Tarabai Park, Kolhapur-416005"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "228/229, E-Ward, CGST Building, Tarabai Park, Kolhapur-416005"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "228/229, E-Ward, CGST Building, Tarabai Park, Kolhapur-416005"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "228/229, E-Ward, CGST Building, Tarabai Park, Kolhapur-416005"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "Hawal Building, Gadinglach, Kolhapur-416003"
+                }
+              ]
+            },
+            {
+              "id": "division-iv(sangli)",
+              "name": "Division-IV(Sangli)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Sangli-Miraj Road, Opposite Mahsool Bhavan, Miraj, Sangli-416410"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "Sangli-Miraj Road, Opposite Mahsool Bhavan, Miraj, Sangli-416410"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "Sangli-Miraj Road, Opposite Mahsool Bhavan, Miraj, Sangli-416410"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "Sangli-Miraj Road, Opposite Mahsool Bhavan, Miraj, Sangli-416410"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "Sangli-Miraj Road, Opposite Mahsool Bhavan, Miraj, Sangli-416410"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "Sangli-Miraj Road, Opposite Mahsool Bhavan, Miraj, Sangli-416410"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "Sangli-Miraj Road, Opposite Mahsool Bhavan, Miraj, Sangli-416410"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "Sangli-Miraj Road, Opposite Mahsool Bhavan, Miraj, Sangli-416410"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "Sangli-Miraj Road, Opposite Mahsool Bhavan, Miraj, Sangli-416410"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "Sangli-Miraj Road, Opposite Mahsool Bhavan, Miraj, Sangli-416410"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "Sangli-Miraj Road, Opposite Mahsool Bhavan, Miraj, Sangli-416410"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "Sangli-Miraj Road, Opposite Mahsool Bhavan, Miraj, Sangli-416410"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "Sangli-Miraj Road, Opposite Mahsool Bhavan, Miraj, Sangli-416410"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "Sangli-Miraj Road, Opposite Mahsool Bhavan, Miraj, Sangli-416410"
+                }
+              ]
+            },
+            {
+              "id": "division-v(ratnagiri)",
+              "name": "Division-V(Ratnagiri)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Central Excise Building, Jail Road, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "Central Excise Building, Jail Road, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "Central Excise Building, Jail Road, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "Central Excise Building, Jail Road, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "Central Excise Building, Jail Road, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "Central Excise Building, Jail Road, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "Central Excise Building, Jail Road, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "Central Excise Building, Jail Road, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "Central Excise Building, Jail Road, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "Jeevan Jyoti Building, Shivajinagar, Chiplun, Ratnagiri-415605"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "Jeevan Jyoti Building, Shivajinagar, Chiplun, Ratnagiri-415605"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "Jeevan Jyoti Building, Shivajinagar, Chiplun, Ratnagiri-415605"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "Central Excise Building, Jail Road, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "Bhise Building, Salaiwada, Sawantwadi, Ratnagiri-416510"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cgst_goa_commissionerate",
+          "name": "CGST Goa Commissionerate",
+          "divisions": [
+            {
+              "id": "technical-hq",
+              "name": "Technical-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                }
+              ]
+            },
+            {
+              "id": "admin_section-hq",
+              "name": "Admin Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                }
+              ]
+            },
+            {
+              "id": "edp_section-hq",
+              "name": "EDP Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                }
+              ]
+            },
+            {
+              "id": "vigilance_&_confidential_section-hq",
+              "name": "Vigilance & Confidential Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                }
+              ]
+            },
+            {
+              "id": "accounts_section-hq",
+              "name": "Accounts Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                }
+              ]
+            },
+            {
+              "id": "establishment_section-hq",
+              "name": "Establishment Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                }
+              ]
+            },
+            {
+              "id": "review_section-hq",
+              "name": "Review Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                }
+              ]
+            },
+            {
+              "id": "adjudication-hq",
+              "name": "Adjudication-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                }
+              ]
+            },
+            {
+              "id": "legal_&_tribunal-hq",
+              "name": "Legal & Tribunal-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                }
+              ]
+            },
+            {
+              "id": "preventive_section-hq",
+              "name": "Preventive Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                }
+              ]
+            },
+            {
+              "id": "training_&_inspection-hq",
+              "name": "Training & Inspection-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                }
+              ]
+            },
+            {
+              "id": "hindi_cell-hq",
+              "name": "Hindi Cell-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                }
+              ]
+            },
+            {
+              "id": "rti_section-hq",
+              "name": "RTI Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                }
+              ]
+            },
+            {
+              "id": "land_&_building-hq",
+              "name": "Land & Building-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                }
+              ]
+            },
+            {
+              "id": "cera,_pre_&_post_audit-hq",
+              "name": "CERA, Pre & Post Audit-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                }
+              ]
+            },
+            {
+              "id": "sevottam_cell-hq",
+              "name": "Sevottam Cell-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                }
+              ]
+            },
+            {
+              "id": "si_section-hq",
+              "name": "SI Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                }
+              ]
+            },
+            {
+              "id": "division-i",
+              "name": "Division-I",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                }
+              ]
+            },
+            {
+              "id": "division-ii",
+              "name": "Division-II",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                }
+              ]
+            },
+            {
+              "id": "division-iii",
+              "name": "Division-III",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                }
+              ]
+            },
+            {
+              "id": "division-iv",
+              "name": "Division-IV",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                }
+              ]
+            },
+            {
+              "id": "division-v",
+              "name": "Division-V",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "Blessing Pioneer Commercial Complex, Near KTC Bus Stand, Margaon, Goa-403601"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "name": "Audit",
+      "commissionerates": [
+        {
+          "id": "cgst_audit-i_commissionerate_pune",
+          "name": "CGST Audit-I Commissionerate Pune",
+          "divisions": [
+            {
+              "id": "technical_section-hq",
+              "name": "Technical Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Nill"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "Nill"
+                }
+              ]
+            },
+            {
+              "id": "planning_&_cordination_cell-hq",
+              "name": "Planning & Cordination Cell-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Nill"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "Nill"
+                }
+              ]
+            },
+            {
+              "id": "rms_section-hq",
+              "name": "RMS Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Nill"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "Nill"
+                }
+              ]
+            },
+            {
+              "id": "admin_section-hq",
+              "name": "Admin Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Nill"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "Nill"
+                }
+              ]
+            },
+            {
+              "id": "edp_section-hq",
+              "name": "EDP Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Nill"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "Nill"
+                }
+              ]
+            },
+            {
+              "id": "vigilance_&_confidential_section-hq",
+              "name": "Vigilance & Confidential Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Nill"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "Nill"
+                }
+              ]
+            },
+            {
+              "id": "accounts_section-hq",
+              "name": "Accounts Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Nill"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "Nill"
+                }
+              ]
+            },
+            {
+              "id": "establishment_section-hq",
+              "name": "Establishment Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Nill"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "Nill"
+                }
+              ]
+            },
+            {
+              "id": "rti_section-hq",
+              "name": "RTI Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Nill"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "Nill"
+                }
+              ]
+            },
+            {
+              "id": "inspection,_qar-hq",
+              "name": "Inspection, QAR-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Nill"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "Nill"
+                }
+              ]
+            },
+            {
+              "id": "circle-i_(audit_party_-_1,2,3,4)",
+              "name": "Circle-I (Audit Party - 1,2,3,4)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Nill"
+                }
+              ]
+            },
+            {
+              "id": "circle-ii(audit_party_-_1,2,3,4)",
+              "name": "Circle-II(Audit Party - 1,2,3,4)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Nill"
+                }
+              ]
+            },
+            {
+              "id": "circle-iii(audit_party_-_1,2,3,4)",
+              "name": "Circle-III(Audit Party - 1,2,3,4)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Nill"
+                }
+              ]
+            },
+            {
+              "id": "circle-iv(audit_party_-_1,2,3,4)",
+              "name": "Circle-IV(Audit Party - 1,2,3,4)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Nill"
+                }
+              ]
+            },
+            {
+              "id": "circle-v(kolhapur)(audit_party_-_1,2,3)",
+              "name": "Circle-V(Kolhapur)(Audit Party - 1,2,3)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Nill"
+                }
+              ]
+            },
+            {
+              "id": "circle-vi(satara)(audit_party_-_1,2,3)",
+              "name": "Circle-VI(Satara)(Audit Party - 1,2,3)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Nill"
+                }
+              ]
+            },
+            {
+              "id": "circle-i_(audit_group_-_1,2,3,4,5)",
+              "name": "Circle-I (Audit Group - 1,2,3,4,5)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Nill"
+                }
+              ]
+            },
+            {
+              "id": "circle-ii(audit_group_-6,7,8,9,10,11)",
+              "name": "Circle-II(Audit Group -6,7,8,9,10,11)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Nill"
+                }
+              ]
+            },
+            {
+              "id": "circle-iii(audit_group_-12,13,14,15,16)",
+              "name": "Circle-III(Audit Group -12,13,14,15,16)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Nill"
+                }
+              ]
+            },
+            {
+              "id": "circle-iv(audit_group_-17,18,19,20,21)",
+              "name": "Circle-IV(Audit Group -17,18,19,20,21)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Nill"
+                }
+              ]
+            },
+            {
+              "id": "circle-v(solapur)(audit_group-_22,23,28)",
+              "name": "Circle-V(Solapur)(Audit Group- 22,23,28)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Nill"
+                }
+              ]
+            },
+            {
+              "id": "circle-vi(goa)(audit_group-24,25)",
+              "name": "Circle-VI(Goa)(Audit Group-24,25)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Nill"
+                }
+              ]
+            },
+            {
+              "id": "circle-vii(goa)(audit_group-26,27)",
+              "name": "Circle-VII(Goa)(Audit Group-26,27)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Nill"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appellate",
+      "name": "Appellate",
+      "commissionerates": [
+        {
+          "id": "cgst_appeals-i_commissionerate_pune",
+          "name": "CGST Appeals-I Commissionerate Pune",
+          "divisions": [
+            {
+              "id": "appeals_receipt_section",
+              "name": "Appeals Receipt Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "admin_section",
+              "name": "Admin Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "edp_section",
+              "name": "EDP Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "vigilance_&_confidential_section",
+              "name": "Vigilance & Confidential Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "accounts_section",
+              "name": "Accounts Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "establishment_section",
+              "name": "Establishment Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "hindi_cell",
+              "name": "Hindi Cell",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "technical_section",
+              "name": "Technical Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cgst_appeals-ii_commissionerate_pune",
+          "name": "CGST Appeals-II Commissionerate Pune",
+          "divisions": [
+            {
+              "id": "appeals_receipt_section",
+              "name": "Appeals Receipt Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "admin_section",
+              "name": "Admin Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "edp_section",
+              "name": "EDP Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "vigilance_&_confidential_section",
+              "name": "Vigilance & Confidential Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "accounts_section",
+              "name": "Accounts Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "establishment_section",
+              "name": "Establishment Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "hindi_cell",
+              "name": "Hindi Cell",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "technical_section",
+              "name": "Technical Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cgst_goa_appeals_commissionerate_pune",
+          "name": "CGST Goa Appeals Commissionerate Pune",
+          "divisions": [
+            {
+              "id": "appeals_receipt_section",
+              "name": "Appeals Receipt Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "address"
+                }
+              ]
+            },
+            {
+              "id": "admin_section",
+              "name": "Admin Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "address"
+                }
+              ]
+            },
+            {
+              "id": "edp_section",
+              "name": "EDP Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "address"
+                }
+              ]
+            },
+            {
+              "id": "vigilance_&_confidential_section",
+              "name": "Vigilance & Confidential Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "address"
+                }
+              ]
+            },
+            {
+              "id": "accounts_section",
+              "name": "Accounts Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "address"
+                }
+              ]
+            },
+            {
+              "id": "establishment_section",
+              "name": "Establishment Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "address"
+                }
+              ]
+            },
+            {
+              "id": "hindi_cell",
+              "name": "Hindi Cell",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "address"
+                }
+              ]
+            },
+            {
+              "id": "technical_section",
+              "name": "Technical Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "address"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cco",
+      "name": "CCO",
+      "commissionerates": [
+        {
+          "id": "cco",
+          "name": "CCO",
+          "divisions": [
+            {
+              "id": "media_cell",
+              "name": "Media Cell",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "bifa_cell",
+              "name": "BIFA Cell",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "technical_section",
+              "name": "Technical Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "review_section",
+              "name": "Review Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "legal_section",
+              "name": "Legal Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "rti_section",
+              "name": "RTI Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "sevottam_cell",
+              "name": "Sevottam Cell",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "vigilance_&_confidential_section",
+              "name": "Vigilance & Confidential Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "accounts_&_budgets",
+              "name": "Accounts & Budgets",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "admin_section",
+              "name": "Admin Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "cadre_control_matters_section",
+              "name": "Cadre Control Matters Section",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            },
+            {
+              "id": "gst_suvidha_kendra",
+              "name": "GST Suvidha Kendra",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Null"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "customs_commissionerate",
+      "name": "Customs Commissionerate",
+      "commissionerates": [
+        {
+          "id": "pune_customs_commissionerate",
+          "name": "Pune Customs Commissionerate",
+          "divisions": [
+            {
+              "id": "technical-hq",
+              "name": "Technical-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "4th Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "admin_section-hq",
+              "name": "Admin Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "4th Floor, F Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "edp_section-hq",
+              "name": "EDP Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "4th Floor, F Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "vigilance_&_confidential_section-hq",
+              "name": "Vigilance & Confidential Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "4th Floor, F Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "accounts_section-hq",
+              "name": "Accounts Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "4th Floor, C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "establishment_section-hq",
+              "name": "Establishment Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "4th Floor, C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "review_section-hq",
+              "name": "Review Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "4th Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "adjudication-hq",
+              "name": "Adjudication-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "4th Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "legal_&_tribunal-hq",
+              "name": "Legal & Tribunal-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "4th Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "preventive_section-hq",
+              "name": "Preventive Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "4th Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "training_&_inspection-hq",
+              "name": "Training & Inspection-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "4th Floor, F Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "hindi_cell-hq",
+              "name": "Hindi Cell-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "4th Floor, C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "rti_section-hq",
+              "name": "RTI Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "4th Floor, C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "land_&_building-hq",
+              "name": "Land & Building-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "4th Floor, F Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "bru-hq",
+              "name": "BRU-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "4th Floor, F Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "vehicle_&_vessals-hq",
+              "name": "Vehicle & Vessals-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "4th Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "godown-hq",
+              "name": "Godown-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "4th Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "disposal-hq",
+              "name": "Disposal-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "4th Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "pune_international_airport",
+              "name": "Pune International Airport",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Pune International Airport, Lohgaon Pune-411032"
+                }
+              ]
+            },
+            {
+              "id": "sevottam_cell-hq",
+              "name": "Sevottam Cell-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "4th Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "self_sealing_permissions-hq",
+              "name": "Self Sealing Permissions-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "4th Floor, F Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "customs_facilitation_division",
+              "name": "Customs Facilitation Division",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "4th Floor, F Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "4th Floor, F Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "4th Floor, F Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "4th Floor, F Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "inland_container_depot(icd)",
+              "name": "Inland Container Depot(ICD)",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "A-18 & 18/1/ MIDC Talegaon M/s KSH Distriparks Pvt Ltd, Pune 410507"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "191, Alandi Rd, Swaraj Colony, Pura Bhandari Colony, Dighi, Pune, Pimpri-Chinchwad, Maharashtra 411015"
+                }
+              ]
+            },
+            {
+              "id": "ratnagiri_customs_division",
+              "name": "Ratnagiri Customs Division",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Jail Rd, Police Head Quarters, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "Jail Rd, Police Head Quarters, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "Jail Rd, Police Head Quarters, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "Jail Rd, Police Head Quarters, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "Jail Rd, Police Head Quarters, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "Jail Rd, Police Head Quarters, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "Jail Rd, Police Head Quarters, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "Jail Rd, Police Head Quarters, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "Jail Rd, Police Head Quarters, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "Jail Rd, Police Head Quarters, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "Jail Rd, Police Head Quarters, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "Jail Rd, Police Head Quarters, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "Jail Rd, Police Head Quarters, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "Jail Rd, Police Head Quarters, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_15",
+                  "name": "Range",
+                  "addresses": "Jail Rd, Police Head Quarters, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_16",
+                  "name": "Range",
+                  "addresses": "Jail Rd, Police Head Quarters, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_17",
+                  "name": "Range",
+                  "addresses": "Jail Rd, Police Head Quarters, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_18",
+                  "name": "Range",
+                  "addresses": "Jail Rd, Police Head Quarters, Ratnagiri-415612"
+                },
+                {
+                  "id": "range_19",
+                  "name": "Range",
+                  "addresses": "O/o Superintendent of Customs, JSW Port, Nandivade Village, Post Jaigad, Ratnagiri 415614"
+                },
+                {
+                  "id": "range_20",
+                  "name": "Range",
+                  "addresses": "O/o Superintendent of Customs, Angre Port Pvt Ltd., Sande Lavgan, Jaigad, Ratnagiri-415614"
+                },
+                {
+                  "id": "range_21",
+                  "name": "Range",
+                  "addresses": "O/o Superintendent of Customs, Ranpar Port, Ratnagiri-415616"
+                }
+              ]
+            },
+            {
+              "id": "dapoli_customs_division",
+              "name": "Dapoli Customs Division",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "First floor, Jayant Padmaja Compound, Dabhol Rd, Dapoli, Ratnagiri-415712"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "First floor, Jayant Padmaja Compound, Dabhol Rd, Dapoli, Ratnagiri-415712"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "First floor, Jayant Padmaja Compound, Dabhol Rd, Dapoli, Ratnagiri-415712"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "First floor, Jayant Padmaja Compound, Dabhol Rd, Dapoli, Ratnagiri-415712"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "First floor, Jayant Padmaja Compound, Dabhol Rd, Dapoli, Ratnagiri-415712"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "First floor, Jayant Padmaja Compound, Dabhol Rd, Dapoli, Ratnagiri-415712"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "First floor, Jayant Padmaja Compound, Dabhol Rd, Dapoli, Ratnagiri-415712"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "First floor, Jayant Padmaja Compound, Dabhol Rd, Dapoli, Ratnagiri-415712"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "First floor, Jayant Padmaja Compound, Dabhol Rd, Dapoli, Ratnagiri-415712"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "First floor, Jayant Padmaja Compound, Dabhol Rd, Dapoli, Ratnagiri-415712"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "First floor, Jayant Padmaja Compound, Dabhol Rd, Dapoli, Ratnagiri-415712"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "First floor, Jayant Padmaja Compound, Dabhol Rd, Dapoli, Ratnagiri-415712"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "First floor, Jayant Padmaja Compound, Dabhol Rd, Dapoli, Ratnagiri-415712"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "First floor, Jayant Padmaja Compound, Dabhol Rd, Dapoli, Ratnagiri-415712"
+                },
+                {
+                  "id": "range_15",
+                  "name": "Range",
+                  "addresses": "First floor, Jayant Padmaja Compound, Dabhol Rd, Dapoli, Ratnagiri-415712"
+                },
+                {
+                  "id": "range_16",
+                  "name": "Range",
+                  "addresses": "First floor, Jayant Padmaja Compound, Dabhol Rd, Dapoli, Ratnagiri-415712"
+                },
+                {
+                  "id": "range_17",
+                  "name": "Range",
+                  "addresses": "First floor, Jayant Padmaja Compound, Dabhol Rd, Dapoli, Ratnagiri-415712"
+                },
+                {
+                  "id": "range_18",
+                  "name": "Range",
+                  "addresses": "O/o Superintendent of Customs, Dabhol Near Bus Stand,  Post - Dabhol, Taluka - Dapoli, Ratnagiri-415706"
+                },
+                {
+                  "id": "range_19",
+                  "name": "Range",
+                  "addresses": "O/o Superintendent of Customs, Post-Bankot Taluka-Mandangad,Ratnagiri-415201"
+                },
+                {
+                  "id": "range_20",
+                  "name": "Range",
+                  "addresses": "O/o Superintendent of Customs,Harnai post-Harnai Talukar-Dapoli Dist-Ratnagiri-415713"
+                },
+                {
+                  "id": "range_21",
+                  "name": "Range",
+                  "addresses": "O/o Superintendent of Customs, Boria Post-Kond Karul Taluka-Guhagar Dist-Ratnagiri-415703"
+                },
+                {
+                  "id": "range_22",
+                  "name": "Range",
+                  "addresses": "O/o Superintendent of Customs, Palshet Taluka-Guhagar Dist- Ratnagiri-415703"
+                },
+                {
+                  "id": "range_23",
+                  "name": "Range",
+                  "addresses": "O/o Superintendent of Customs,Chiplun Opp Hotel Abhiruchi,Kavitali,Mumbai-Goa Highway Ratnagiri-415605"
+                },
+                {
+                  "id": "range_24",
+                  "name": "Range",
+                  "addresses": "O/o Superintendent of Customs, RCP Mahabaleshwar-Satara Road, CTS No.169,Personnage Bungalow,Dist-Satara-412806"
+                },
+                {
+                  "id": "range_25",
+                  "name": "Range",
+                  "addresses": "Burondi Post-Karajgaon Tal-Dapoli Dist-Ratnagiri-415712"
+                }
+              ]
+            },
+            {
+              "id": "sindhudurg_customs_division",
+              "name": "Sindhudurg Customs Division",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Central Revenue Building, Teli Ali, Kankavli - 416602"
+                },
+                {
+                  "id": "range_2",
+                  "name": "Range",
+                  "addresses": "Central Revenue Building, Teli Ali, Kankavli - 416602"
+                },
+                {
+                  "id": "range_3",
+                  "name": "Range",
+                  "addresses": "Central Revenue Building, Teli Ali, Kankavli - 416602"
+                },
+                {
+                  "id": "range_4",
+                  "name": "Range",
+                  "addresses": "Central Revenue Building, Teli Ali, Kankavli - 416602"
+                },
+                {
+                  "id": "range_5",
+                  "name": "Range",
+                  "addresses": "Central Revenue Building, Teli Ali, Kankavli - 416602"
+                },
+                {
+                  "id": "range_6",
+                  "name": "Range",
+                  "addresses": "Central Revenue Building, Teli Ali, Kankavli - 416602"
+                },
+                {
+                  "id": "range_7",
+                  "name": "Range",
+                  "addresses": "Central Revenue Building, Teli Ali, Kankavli - 416602"
+                },
+                {
+                  "id": "range_8",
+                  "name": "Range",
+                  "addresses": "Central Revenue Building, Teli Ali, Kankavli - 416602"
+                },
+                {
+                  "id": "range_9",
+                  "name": "Range",
+                  "addresses": "Central Revenue Building, Teli Ali, Kankavli - 416602"
+                },
+                {
+                  "id": "range_10",
+                  "name": "Range",
+                  "addresses": "Central Revenue Building, Teli Ali, Kankavli - 416602"
+                },
+                {
+                  "id": "range_11",
+                  "name": "Range",
+                  "addresses": "Central Revenue Building, Teli Ali, Kankavli - 416602"
+                },
+                {
+                  "id": "range_12",
+                  "name": "Range",
+                  "addresses": "Central Revenue Building, Teli Ali, Kankavli - 416602"
+                },
+                {
+                  "id": "range_13",
+                  "name": "Range",
+                  "addresses": "Central Revenue Building, Teli Ali, Kankavli - 416602"
+                },
+                {
+                  "id": "range_14",
+                  "name": "Range",
+                  "addresses": "Central Revenue Building, Teli Ali, Kankavli - 416602"
+                },
+                {
+                  "id": "range_15",
+                  "name": "Range",
+                  "addresses": "Central Revenue Building, Teli Ali, Kankavli - 416602"
+                },
+                {
+                  "id": "range_16",
+                  "name": "Range",
+                  "addresses": "Central Revenue Building, Teli Ali, Kankavli - 416602"
+                },
+                {
+                  "id": "range_17",
+                  "name": "Range",
+                  "addresses": "Central Revenue Building, Teli Ali, Kankavli - 416602"
+                },
+                {
+                  "id": "range_18",
+                  "name": "Range",
+                  "addresses": "O/o Inspector of Customs,Near Vijaydurg Fort, Vijaydurg-416806"
+                },
+                {
+                  "id": "range_19",
+                  "name": "Range",
+                  "addresses": "O/o Inspector of Customs, Redi , First Floor Of Gram Panchayat Building House No. 666D MHARATALEWADI, Redi Tal-Vengurla-416517"
+                },
+                {
+                  "id": "range_20",
+                  "name": "Range",
+                  "addresses": "O/o Superintendent of Customs, S. No.24-25 Customs Office Pirawadi, Achara-416626"
+                },
+                {
+                  "id": "range_21",
+                  "name": "Range",
+                  "addresses": "O/o Superintendent of Customs, S. No. 67-2 Near Customs House office Port, Vengurla-416516"
+                },
+                {
+                  "id": "range_22",
+                  "name": "Range",
+                  "addresses": "O/o Superintendent of Customs, S. no. 7666, C. H. Office near Jetty Malvan-416606"
+                },
+                {
+                  "id": "range_23",
+                  "name": "Range",
+                  "addresses": "O/o Superintendent Of Customs, S. No. 16-B1 C. H. Office Devgad-416613"
+                },
+                {
+                  "id": "range_24",
+                  "name": "Range",
+                  "addresses": "O/o Inspector of Customs, H.No. 180 H-1, Bhise Building First Floor Salaiwada Sawantwadi-416510"
+                },
+                {
+                  "id": "range_25",
+                  "name": "Range",
+                  "addresses": "O/o Superintendent of Customs Facilitation Range Satara Plot No-45-50 Additional MIDC Satara-415004"
+                },
+                {
+                  "id": "range_26",
+                  "name": "Range",
+                  "addresses": "O/o Superintendent Of Customs Facilitation Range Tarabai Park,Kolhapur Maharastra-416003"
+                },
+                {
+                  "id": "range_27",
+                  "name": "Range",
+                  "addresses": "O/o Superintendent of Customs GST Offce Miraj Sangli near Siddhivinayak Cancer Hospital- 416410"
+                },
+                {
+                  "id": "range_28",
+                  "name": "Range",
+                  "addresses": "O/o Assistant Commissioner of Customs, Divison Sindhudurg, Central Revenue Building, Teli Ali, Kankavli -416602"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "goa_customs_commissionerate",
+          "name": "Goa Customs Commissionerate",
+          "divisions": [
+            {
+              "id": "technical-hq",
+              "name": "Technical-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
+                }
+              ]
+            },
+            {
+              "id": "admin_section-hq",
+              "name": "Admin Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
+                }
+              ]
+            },
+            {
+              "id": "edp_section-hq",
+              "name": "EDP Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
+                }
+              ]
+            },
+            {
+              "id": "vigilance_&_confidential_section-hq",
+              "name": "Vigilance & Confidential Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
+                }
+              ]
+            },
+            {
+              "id": "accounts_section-hq",
+              "name": "Accounts Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
+                }
+              ]
+            },
+            {
+              "id": "establishment_section-hq",
+              "name": "Establishment Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
+                }
+              ]
+            },
+            {
+              "id": "review_section-hq",
+              "name": "Review Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
+                }
+              ]
+            },
+            {
+              "id": "adjudication-hq",
+              "name": "Adjudication-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
+                }
+              ]
+            },
+            {
+              "id": "legal_&_tribunal-hq",
+              "name": "Legal & Tribunal-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
+                }
+              ]
+            },
+            {
+              "id": "preventive_section-hq",
+              "name": "Preventive Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
+                }
+              ]
+            },
+            {
+              "id": "training_&_inspection-hq",
+              "name": "Training & Inspection-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
+                }
+              ]
+            },
+            {
+              "id": "hindi_cell-hq",
+              "name": "Hindi Cell-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
+                }
+              ]
+            },
+            {
+              "id": "rti_section-hq",
+              "name": "RTI Section-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
+                }
+              ]
+            },
+            {
+              "id": "land_&_building-hq",
+              "name": "Land & Building-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
+                }
+              ]
+            },
+            {
+              "id": "cera,_pre_&_post_audit-hq",
+              "name": "CERA, Pre & Post Audit-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
+                }
+              ]
+            },
+            {
+              "id": "vehicle_&_vessals-hq",
+              "name": "Vehicle & Vessals-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
+                }
+              ]
+            },
+            {
+              "id": "godown-hq",
+              "name": "Godown-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
+                }
+              ]
+            },
+            {
+              "id": "disposal-hq",
+              "name": "Disposal-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
+                }
+              ]
+            },
+            {
+              "id": "goa_international_airport",
+              "name": "Goa International Airport",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
+                }
+              ]
+            },
+            {
+              "id": "sevottam_cell-hq",
+              "name": "Sevottam Cell-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
+                }
+              ]
+            },
+            {
+              "id": "self_sealing_permissions-hq",
+              "name": "Self Sealing Permissions-HQ",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "Range",
+                  "addresses": "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
