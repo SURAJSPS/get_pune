@@ -15,26 +15,14 @@
                                 {
                                     "id": "range",
                                     "name": "Range",
-                                    "addresses": [
-                                        {
-                                            "id": "address1",
-                                            "name":
-                                            "2nd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
-                                        },
-                                        {
-                                            "id": "address2",
-                                            "name":
-                                            "2nd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
-                                        }
-                                    ]
+                                    "addresses": "\"2nd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001\""
                                 }
                             ]
                         }
                     ]
-                },
-                {
-                    "id": "CGST Pune-I Commissionerate",
-                    "name": "CGST Pune-I Commissionerate",
+                }, {
+                    "id": "commissionerate",
+                    "name": "Commissionerate",
                     "divisions": [
                         {
                             "id": "division",
@@ -43,49 +31,18 @@
                                 {
                                     "id": "range",
                                     "name": "Range",
-                                    "addresses": {
-                                        "id": "address1",
-                                        "name":
-                                        "2nd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "commissionerate-II",
-                    "name": "CGST Pune-II Commissionerate",
-                    "divisions": [
-                        {
-                            "id": "division",
-                            "name": "Division",
-                            "ranges": [
-                                {
-                                    "id": "range",
-                                    "name": "Range",
-                                    "addresses": [
-                                        {
-                                            "id": "address1",
-                                            "name":
-                                            "2nd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
-                                        },
-                                        {
-                                            "id": "address2",
-                                            "name":
-                                            "2nd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
-                                        }
-                                    ]
+                                    "addresses": "\"2nd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001\""
                                 }
                             ]
                         }
                     ]
                 }
+
             ]
         },
-        "audit": {
-            "id": "audit",
-            "name": "Audit",
+        "audit":  {
+            "id": "executive",
+            "name": "Executive",
             "commissionerates": [
                 {
                     "id": "commissionerate",
@@ -94,28 +51,33 @@
                         {
                             "id": "division",
                             "name": "Division",
-                            "isAddress": true,
                             "ranges": [
                                 {
                                     "id": "range",
                                     "name": "Range",
-                                    "addresses": [
-                                        {
-                                            "id": "address1",
-                                            "name":
-                                            "2nd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
-                                        },
-                                        {
-                                            "id": "address2",
-                                            "name":
-                                            "2nd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
-                                        }
-                                    ]
+                                    "addresses": "\"2nd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001\""
+                                }
+                            ]
+                        }
+                    ]
+                }, {
+                    "id": "commissionerate",
+                    "name": "Commissionerate",
+                    "divisions": [
+                        {
+                            "id": "division",
+                            "name": "Division",
+                            "ranges": [
+                                {
+                                    "id": "range",
+                                    "name": "Range",
+                                    "addresses": "\"2nd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001\""
                                 }
                             ]
                         }
                     ]
                 }
+
             ]
         }
     }

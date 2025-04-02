@@ -83,13 +83,13 @@
 
 import 'package:flutter/material.dart';
 import 'package:pune_gst/core/config/config_reader.dart';
-import 'package:pune_gst/presentation/appeal_page.dart';
+import 'package:pune_gst/file_reader.dart' show ExcelService;
 import 'package:pune_gst/widgets/app_widget.dart';
-import 'package:pune_gst/widgets/card_tile.dart';
-import 'package:pune_gst/widgets/custom_app_bar.dart';
-import 'package:audioplayers/audioplayers.dart';
 
+import '../json.dart';
 import '../widgets/dropdown_widget.dart';
+
+late Map<String, dynamic>? sheetData;
 
 class LanguageSelector extends StatefulWidget {
   const LanguageSelector({super.key});
@@ -99,15 +99,11 @@ class LanguageSelector extends StatefulWidget {
 }
 
 class _LanguageSelectorState extends State<LanguageSelector> {
-
   Map<String, dynamic>? selection = {};
   Map<String, dynamic>? commissioners = {};
   Map<String, dynamic>? divisions = {};
   Map<String, dynamic>? section = {};
   Map<String, dynamic>? address = {};
-
-
-
 
   @override
   Widget build(BuildContext context) {
@@ -117,17 +113,33 @@ class _LanguageSelectorState extends State<LanguageSelector> {
         isAppBar: false,
         appName: "DISHA",
         heading:
-        "Central Goods and Services Tax, Appeals-II Commissionerate Pune\nकेंद्रीय वस्तु एवं सेवा कर, अपील-II आयुक्तालय, पुणे",
+            "Central Goods and Services Tax, Appeals-II Commissionerate Pune\nकेंद्रीय वस्तु एवं सेवा कर, अपील-II आयुक्तालय, पुणे",
         // subHeading: '',
         // cardHeading: '',
 
         onPressed: () {},
         children: [
+          // TextButton(
+          //     onPressed: () {
+          //       ExcelService.jsonStructureCre(jsonData);
+          //     },
+          //     child: Text("getData")),
+          // TextButton(
+          //     onPressed: () {
+          //       if (sheetData != null) {
+          //         JsonCreator.createJson(sheetData!);
+          //       }
+          //     },
+          //     child: Text("Convert Data")),
+if(data["formations"]!=null)
+
           DropDownWidget(
+            data["formations"]?.map((formation) => formation).toList() ??
+                [],
             hint: "Select Formation",
             value: selection,
-            (config['formation'] as Map<String, dynamic>)
-                .map((key, value) => MapEntry(key, value)),
+            // (config['formation'] as Map<String, dynamic>)
+            //     .map((key, value) => MapEntry(key, value)),
             onChanged: (value) {
               setState(() {
                 selection = value;
@@ -142,8 +154,9 @@ class _LanguageSelectorState extends State<LanguageSelector> {
             DropDownWidget(
               hint: "Select Commissionerate",
               value: commissioners,
-              Map.fromEntries((selection?['commissionerates'] as List)
-                  .map((value) => MapEntry(value['id'] as String, value))),
+              selection?['commissionerates'] as List,
+              // Map.fromEntries((selection?['commissionerates'] as List)
+              //     .map((value) => MapEntry(value['id'] as String, value))),
               onChanged: (value) {
                 setState(() {
                   commissioners = value;
@@ -158,8 +171,9 @@ class _LanguageSelectorState extends State<LanguageSelector> {
             DropDownWidget(
               hint: "Select Section",
               value: divisions,
-              Map.fromEntries((commissioners?['divisions'] as List)
-                  .map((value) => MapEntry(value['id'] as String, value))),
+              commissioners?['divisions'] as List,
+              // Map.fromEntries((commissioners?['divisions'] as List)
+              //     .map((value) => MapEntry(value['id'] as String, value))),
               onChanged: (value) {
                 setState(() {
                   divisions = value;
@@ -169,12 +183,13 @@ class _LanguageSelectorState extends State<LanguageSelector> {
               },
             ),
           ],
-          if (divisions?.isNotEmpty ?? false) ...[
+          if ((divisions?.isNotEmpty ?? false)&&divisions?['ranges'][0]["name"]!="") ...[
             DropDownWidget(
               hint: "Select Section",
               value: section,
-              Map.fromEntries((divisions?['ranges'] as List)
-                  .map((value) => MapEntry(value['id'] as String, value))),
+              divisions?['ranges'] as List,
+              // Map.fromEntries((divisions?['ranges'] as List)
+              //     .map((value) => MapEntry(value['id'] as String, value))),
               onChanged: (value) {
                 setState(() {
                   section = value;
@@ -182,10 +197,13 @@ class _LanguageSelectorState extends State<LanguageSelector> {
               },
             ),
           ],
-
-          if (section?.isNotEmpty ?? false) ...[
+          if ((section?.isNotEmpty ?? false)) ...[
             SizedBox(height: 20),
-            Text(section?['addresses'].first["name"])
+            Text(section?['addresses'])
+          ],
+          if (divisions!=null&&divisions!.isNotEmpty&&divisions?['ranges'][0]["name"]=="") ...[
+            SizedBox(height: 20),
+            Text(divisions?['ranges'][0]['addresses'])
           ]
         ]);
   }

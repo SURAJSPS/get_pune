@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 class DropDownWidget extends StatelessWidget {
-  final Map<String, dynamic> items;
+  final List<dynamic> items;
   final String hint;
   final Map<String, dynamic>? value;
   final void Function(Map<String, dynamic>? value) onChanged;
@@ -11,24 +11,25 @@ class DropDownWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return DropdownButton<Map<String, dynamic>>(
+    return DropdownButton<Map<String,dynamic>>(
       borderRadius: BorderRadius.circular(12),
 
 
       elevation: 2,
       hint: Text(hint),
-      value: items.keys.contains(value?['id']) ? value : null,
+      value: items.contains(value) ? value : null,
       isExpanded: true,
-      items: items.entries.map((entry) {
-        return DropdownMenuItem<Map<String, dynamic>>(
-          value: entry.value,
+      items: items.map((entry) {
+        return DropdownMenuItem<Map<String,dynamic>>(
+          value: entry,
           child: Text(
-            entry.value['name'] as String,
+            entry['name'] as String,
             maxLines: 1,
             style: TextStyle(),
           ),
         );
       }).toList(),
+
       onChanged: onChanged,
     );
   }
