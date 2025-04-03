@@ -119,18 +119,22 @@ class _LanguageSelectorState extends State<LanguageSelector> {
 
         onPressed: () {},
         children: [
-          // TextButton(
-          //     onPressed: () {
-          //       ExcelService.jsonStructureCre(jsonData);
-          //     },
-          //     child: Text("getData")),
-          // TextButton(
-          //     onPressed: () {
-          //       if (sheetData != null) {
-          //         JsonCreator.createJson(sheetData!);
-          //       }
-          //     },
-          //     child: Text("Convert Data")),
+          TextButton(
+              onPressed: ()async {
+            final data=  await  ExcelService.readExcelFile().then((value){
+              ExcelService.jsonStructureCre(value);
+            });
+            print(data);
+                // ExcelService.jsonStructureCre(jsonData);
+              },
+              child: Text("getData")),
+          TextButton(
+              onPressed: () {
+                if (sheetData != null) {
+                  // JsonCreator.createJson(sheetData!);
+                }
+              },
+              child: Text("Convert Data")),
 if(data["formations"]!=null)
 
           DropDownWidget(

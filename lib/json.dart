@@ -4494,6 +4494,14 @@ final data={
       "id" : "cgst_pune-i_commissionerate",
       "name" : "CGST Pune-I Commissionerate",
       "divisions" : [ {
+        "id" : "office_of_principal_commissioner_cgst_pune-i_commissionerate",
+        "name" : "Office of Principal Commissioner CGST Pune-I Commissionerate",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "",
+          "addresses" : "2nd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+        } ]
+      }, {
         "id" : "technical-hq",
         "name" : "Technical-HQ",
         "ranges" : [ {
@@ -5054,6 +5062,14 @@ final data={
       "id" : "cgst_pune-ii_commissionerate",
       "name" : "CGST Pune-II Commissionerate",
       "divisions" : [ {
+        "id" : "office_of_commissioner_cgst_pune-ii_commissionerate",
+        "name" : "Office of Commissioner CGST Pune-II Commissionerate",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "",
+          "addresses" : "1st Floor , F Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+        } ]
+      }, {
         "id" : "technical-hq",
         "name" : "Technical-HQ",
         "ranges" : [ {
@@ -5730,6 +5746,14 @@ final data={
       "id" : "cgst_kolhapur_commissionerate",
       "name" : "CGST Kolhapur Commissionerate",
       "divisions" : [ {
+        "id" : "office_of_commissioner_cgst_kolhapur_commissionerate",
+        "name" : "Office of Commissioner CGST Kolhapur Commissionerate",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "",
+          "addresses" : "Vasant Plaza Commercial Complex, 4th & 5th Floor, Rajaram Road, Bagal Chowk, Kolhapur-416001"
+        } ]
+      }, {
         "id" : "technical-hq",
         "name" : "Technical-HQ",
         "ranges" : [ {
@@ -6170,6 +6194,14 @@ final data={
       "id" : "cgst_goa_commissionerate",
       "name" : "CGST Goa Commissionerate",
       "divisions" : [ {
+        "id" : "office_of_commissioner_cgst_goa_commissionerate",
+        "name" : "Office of Commissioner CGST Goa Commissionerate",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "",
+          "addresses" : "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+        } ]
+      }, {
         "id" : "technical-hq",
         "name" : "Technical-HQ",
         "ranges" : [ {
@@ -6614,228 +6646,244 @@ final data={
       "id" : "cgst_audit-i_commissionerate_pune",
       "name" : "CGST Audit-I Commissionerate Pune",
       "divisions" : [ {
+        "id" : "office_of_commissioner_cgst_audit-i_commissionerate",
+        "name" : "Office of Commissioner CGST Audit-I Commissionerate",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "Null",
+          "addresses" : "4th, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+        } ]
+      }, {
         "id" : "technical_section-hq",
         "name" : "Technical Section-HQ",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "4th, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "4th, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         }, {
           "id" : "range_2",
-          "name" : "3rd Floor, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "3rd Floor, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "planning_&_cordination_cell-hq",
         "name" : "Planning & Cordination Cell-HQ",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "4th, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "4th, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         }, {
           "id" : "range_2",
-          "name" : "3rd Floor, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "3rd Floor, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "rms_section-hq",
         "name" : "RMS Section-HQ",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "4th, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "4th, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         }, {
           "id" : "range_2",
-          "name" : "3rd Floor, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "3rd Floor, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "admin_section-hq",
         "name" : "Admin Section-HQ",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "4th, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "4th, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         }, {
           "id" : "range_2",
-          "name" : "3rd Floor, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "3rd Floor, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "edp_section-hq",
         "name" : "EDP Section-HQ",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "4th, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "4th, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         }, {
           "id" : "range_2",
-          "name" : "3rd Floor, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "3rd Floor, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "vigilance_&_confidential_section-hq",
         "name" : "Vigilance & Confidential Section-HQ",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "4th, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "4th, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         }, {
           "id" : "range_2",
-          "name" : "3rd Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "3rd Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "accounts_section-hq",
         "name" : "Accounts Section-HQ",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "4th, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "4th, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         }, {
           "id" : "range_2",
-          "name" : "4th Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "4th Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "establishment_section-hq",
         "name" : "Establishment Section-HQ",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "4th, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "4th, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         }, {
           "id" : "range_2",
-          "name" : "4th Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "4th Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "rti_section-hq",
         "name" : "RTI Section-HQ",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "4th, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "4th, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         }, {
           "id" : "range_2",
-          "name" : "3rd Floor, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "3rd Floor, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "inspection,_qar-hq",
         "name" : "Inspection, QAR-HQ",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "4th, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "4th, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         }, {
           "id" : "range_2",
-          "name" : "3rd Floor, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "3rd Floor, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "circle-i_(audit_party_-_1,2,3,4)",
         "name" : "Circle-I (Audit Party - 1,2,3,4)",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "1st Floor, GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "1st Floor, GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
         } ]
       }, {
         "id" : "circle-ii(audit_party_-_1,2,3,4)",
         "name" : "Circle-II(Audit Party - 1,2,3,4)",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "1st Floor, GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "1st Floor, GST Bhavan, Dr. Ambedkar Marg, Near Akurdi Railway Station, Akurdi, Pune-411044"
         } ]
       }, {
         "id" : "circle-iii(audit_party_-_1,2,3,4)",
         "name" : "Circle-III(Audit Party - 1,2,3,4)",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "4th, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "4th, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "circle-iv(audit_party_-_1,2,3,4)",
         "name" : "Circle-IV(Audit Party - 1,2,3,4)",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "4th, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "4th, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "circle-v(kolhapur)(audit_party_-_1,2,3)",
         "name" : "Circle-V(Kolhapur)(Audit Party - 1,2,3)",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "Kolhapur BSNL, Type-IV, Staff Quarter, new Shahupuri, Kolhapur-416003",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "Kolhapur BSNL, Type-IV, Staff Quarter, new Shahupuri, Kolhapur-416003"
         } ]
       }, {
         "id" : "circle-vi(satara)(audit_party_-_1,2,3)",
         "name" : "Circle-VI(Satara)(Audit Party - 1,2,3)",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "Plot No. R-45 to 50, Additional MIDC, Satara-415004",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "Plot No. R-45 to 50, Additional MIDC, Satara-415004"
+        } ]
+      }, {
+        "id" : "office_of_commissioner_cgst_audit-ii_commissionerate",
+        "name" : "Office of Commissioner CGST Audit-II Commissionerate",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "Null",
+          "addresses" : "4th Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "circle-i_(audit_group_-_1,2,3,4,5)",
         "name" : "Circle-I (Audit Group - 1,2,3,4,5)",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "3rd Floor, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "3rd Floor, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "circle-ii(audit_group_-6,7,8,9,10,11)",
         "name" : "Circle-II(Audit Group -6,7,8,9,10,11)",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "3rd Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "3rd Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "circle-iii(audit_group_-12,13,14,15,16)",
         "name" : "Circle-III(Audit Group -12,13,14,15,16)",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "3rd Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "3rd Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "circle-iv(audit_group_-17,18,19,20,21)",
         "name" : "Circle-IV(Audit Group -17,18,19,20,21)",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "3rd Floor, C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "3rd Floor, C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "circle-v(solapur)(audit_group-_22,23,28)",
         "name" : "Circle-V(Solapur)(Audit Group- 22,23,28)",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "Central Tax, Plot No. 3, Opposite Hotel Kinara, Hotgi Road, Solapur-413003",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "Central Tax, Plot No. 3, Opposite Hotel Kinara, Hotgi Road, Solapur-413003"
         } ]
       }, {
         "id" : "circle-vi(goa)(audit_group-24,25)",
         "name" : "Circle-VI(Goa)(Audit Group-24,25)",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
         } ]
       }, {
         "id" : "circle-vii(goa)(audit_group-26,27)",
         "name" : "Circle-VII(Goa)(Audit Group-26,27)",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001",
-          "addresses" : "Nill"
+          "name" : "Null",
+          "addresses" : "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
         } ]
       } ]
     } ]
@@ -6846,204 +6894,228 @@ final data={
       "id" : "cgst_appeals-i_commissionerate_pune",
       "name" : "CGST Appeals-I Commissionerate Pune",
       "divisions" : [ {
+        "id" : "office_of_commissioner,_cgst_appeals-i_commissionerate_pune",
+        "name" : "Office of Commissioner, CGST Appeals-I Commissionerate Pune",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "Null",
+          "addresses" : "F Wing, East Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
+        } ]
+      }, {
         "id" : "appeals_receipt_section",
         "name" : "Appeals Receipt Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "admin_section",
         "name" : "Admin Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "edp_section",
         "name" : "EDP Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "vigilance_&_confidential_section",
         "name" : "Vigilance & Confidential Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "accounts_section",
         "name" : "Accounts Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "establishment_section",
         "name" : "Establishment Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "hindi_cell",
         "name" : "Hindi Cell",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "technical_section",
         "name" : "Technical Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       } ]
     }, {
       "id" : "cgst_appeals-ii_commissionerate_pune",
       "name" : "CGST Appeals-II Commissionerate Pune",
       "divisions" : [ {
+        "id" : "office_of_commissioner,_cgst_appeals-ii_commissionerate_pune",
+        "name" : "Office of Commissioner, CGST Appeals-II Commissionerate Pune",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "Null",
+          "addresses" : "F Wing, East Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
+        } ]
+      }, {
         "id" : "appeals_receipt_section",
         "name" : "Appeals Receipt Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "admin_section",
         "name" : "Admin Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "edp_section",
         "name" : "EDP Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "vigilance_&_confidential_section",
         "name" : "Vigilance & Confidential Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "accounts_section",
         "name" : "Accounts Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "establishment_section",
         "name" : "Establishment Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "hindi_cell",
         "name" : "Hindi Cell",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "technical_section",
         "name" : "Technical Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       } ]
     }, {
       "id" : "cgst_goa_appeals_commissionerate_pune",
       "name" : "CGST Goa Appeals Commissionerate Pune",
       "divisions" : [ {
+        "id" : "office_of_commissioner,_cgst_goa_appeals_commissionerate",
+        "name" : "Office of Commissioner, CGST Goa Appeals Commissionerate",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "Null",
+          "addresses" : "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+        } ]
+      }, {
         "id" : "appeals_receipt_section",
         "name" : "Appeals Receipt Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001",
-          "addresses" : "address"
+          "name" : "Null",
+          "addresses" : "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
         } ]
       }, {
         "id" : "admin_section",
         "name" : "Admin Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001",
-          "addresses" : "address"
+          "name" : "Null",
+          "addresses" : "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
         } ]
       }, {
         "id" : "edp_section",
         "name" : "EDP Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001",
-          "addresses" : "address"
+          "name" : "Null",
+          "addresses" : "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
         } ]
       }, {
         "id" : "vigilance_&_confidential_section",
         "name" : "Vigilance & Confidential Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001",
-          "addresses" : "address"
+          "name" : "Null",
+          "addresses" : "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
         } ]
       }, {
         "id" : "accounts_section",
         "name" : "Accounts Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001",
-          "addresses" : "address"
+          "name" : "Null",
+          "addresses" : "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
         } ]
       }, {
         "id" : "establishment_section",
         "name" : "Establishment Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001",
-          "addresses" : "address"
+          "name" : "Null",
+          "addresses" : "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
         } ]
       }, {
         "id" : "hindi_cell",
         "name" : "Hindi Cell",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001",
-          "addresses" : "address"
+          "name" : "Null",
+          "addresses" : "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
         } ]
       }, {
         "id" : "technical_section",
         "name" : "Technical Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001",
-          "addresses" : "address"
+          "name" : "Null",
+          "addresses" : "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
         } ]
       } ]
     } ]
@@ -7054,100 +7126,108 @@ final data={
       "id" : "cco",
       "name" : "CCO",
       "divisions" : [ {
+        "id" : "office_of_the_chief_commissioner,_cgst_&_customs_pune_zone",
+        "name" : "Office of the Chief Commissioner, CGST & Customs Pune Zone",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "Null",
+          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+        } ]
+      }, {
         "id" : "media_cell",
         "name" : "Media Cell",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "bifa_cell",
         "name" : "BIFA Cell",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "technical_section",
         "name" : "Technical Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "review_section",
         "name" : "Review Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "legal_section",
         "name" : "Legal Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "rti_section",
         "name" : "RTI Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "sevottam_cell",
         "name" : "Sevottam Cell",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "vigilance_&_confidential_section",
         "name" : "Vigilance & Confidential Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "accounts_&_budgets",
         "name" : "Accounts & Budgets",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "admin_section",
         "name" : "Admin Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "cadre_control_matters_section",
         "name" : "Cadre Control Matters Section",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "gst_suvidha_kendra",
         "name" : "GST Suvidha Kendra",
         "ranges" : [ {
           "id" : "range_1",
-          "name" : "Ground Floor, F Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001",
-          "addresses" : "Null"
+          "name" : "Null",
+          "addresses" : "Ground Floor, F Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       } ]
     } ]
@@ -7158,6 +7238,14 @@ final data={
       "id" : "pune_customs_commissionerate",
       "name" : "Pune Customs Commissionerate",
       "divisions" : [ {
+        "id" : "office_of_commissioner_pune_customs_commissionerate",
+        "name" : "Office of Commissioner Pune Customs Commissionerate",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "",
+          "addresses" : "4th Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+        } ]
+      }, {
         "id" : "technical-hq",
         "name" : "Technical-HQ",
         "ranges" : [ {
@@ -7670,6 +7758,14 @@ final data={
       "id" : "goa_customs_commissionerate",
       "name" : "Goa Customs Commissionerate",
       "divisions" : [ {
+        "id" : "office_of_commissioner_goa_customs_commissionerate",
+        "name" : "Office of Commissioner Goa Customs Commissionerate",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "",
+          "addresses" : "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
+        } ]
+      }, {
         "id" : "technical-hq",
         "name" : "Technical-HQ",
         "ranges" : [ {
