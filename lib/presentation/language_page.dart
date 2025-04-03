@@ -119,41 +119,45 @@ class _LanguageSelectorState extends State<LanguageSelector> {
 
         onPressed: () {},
         children: [
-          TextButton(
-              onPressed: ()async {
-            final data=  await  ExcelService.readExcelFile().then((value){
-              ExcelService.jsonStructureCre(value);
-            });
-            print(data);
-                // ExcelService.jsonStructureCre(jsonData);
-              },
-              child: Text("getData")),
-          TextButton(
-              onPressed: () {
-                if (sheetData != null) {
-                  // JsonCreator.createJson(sheetData!);
-                }
-              },
-              child: Text("Convert Data")),
-if(data["formations"]!=null)
+          // TextButton(
+          //     onPressed: ()async {
+          //   final data=  await  ExcelService.readExcelFile().then((value){
+          //     ExcelService.jsonStructureCre(value);
+          //   });
+          //   print(data);
+          //       // ExcelService.jsonStructureCre(jsonData);
+          //     },
+          //     child: Text("getData")),
+          // TextButton(
+          //     onPressed: () {
+          //       if (sheetData != null) {
+          //         // JsonCreator.createJson(sheetData!);
+          //       }
+          //     },
+          //     child: Text("Convert Data")),
+          if (data["formations"] != null)
+            DropDownWidget(
+              data["formations"]?.map((formation) => formation).toList() ?? [],
+              hint: "Select Formation",
+              value: selection,
+              // (config['formation'] as Map<String, dynamic>)
+              //     .map((key, value) => MapEntry(key, value)),
+              onChanged: (value) {
+                setState(() {
 
-          DropDownWidget(
-            data["formations"]?.map((formation) => formation).toList() ??
-                [],
-            hint: "Select Formation",
-            value: selection,
-            // (config['formation'] as Map<String, dynamic>)
-            //     .map((key, value) => MapEntry(key, value)),
-            onChanged: (value) {
-              setState(() {
-                selection = value;
-                commissioners = null;
-                divisions = null;
-                section = null;
-                address = null;
-              });
-            },
-          ),
+                  selection = value;
+                  commissioners = null;
+                  divisions = null;
+                  section = null;
+                  address = null;
+
+                  // if(value!=null&&value["id"]=="cco"){
+                  //   selection=null;
+                  //   commissioners=value['commissionerates']["divisions"];
+                  // }
+                });
+              },
+            ),
           if (selection?.isNotEmpty ?? false) ...[
             DropDownWidget(
               hint: "Select Commissionerate",
@@ -187,7 +191,8 @@ if(data["formations"]!=null)
               },
             ),
           ],
-          if ((divisions?.isNotEmpty ?? false)&&divisions?['ranges'][0]["name"]!="") ...[
+          if ((divisions?.isNotEmpty ?? false) &&
+              divisions?['ranges'][0]["name"] != "") ...[
             DropDownWidget(
               hint: "Select Section",
               value: section,
@@ -205,7 +210,9 @@ if(data["formations"]!=null)
             SizedBox(height: 20),
             Text(section?['addresses'])
           ],
-          if (divisions!=null&&divisions!.isNotEmpty&&divisions?['ranges'][0]["name"]=="") ...[
+          if (divisions != null &&
+              divisions!.isNotEmpty &&
+              divisions?['ranges'][0]["name"] == "") ...[
             SizedBox(height: 20),
             Text(divisions?['ranges'][0]['addresses'])
           ]
