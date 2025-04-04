@@ -104,6 +104,7 @@ class _LanguageSelectorState extends State<LanguageSelector> {
   Map<String, dynamic>? divisions = {};
   Map<String, dynamic>? section = {};
   Map<String, dynamic>? address = {};
+  bool isCCO = false;
 
   @override
   Widget build(BuildContext context) {
@@ -146,19 +147,21 @@ class _LanguageSelectorState extends State<LanguageSelector> {
                 setState(() {
 
                   selection = value;
+                  isCCO=false;
                   commissioners = null;
                   divisions = null;
                   section = null;
                   address = null;
 
-                  // if(value!=null&&value["id"]=="cco"){
-                  //   selection=null;
-                  //   commissioners=value['commissionerates']["divisions"];
-                  // }
+                  if(value!=null&&value["id"]=="cco"){
+                    isCCO=true;
+                    // selection=null;
+                    commissioners=value['commissionerates'].first;
+                  }
                 });
               },
             ),
-          if (selection?.isNotEmpty ?? false) ...[
+          if ((selection?.isNotEmpty ?? false)&& isCCO==false) ...[
             DropDownWidget(
               hint: "Select Commissionerate",
               value: commissioners,
