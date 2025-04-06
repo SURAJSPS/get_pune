@@ -9,26 +9,28 @@ class AppWidget extends StatelessWidget {
   final bool? isAppBar;
   final bool? isFullWidth;
   final bool? isEnable;
-  final String ?
-  subHeading;
+  final String? subHeading;
   final String? cardHeading;
   final String? cardSubHeading;
   final List<Widget> children;
   final Function()? onPressed;
   final String? appName;
-  const AppWidget(
-      {super.key,
-      this.heading,
-      this.isAppBar = true,
-      this.isEnable = true,
-      this.isFullWidth = false,
-      this.showDisclaimer = false,
-       this.subHeading,
-      this.cardHeading,
-      this.cardSubHeading,
-      required this.children,
-      this.onPressed,
-      this.appName});
+  final bool isAppName;
+  const AppWidget({
+    super.key,
+    this.heading,
+    this.isAppBar = true,
+    this.isEnable = true,
+    this.isFullWidth = false,
+    this.showDisclaimer = false,
+    this.subHeading,
+    this.cardHeading,
+    this.cardSubHeading,
+    required this.children,
+    this.onPressed,
+    this.appName,
+    this.isAppName = true,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -75,32 +77,40 @@ class AppWidget extends StatelessWidget {
                       ),
                     ),
                     SizedBox(height: 20),
-
-                    if (appName != null) ...[
+                    // if (isAppName == false) ...[
+                    //   Image.asset(height: 100, "assets/images/diksha_title.png")
+                    // ],
+                    if (appName != null && isAppName == true) ...[
                       ShaderMask(
                         shaderCallback: (bounds) => const LinearGradient(
                           colors: [
-                            Color(0xFFFF9933),
-                            Color(0xFFFFFFFF),
-                            Color(0xFF138808)
+                            // Color(0xFFFF9933),
+                            Color.fromARGB(255, 2, 0, 102),
+                            Colors.blue,
+                            // Color(0xFFFFFFFF),
+                            // Color(0xFF138808)
                           ],
                         ).createShader(bounds),
-                        child: Text(
-                          appName!,
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontFamily: "Noto Sans",
-                            fontSize: 64,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.white,
-                            shadows: [
-                              Shadow(
-                                offset: Offset(2.0, 2.0),
-                                blurRadius: 3.0,
-                                color: Colors.black.withOpacity(0.3),
+                        child: Column(
+                          children: [
+                            Text(
+                              appName!,
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                fontFamily: "Noto Sans",
+                                fontSize: 64,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                                shadows: [
+                                  Shadow(
+                                    offset: Offset(2.0, 2.0),
+                                    blurRadius: 3.0,
+                                    color: Colors.black.withOpacity(0.3),
+                                  ),
+                                ],
                               ),
-                            ],
-                          ),
+                            ),
+                          ],
                         ),
                       ),
                       RichText(
@@ -116,7 +126,6 @@ class AppWidget extends StatelessWidget {
                       ),
                       SizedBox(height: 20),
                     ],
-
                     Container(
                       width: isFullWidth == true
                           ? MediaQuery.of(context).size.width
@@ -138,13 +147,13 @@ class AppWidget extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            if(subHeading!=null)...[
+                            if (subHeading != null) ...[
                               Center(
                                 child: ShaderMask(
                                   shaderCallback: (bounds) =>
                                       const LinearGradient(
-                                        colors: [Colors.blue, Colors.purple],
-                                      ).createShader(bounds),
+                                    colors: [Colors.blue, Colors.purple],
+                                  ).createShader(bounds),
                                   child: Text(
                                     subHeading!,
                                     style: const TextStyle(
@@ -157,7 +166,6 @@ class AppWidget extends StatelessWidget {
                               ),
                               const SizedBox(height: 20),
                             ],
-
                             if (cardSubHeading != null) ...[
                               Center(
                                 child: Text(
@@ -224,7 +232,7 @@ class AppWidget extends StatelessWidget {
                           child: Marquee(
                             text: languageId == "hi"
                                 ? 'अस्वीकरण: यह पोर्टल केवल सूचनात्मक उद्देश्यों के लिए है। विवरण के लिए कृपया संबंधित अधिनियम और नियम देखें।'
-                                : 'Disclaimer: This portal is for information purposes only. Please refer to the relevant Act and Rules for details.',
+                                : 'Disclaimer: This portal is for information purposes only. Please contact jurisdictional office for more details.',
                             style: TextStyle(color: Colors.red, fontSize: 16),
                             scrollAxis: Axis.horizontal,
                             crossAxisAlignment: CrossAxisAlignment.center,
@@ -239,12 +247,7 @@ class AppWidget extends StatelessWidget {
                           ),
                         ),
                       ),
-                      
-                    
                     ],
-                    
-                   
-                   
                   ],
                 ),
               ),
@@ -294,12 +297,11 @@ class AppWidget extends StatelessWidget {
       'I': true,
       'nformation ': false,
       'S': true,
-      'earch and ': false,
+      'earch & ': false,
       'H': true,
-      'elp & ': false,
+      'elp ': false,
       'A': true,
       'pplication ': false,
-
       ')': false,
     };
 

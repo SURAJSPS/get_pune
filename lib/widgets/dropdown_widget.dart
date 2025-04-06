@@ -25,7 +25,10 @@ class DropDownWidget extends StatelessWidget {
           child: Text(
             entry['name'] as String,
             maxLines: 1,
-            style: TextStyle(),
+            style: TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.w500
+            ),
           ),
         );
       }).toList(),

@@ -113,8 +113,9 @@ class _LanguageSelectorState extends State<LanguageSelector> {
         showDisclaimer: true,
         isAppBar: false,
         appName: "DISHA",
+        // isAppName: false,
         heading:
-            "Central Goods and Services Tax, Appeals-II Commissionerate Pune\nकेंद्रीय वस्तु एवं सेवा कर, अपील-II आयुक्तालय, पुणे",
+            "Central Goods and Services Tax & Customs, Pune Zone\nकेंद्रीय वस्तु एवं सेवा कर और सीमा शुल्क, पुणे क्षेत्र",
         // subHeading: '',
         // cardHeading: '',
 
@@ -145,23 +146,22 @@ class _LanguageSelectorState extends State<LanguageSelector> {
               //     .map((key, value) => MapEntry(key, value)),
               onChanged: (value) {
                 setState(() {
-
                   selection = value;
-                  isCCO=false;
+                  isCCO = false;
                   commissioners = null;
                   divisions = null;
                   section = null;
                   address = null;
 
-                  if(value!=null&&value["id"]=="cco"){
-                    isCCO=true;
+                  if (value != null && value["id"] == "cco") {
+                    isCCO = true;
                     // selection=null;
-                    commissioners=value['commissionerates'].first;
+                    commissioners = value['commissionerates'].first;
                   }
                 });
               },
             ),
-          if ((selection?.isNotEmpty ?? false)&& isCCO==false) ...[
+          if ((selection?.isNotEmpty ?? false) && isCCO == false) ...[
             DropDownWidget(
               hint: "Select Commissionerate",
               value: commissioners,
@@ -211,13 +211,35 @@ class _LanguageSelectorState extends State<LanguageSelector> {
           ],
           if ((section?.isNotEmpty ?? false)) ...[
             SizedBox(height: 20),
+            Center(
+              child: Text(
+                "Address",
+                style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+              ),
+            ),
+            SizedBox(height: 20),
             Text(section?['addresses'])
           ],
           if (divisions != null &&
               divisions!.isNotEmpty &&
               divisions?['ranges'][0]["name"] == "") ...[
             SizedBox(height: 20),
-            Text(divisions?['ranges'][0]['addresses'])
+            Center(
+              child: Text(
+                "✯ Address ✯",
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              ),
+            ),
+            SizedBox(height: 20),
+            Center(
+                child: Text(
+              divisions?['ranges'][0]['addresses'],
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.indigo),
+            ))
           ]
         ]);
   }
