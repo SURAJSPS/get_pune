@@ -3327,56 +3327,56 @@ final jsonData={
       "Appellate",
       "CGST Appeals-I Commissionerate Pune",
       "Appeals Receipt Section",
-      "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
+      "3rd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
       ""
     ],
     [
       "Appellate",
       "CGST Appeals-I Commissionerate Pune",
       "Admin Section",
-      "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
+      "3rd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
       ""
     ],
     [
       "Appellate",
       "CGST Appeals-I Commissionerate Pune",
       "EDP Section",
-      "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
+      "3rd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
       ""
     ],
     [
       "Appellate",
       "CGST Appeals-I Commissionerate Pune",
       "Vigilance & Confidential Section",
-      "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
+      "3rd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
       ""
     ],
     [
       "Appellate",
       "CGST Appeals-I Commissionerate Pune",
       "Accounts Section",
-      "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
+      "3rd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
       ""
     ],
     [
       "Appellate",
       "CGST Appeals-I Commissionerate Pune",
       "Establishment Section",
-      "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
+      "3rd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
       ""
     ],
     [
       "Appellate",
       "CGST Appeals-I Commissionerate Pune",
       "Hindi Cell",
-      "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
+      "3rd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
       ""
     ],
     [
       "Appellate",
       "CGST Appeals-I Commissionerate Pune",
       "Technical Section",
-      "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
+      "3rd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
       ""
     ]
   ],
@@ -3386,7 +3386,7 @@ final jsonData={
       "Appellate",
       "CGST Appeals-II Commissionerate Pune",
       "Office of Commissioner, CGST Appeals-II Commissionerate Pune",
-      "F Wing, East Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
+      "2nd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
       ""
     ],
     [
@@ -6953,7 +6953,7 @@ final data={
         "ranges" : [ {
           "id" : "range_1",
           "name" : "",
-          "addresses" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
+          "addresses" : "3rd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "admin_section",
@@ -6961,7 +6961,7 @@ final data={
         "ranges" : [ {
           "id" : "range_1",
           "name" : "",
-          "addresses" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
+          "addresses" : "3rd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "edp_section",
@@ -6969,7 +6969,7 @@ final data={
         "ranges" : [ {
           "id" : "range_1",
           "name" : "",
-          "addresses" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
+          "addresses" : "3rd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "vigilance_&_confidential_section",
@@ -6977,7 +6977,7 @@ final data={
         "ranges" : [ {
           "id" : "range_1",
           "name" : "",
-          "addresses" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
+          "addresses" : "3rd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "accounts_section",
@@ -6985,7 +6985,7 @@ final data={
         "ranges" : [ {
           "id" : "range_1",
           "name" : "",
-          "addresses" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
+          "addresses" : "3rd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "establishment_section",
@@ -6993,7 +6993,7 @@ final data={
         "ranges" : [ {
           "id" : "range_1",
           "name" : "",
-          "addresses" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
+          "addresses" : "3rd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "hindi_cell",
@@ -7001,7 +7001,7 @@ final data={
         "ranges" : [ {
           "id" : "range_1",
           "name" : "",
-          "addresses" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
+          "addresses" : "3rd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "technical_section",
@@ -7009,7 +7009,7 @@ final data={
         "ranges" : [ {
           "id" : "range_1",
           "name" : "",
-          "addresses" : "F Wing, West Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
+          "addresses" : "3rd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       } ]
     }, {
@@ -7021,7 +7021,7 @@ final data={
         "ranges" : [ {
           "id" : "range_1",
           "name" : "",
-          "addresses" : "F Wing, East Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
+          "addresses" : "2nd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "appeals_receipt_section",
@@ -7185,7 +7185,7 @@ final data={
         "ranges" : [ {
           "id" : "range_1",
           "name" : "",
-          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "bifa_cell",
@@ -7193,7 +7193,7 @@ final data={
         "ranges" : [ {
           "id" : "range_1",
           "name" : "",
-          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "technical_section",
@@ -7201,7 +7201,7 @@ final data={
         "ranges" : [ {
           "id" : "range_1",
           "name" : "",
-          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "review_section",
@@ -7209,7 +7209,7 @@ final data={
         "ranges" : [ {
           "id" : "range_1",
           "name" : "",
-          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "legal_section",
@@ -7217,7 +7217,7 @@ final data={
         "ranges" : [ {
           "id" : "range_1",
           "name" : "",
-          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "rti_section",
@@ -7225,7 +7225,7 @@ final data={
         "ranges" : [ {
           "id" : "range_1",
           "name" : "",
-          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "sevottam_cell",
@@ -7249,7 +7249,7 @@ final data={
         "ranges" : [ {
           "id" : "range_1",
           "name" : "",
-          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "admin_section",
@@ -7257,7 +7257,7 @@ final data={
         "ranges" : [ {
           "id" : "range_1",
           "name" : "",
-          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "cadre_control_matters_section",
@@ -7265,7 +7265,7 @@ final data={
         "ranges" : [ {
           "id" : "range_1",
           "name" : "",
-          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+          "addresses" : " 2nd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
       }, {
         "id" : "gst_suvidha_kendra",
