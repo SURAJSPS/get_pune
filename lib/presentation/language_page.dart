@@ -213,12 +213,20 @@ class _LanguageSelectorState extends State<LanguageSelector> {
             SizedBox(height: 20),
             Center(
               child: Text(
-                "Address",
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+                "✯ Address ✯",
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
             ),
             SizedBox(height: 20),
-            Text(section?['addresses'])
+            Center(
+              child: Text(
+                section?['addresses'],
+                style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.indigo),
+              ),
+            )
           ],
           if (divisions != null &&
               divisions!.isNotEmpty &&
