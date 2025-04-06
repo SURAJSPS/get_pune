@@ -139,6 +139,7 @@ class _LanguageSelectorState extends State<LanguageSelector> {
           //     child: Text("Convert Data")),
           if (data["formations"] != null)
             DropDownWidget(
+              title: "Formation",
               data["formations"]?.map((formation) => formation).toList() ?? [],
               hint: "Select Formation",
               value: selection,
@@ -163,6 +164,7 @@ class _LanguageSelectorState extends State<LanguageSelector> {
             ),
           if ((selection?.isNotEmpty ?? false) && isCCO == false) ...[
             DropDownWidget(
+              title: "Commissionerate",
               hint: "Select Commissionerate",
               value: commissioners,
               selection?['commissionerates'] as List,
@@ -180,6 +182,7 @@ class _LanguageSelectorState extends State<LanguageSelector> {
           ],
           if (commissioners?.isNotEmpty ?? false) ...[
             DropDownWidget(
+              title: "Section",
               hint: "Select Section",
               value: divisions,
               commissioners?['divisions'] as List,
@@ -197,6 +200,7 @@ class _LanguageSelectorState extends State<LanguageSelector> {
           if ((divisions?.isNotEmpty ?? false) &&
               divisions?['ranges'][0]["name"] != "") ...[
             DropDownWidget(
+              title: "Section",
               hint: "Select Section",
               value: section,
               divisions?['ranges'] as List,
@@ -235,6 +239,7 @@ class _LanguageSelectorState extends State<LanguageSelector> {
             Center(
               child: Text(
                 "✯ Address ✯",
+                textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
             ),
