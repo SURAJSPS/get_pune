@@ -7371,6 +7371,14 @@ final data={
           "name" : "",
           "addresses" : "4th Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
         } ]
+      },{
+        "id" : "cfd_monitoring-hq",
+        "name" : "CFD Monitoring Cell-HQ",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "",
+          "addresses" : "4th Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+        } ]
       }, {
         "id" : "training_&_inspection-hq",
         "name" : "Training & Inspection-HQ",
@@ -7478,7 +7486,11 @@ final data={
           "id" : "range_4",
           "name" : "CFR Jejuri",
           "addresses" : "4th Floor, F Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
-        } ]
+        } ,{
+          "id" : "range_4",
+          "name" : "CFR Solapur",
+          "addresses" : "Central Tax, Plot No. 3, Opposite Hotel Kinara, Hotgi Road, Solapur-413003"
+        }]
       }, {
         "id" : "inland_container_depot(icd)",
         "name" : "Inland Container Depot(ICD)",
