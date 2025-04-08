@@ -3393,56 +3393,56 @@ final jsonData={
       "Appellate",
       "CGST Appeals-II Commissionerate Pune",
       "Appeals Receipt Section",
-      "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
+      "2nd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
       ""
     ],
     [
       "Appellate",
       "CGST Appeals-II Commissionerate Pune",
       "Admin Section",
-      "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
+      "2nd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
       ""
     ],
     [
       "Appellate",
       "CGST Appeals-II Commissionerate Pune",
       "EDP Section",
-      "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
+      "2nd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
       ""
     ],
     [
       "Appellate",
       "CGST Appeals-II Commissionerate Pune",
       "Vigilance & Confidential Section",
-      "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
+      "2nd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
       ""
     ],
     [
       "Appellate",
       "CGST Appeals-II Commissionerate Pune",
       "Accounts Section",
-      "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
+      "2nd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
       ""
     ],
     [
       "Appellate",
       "CGST Appeals-II Commissionerate Pune",
       "Establishment Section",
-      "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
+      "2nd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
       ""
     ],
     [
       "Appellate",
       "CGST Appeals-II Commissionerate Pune",
       "Hindi Cell",
-      "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
+      "2nd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
       ""
     ],
     [
       "Appellate",
       "CGST Appeals-II Commissionerate Pune",
       "Technical Section",
-      "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
+      "2nd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
       ""
     ]
   ],
