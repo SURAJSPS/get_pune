@@ -4488,6 +4488,119 @@ final jsonData={
 
 final data={
   "formations" : [
+
+    { "id" : "cco",
+    "name" : "CCO",
+    "commissionerates" : [ {
+      "id" : "cco",
+      "name" : "CCO",
+      "divisions" : [ {
+        "id" : "office_of_the_chief_commissioner,_cgst_&_customs_pune_zone",
+        "name" : "Office of the Chief Commissioner, CGST & Customs Pune Zone",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "",
+          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+        } ]
+      }, {
+        "id" : "media_cell",
+        "name" : "Media Cell",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "",
+          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+        } ]
+      }, {
+        "id" : "bifa_cell",
+        "name" : "BIFA Cell",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "",
+          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+        } ]
+      }, {
+        "id" : "technical_section",
+        "name" : "Technical Section",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "",
+          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+        } ]
+      }, {
+        "id" : "review_section",
+        "name" : "Review Section",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "",
+          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+        } ]
+      }, {
+        "id" : "legal_section",
+        "name" : "Legal Section",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "",
+          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+        } ]
+      }, {
+        "id" : "rti_section",
+        "name" : "RTI Section",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "",
+          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+        } ]
+      }, {
+        "id" : "sevottam_cell",
+        "name" : "Sevottam Cell",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "",
+          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+        } ]
+      }, {
+        "id" : "vigilance_&_confidential_section",
+        "name" : "Vigilance & Confidential Section",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "",
+          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+        } ]
+      }, {
+        "id" : "accounts_&_budgets",
+        "name" : "Accounts & Budgets",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "",
+          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+        } ]
+      }, {
+        "id" : "admin_section",
+        "name" : "Admin Section",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "",
+          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+        } ]
+      }, {
+        "id" : "cadre_control_matters_section",
+        "name" : "Cadre Control Matters Section",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "",
+          "addresses" : " 2nd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+        } ]
+      }, {
+        "id" : "gst_suvidha_kendra",
+        "name" : "GST Suvidha Kendra",
+        "ranges" : [ {
+          "id" : "range_1",
+          "name" : "",
+          "addresses" : "Ground Floor, F Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+        } ]
+      } ]
+    } ]
+  },
     {
     "id" : "executive",
     "name" : "Executive",
@@ -7165,119 +7278,8 @@ final data={
         } ]
       } ]
     } ]
-  }, {
-    "id" : "cco",
-    "name" : "CCO",
-    "commissionerates" : [ {
-      "id" : "cco",
-      "name" : "CCO",
-      "divisions" : [ {
-        "id" : "office_of_the_chief_commissioner,_cgst_&_customs_pune_zone",
-        "name" : "Office of the Chief Commissioner, CGST & Customs Pune Zone",
-        "ranges" : [ {
-          "id" : "range_1",
-          "name" : "",
-          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
-        } ]
-      }, {
-        "id" : "media_cell",
-        "name" : "Media Cell",
-        "ranges" : [ {
-          "id" : "range_1",
-          "name" : "",
-          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
-        } ]
-      }, {
-        "id" : "bifa_cell",
-        "name" : "BIFA Cell",
-        "ranges" : [ {
-          "id" : "range_1",
-          "name" : "",
-          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
-        } ]
-      }, {
-        "id" : "technical_section",
-        "name" : "Technical Section",
-        "ranges" : [ {
-          "id" : "range_1",
-          "name" : "",
-          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
-        } ]
-      }, {
-        "id" : "review_section",
-        "name" : "Review Section",
-        "ranges" : [ {
-          "id" : "range_1",
-          "name" : "",
-          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
-        } ]
-      }, {
-        "id" : "legal_section",
-        "name" : "Legal Section",
-        "ranges" : [ {
-          "id" : "range_1",
-          "name" : "",
-          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
-        } ]
-      }, {
-        "id" : "rti_section",
-        "name" : "RTI Section",
-        "ranges" : [ {
-          "id" : "range_1",
-          "name" : "",
-          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
-        } ]
-      }, {
-        "id" : "sevottam_cell",
-        "name" : "Sevottam Cell",
-        "ranges" : [ {
-          "id" : "range_1",
-          "name" : "",
-          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
-        } ]
-      }, {
-        "id" : "vigilance_&_confidential_section",
-        "name" : "Vigilance & Confidential Section",
-        "ranges" : [ {
-          "id" : "range_1",
-          "name" : "",
-          "addresses" : " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
-        } ]
-      }, {
-        "id" : "accounts_&_budgets",
-        "name" : "Accounts & Budgets",
-        "ranges" : [ {
-          "id" : "range_1",
-          "name" : "",
-          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
-        } ]
-      }, {
-        "id" : "admin_section",
-        "name" : "Admin Section",
-        "ranges" : [ {
-          "id" : "range_1",
-          "name" : "",
-          "addresses" : " 3rd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
-        } ]
-      }, {
-        "id" : "cadre_control_matters_section",
-        "name" : "Cadre Control Matters Section",
-        "ranges" : [ {
-          "id" : "range_1",
-          "name" : "",
-          "addresses" : " 2nd Floor, D Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
-        } ]
-      }, {
-        "id" : "gst_suvidha_kendra",
-        "name" : "GST Suvidha Kendra",
-        "ranges" : [ {
-          "id" : "range_1",
-          "name" : "",
-          "addresses" : "Ground Floor, F Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
-        } ]
-      } ]
-    } ]
-  }, {
+  },
+    {
     "id" : "customs_commissionerate",
     "name" : "Customs Commissionerate",
     "commissionerates" : [ {
