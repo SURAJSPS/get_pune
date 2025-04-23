@@ -3313,7 +3313,7 @@ final jsonData = {
       "Appellate",
       "CGST Appeals-I Commissionerate Pune",
       "Office of Commissioner, CGST Appeals-I Commissionerate Pune",
-      "F Wing, East Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
+      "3rd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001",
       ""
     ],
     [
@@ -4497,6 +4497,18 @@ final data = {
               ]
             },
             {
+              "id": "additional_joint_commissioner_office",
+              "name": "Additional/Joint Commissioner's Office",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "",
+                  "addresses":
+                  " 3rd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
               "id": "taxpayer_facilitation_centre",
               "name": "Taxpayer Facilitation Centre",
               "ranges": [
@@ -4687,6 +4699,18 @@ final data = {
                   "name": "",
                   "addresses":
                       "2nd Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "additional_joint Commissioner_office",
+              "name": "Additional/Joint Commissioner's Office",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "",
+                  "addresses":
+                  "2nd Floor, E & C Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
                 }
               ]
             },
@@ -5546,6 +5570,18 @@ final data = {
                   "name": "",
                   "addresses":
                       "1st Floor , F Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "additional_joint_commissioner_office",
+              "name": "Additional/Joint Commissioner's Office",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "",
+                  "addresses":
+                  "1st Floor , E & F Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
                 }
               ]
             },
@@ -6584,6 +6620,18 @@ final data = {
               ]
             },
             {
+              "id": "additional_joint_commissioner_office",
+              "name": "Additional/Joint Commissioner's Office",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "",
+                  "addresses":
+                  "Vasant Plaza Commercial Complex, 4th & 5th Floor, Rajaram Road, Bagal Chowk, Kolhapur-416001"
+                }
+              ]
+            },
+            {
               "id": "technical-hq",
               "name": "Technical-HQ",
               "ranges": [
@@ -7256,6 +7304,18 @@ final data = {
                   "name": "",
                   "addresses":
                       "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                }
+              ]
+            },
+            {
+              "id": "additional_joint_commissioner_office",
+              "name": "Additional/Joint Commissioner's Office",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "",
+                  "addresses":
+                  "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
                 }
               ]
             },
@@ -7943,6 +8003,18 @@ final data = {
               ]
             },
             {
+              "id": "additional_joint_commissioner_office",
+              "name": "Additional/Joint Commissioner's Office",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "",
+                  "addresses":
+                  "4th Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
               "id": "technical_section-hq",
               "name": "Technical Section-HQ",
               "ranges": [
@@ -8149,6 +8221,18 @@ final data = {
                   "name": "",
                   "addresses":
                       "4th Floor, B Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "additional_joint_commissioner_office",
+              "name": "Additional/Joint Commissioner's Office",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "",
+                  "addresses":
+                  "3rd Floor, A Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
                 }
               ]
             },
@@ -8378,7 +8462,19 @@ final data = {
                   "id": "range_1",
                   "name": "",
                   "addresses":
-                      "F Wing, East Side, 3rd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
+                      "3rd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "additional_joint_commissioner_office",
+              "name": "Additional/Joint Commissioner's Office",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "",
+                  "addresses":
+                  "3rd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
                 }
               ]
             },
@@ -8499,6 +8595,18 @@ final data = {
               ]
             },
             {
+              "id": "additional_joint_commissioner_office",
+              "name": "Additional/Joint Commissioner's Office",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "",
+                  "addresses":
+                  "2nd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
               "id": "appeals_receipt_section",
               "name": "Appeals Receipt Section",
               "ranges": [
@@ -8506,7 +8614,7 @@ final data = {
                   "id": "range_1",
                   "name": "",
                   "addresses":
-                      "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
+                      "2nd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
                 }
               ]
             },
@@ -8518,7 +8626,7 @@ final data = {
                   "id": "range_1",
                   "name": "",
                   "addresses":
-                      "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
+                      "2nd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
                 }
               ]
             },
@@ -8530,7 +8638,7 @@ final data = {
                   "id": "range_1",
                   "name": "",
                   "addresses":
-                      "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
+                      "2nd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
                 }
               ]
             },
@@ -8542,7 +8650,7 @@ final data = {
                   "id": "range_1",
                   "name": "",
                   "addresses":
-                      "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
+                      "2nd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
                 }
               ]
             },
@@ -8554,7 +8662,7 @@ final data = {
                   "id": "range_1",
                   "name": "",
                   "addresses":
-                      "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
+                      "2nd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
                 }
               ]
             },
@@ -8566,7 +8674,7 @@ final data = {
                   "id": "range_1",
                   "name": "",
                   "addresses":
-                      "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
+                      "2nd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
                 }
               ]
             },
@@ -8578,7 +8686,7 @@ final data = {
                   "id": "range_1",
                   "name": "",
                   "addresses":
-                      "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
+                      "2nd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
                 }
               ]
             },
@@ -8590,7 +8698,7 @@ final data = {
                   "id": "range_1",
                   "name": "",
                   "addresses":
-                      "F Wing, West Side, 2nd Floor, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
+                      "2nd Floor, F Wing, 41/A, ICE House, GST Bhavan, Sassoon Road, Pune-411001"
                 }
               ]
             }
@@ -8610,6 +8718,18 @@ final data = {
                   "name": "",
                   "addresses":
                       "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
+                }
+              ]
+            },
+            {
+              "id": "additional_joint_commissioner_office",
+              "name": "Additional/Joint Commissioner's Office",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "",
+                  "addresses":
+                  "GST Bhavan, EDC Complex, Plot No. 6, Patto, Panji, Goa-403001"
                 }
               ]
             },
@@ -8730,6 +8850,18 @@ final data = {
                   "name": "",
                   "addresses":
                       "4th Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
+                }
+              ]
+            },
+            {
+              "id": "additional_joint_commissioner_office",
+              "name": "Additional/Joint Commissioner's Office",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "",
+                  "addresses":
+                  "4th Floor, E Wing, GST Bhavan, 41/A, Sassoon Road, Pune-411001"
                 }
               ]
             },
@@ -9512,6 +9644,18 @@ final data = {
                   "name": "",
                   "addresses":
                       "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
+                }
+              ]
+            },
+            {
+              "id": "additional_joint_commissioner_office",
+              "name": "Additional/Joint Commissioner's Office",
+              "ranges": [
+                {
+                  "id": "range_1",
+                  "name": "",
+                  "addresses":
+                  "Custom House, Marmagoa Harbour, Vasco-Da-Gama, Goa-403803"
                 }
               ]
             },
