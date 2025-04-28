@@ -305,6 +305,7 @@ class _LanguageSelectorState extends State<LanguageSelector> {
             Center(
               child: Text(
                 section?['addresses'],
+                textAlign: TextAlign.center,
                 style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
