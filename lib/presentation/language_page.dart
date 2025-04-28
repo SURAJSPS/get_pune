@@ -84,6 +84,7 @@
 import 'package:flutter/material.dart';
 import 'package:pune_gst/core/config/config_reader.dart';
 import 'package:pune_gst/file_reader.dart' show ExcelService;
+import 'package:pune_gst/presentation/image_card.dart';
 import 'package:pune_gst/widgets/app_widget.dart';
 
 import '../json.dart';
@@ -230,7 +231,15 @@ class _LanguageSelectorState extends State<LanguageSelector> {
                     fontWeight: FontWeight.bold,
                     color: Colors.indigo),
               ),
-            )
+            ),
+            if (section?['addresses'] != null &&
+                (section?['addresses'] as String).contains("411001")) ...[
+              Center(
+                child: ImageCard(
+                  address: divisions?['ranges'][0]['addresses'],
+                ),
+              )
+            ]
           ],
           if (divisions != null &&
               divisions!.isNotEmpty &&
@@ -252,7 +261,16 @@ class _LanguageSelectorState extends State<LanguageSelector> {
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
                   color: Colors.indigo),
-            ))
+            )),
+            if (divisions?['ranges'][0]['addresses'] != null &&
+                (divisions?['ranges'][0]['addresses'] as String)
+                    .contains("411001")) ...[
+              Center(
+                child: ImageCard(
+                  address: divisions?['ranges'][0]['addresses'],
+                ),
+              )
+            ]
           ]
         ]);
   }
