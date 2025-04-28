@@ -86,6 +86,7 @@ import 'package:pune_gst/core/config/config_reader.dart';
 import 'package:pune_gst/file_reader.dart' show ExcelService;
 import 'package:pune_gst/presentation/image_card.dart';
 import 'package:pune_gst/widgets/app_widget.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../json.dart';
 import '../widgets/dropdown_widget.dart';
@@ -106,6 +107,84 @@ class _LanguageSelectorState extends State<LanguageSelector> {
   Map<String, dynamic>? section = {};
   Map<String, dynamic>? address = {};
   bool isCCO = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _checkDeviceName();
+  }
+
+  Future<void> _checkDeviceName() async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.clear();
+    final String? deviceName = prefs.getString('device_name');
+
+    if (deviceName == null || deviceName.isEmpty) {
+      if (mounted) {
+        _showDeviceNameDialog(context);
+      }
+    }
+  }
+
+  void _showDeviceNameDialog(BuildContext context) {
+    String? selectedDevice;
+    List<String> deviceNames = [
+      'A Wing',
+      'B Wing',
+      'C Wing',
+      'D Wing',
+      'E Wing',
+      'F Wing'
+    ];
+
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (BuildContext context) {
+        return StatefulBuilder(builder: (context, setState) {
+          return AlertDialog(
+            title: const Text("Select Device Location"),
+            content: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                const Text("Please select your device type:"),
+                const SizedBox(height: 20),
+                DropdownButton<String>(
+                  isExpanded: true,
+                  hint: const Text("Select Device"),
+                  value: selectedDevice,
+                  items: deviceNames.map((String device) {
+                    return DropdownMenuItem<String>(
+                      value: device,
+                      child: Text(device),
+                    );
+                  }).toList(),
+                  onChanged: (String? value) {
+                    setState(() {
+                      selectedDevice = value;
+                    });
+                  },
+                ),
+              ],
+            ),
+            actions: <Widget>[
+              TextButton(
+                child: const Text("Save"),
+                onPressed: () async {
+                  if (selectedDevice != null) {
+                    final SharedPreferences prefs =
+                        await SharedPreferences.getInstance();
+                    await prefs.setString('device_name', selectedDevice!);
+                    Navigator.of(context).pop();
+                  }
+                },
+              ),
+            ],
+          );
+        });
+      },
+    );
+  }
 
   @override
   Widget build(BuildContext context) {

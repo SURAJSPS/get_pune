@@ -76,7 +76,7 @@ class AppWidget extends StatelessWidget {
                         },
                       ),
                     ),
-                    SizedBox(height: 20),
+                    SizedBox(height: 10),
                     // if (isAppName == false) ...[
                     //   Image.asset(height: 100, "assets/images/diksha_title.png")
                     // ],
@@ -198,7 +198,7 @@ class AppWidget extends StatelessWidget {
                       ),
                     ),
                     if (heading != null) ...[
-                      SizedBox(height: 40),
+                      SizedBox(height: 20),
                       ShaderMask(
                         shaderCallback: (bounds) => const LinearGradient(
                           colors: [Colors.blue, Colors.black, Colors.purple],
@@ -218,7 +218,7 @@ class AppWidget extends StatelessWidget {
                       ),
                     ],
                     if (showDisclaimer == true) ...[
-                      SizedBox(height: 40),
+                      SizedBox(height: 00),
                       Text(
                         'Conceptualized & Guided by - Shri Dinesh Bhoyar (Commissioner) & Shri Rahul Gawande (Additional Commissioner),\n Designed & Developed By - Shri Pramod Kumar Kushwaha (Superintendent)',
                         textAlign: TextAlign.center,
